@@ -9,7 +9,7 @@ params:
 format:
   pdf:
     documentclass: report
-    geometry: margin=0.7in
+    geometry: margin=1in
     fontsize: 10pt
     toc: true
     lof: true
@@ -216,6 +216,10 @@ fig3_data <- category_stats
 
 ```
 
+# Acknowledgments
+
+We would like to express our sincere gratitude to the staff of the r params$department for their participation in the Institutional Capacity Assessment survey. Their valuable insights and contributions have been instrumental in identifying key areas for capacity development. We also thank the Vanuatu Public Service Commission (PSC) for initiating and supporting this assessment process. Special thanks to the Vanuatu Bureau of Statistics for digitizing the r params$year PSC ICA report, which has facilitated the automation of data processing, analysis, and report generation for upcoming years' ICA surveys. This collaborative effort underscores our commitment to strengthening public institutions in alignment with the National Sustainability Development Plan (NSDP).
+
 # Introduction
 
 The National Sustainability Development Plan’s (NSDP) society pillar goal 6 provides for “strong and effective institutions for ensuring a dynamic public sector with good governance principles and strong institutions delivering the support and services expected by all citizens of Vanuatu”. OPSC’s overall development program and policy objectives for the work of individual or institutional capacity assessment and development is also guided by this goal.
@@ -398,7 +402,9 @@ Based on Figure 3, capacities that indicate a moderate to high level include:
 -   **Mission and Purpose**, described as, “Clear expression of organisation’s reason for existence which reflects its purpose and values; held by many within the organisation and referred to often”.
 -   **Strategic plan (Corporate or business plan)**, described as, “The plan is in place, is up to date and links well to the mission; Most strategies in the plan have been developed into clear projects with budgets and activities well defined to guide work and program planning; Most staff are aware of the plan, use it and were consulted when it was developed; Plans are used to guide management decisions”.
 
-
+```{=latex}
+\vspace{0.5cm}
+```
 
 ```{r}
 

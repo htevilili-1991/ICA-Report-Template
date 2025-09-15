@@ -3,6 +3,8 @@ library(readr)
 library(stringr)
 library(quarto)
 
+setwd("~/Documents/Work/ICA/ICA Report")
+
 # Load data
 data <- read_csv("ica_cleaned_data.csv", show_col_types = FALSE)
 

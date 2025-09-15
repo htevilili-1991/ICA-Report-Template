@@ -1,8 +1,11 @@
 ---
-title: Institutional Capacity Assessment Report - Department of Forestry, September 2025
-subtitle: Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity 
+title: Institutional Capacity Assessment Report - `r params$department`
+subtitle: Under the `r params$ministry`
 author: Vanuatu Public Service Commission 
-date: "`r Sys.Date()`"
+date: September 2025
+params:
+  ministry: null
+  department: null
 format:
   pdf:
     documentclass: report
@@ -41,7 +44,8 @@ format:
           \vfil
           \begin{center}%
             \let \footnote \thanks
-            {\LARGE \textbf{\@title} \par\vskip 20\p@ }
+            {\LARGE \textbf{\@title} \par\vskip 10\p@ }
+            {\large \textit{\@subtitle} \par\vskip 10\p@ }
             \vskip 1em
             {\large \@author \par\vskip 1em}
             \vskip 1em
@@ -52,18 +56,22 @@ format:
         }
         \makeatother
         \AtBeginDocument{\color{mygray}}
+execute:
+  echo: false
+  message: false
+  warning: false
 ---
 
 ```{=latex}
 
 \maketitle
+
 ```
 
 ```{r}
+
 #| label: setup
-#| message: false
-#| warning: false
-#| echo: false
+
 library(dplyr)
 library(tidyr)
 library(ggplot2)
@@ -71,17 +79,68 @@ library(kableExtra)
 library(readr)
 library(stringr)
 
-# Hardcode department and ministry
-department <- "Department of Forestry"
-ministry <- "Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity"
 ```
 
 ```{r}
-#| echo: false
-#| include: FALSE
 
-# Read the dataset
+#| label: load-data
+#| include: false
+
 data <- read_csv("ica_cleaned_data.csv", show_col_types = FALSE)
+
+```
+
+```{r}
+
+#| label: set-params
+#| include: false
+ministry <- params$ministry
+department <- params$department
+# Stop if parameters are not provided
+if (is.null(ministry) || is.null(department)) {
+  stop("Both ministry and department parameters must be provided.")
+}
+
+```
+
+```{r}
+
+#| label: loop-or-set-params
+#| include: false
+
+if (is.null(params$ministry) || is.null(params$department)) {
+  unique_ministry_dept <- data %>%
+    select(Ministry, Department) %>%
+    distinct() %>%
+    arrange(Ministry)
+  
+  for (i in seq_len(nrow(unique_ministry_dept))) {
+    params_list <- list(
+      ministry = unique_ministry_dept$Ministry[i],
+      department = unique_ministry_dept$Department[i]
+    )
+    
+    safe_dept <- str_replace_all(unique_ministry_dept$Department[i], "[^[:alnum:]]", "_")
+    safe_min <- str_replace_all(unique_ministry_dept$Ministry[i], "[^[:alnum:]]", "_")
+    output_file <- paste0("ICA_Report_", safe_min, "_", safe_dept, ".pdf")
+    
+    quarto::quarto_render(
+      "ICA_Report_Template.qmd",
+      execute_params = params_list,
+      output_file = output_file,
+      output_format = "pdf"
+    )
+  }
+} else {
+  ministry <- params$ministry
+  department <- params$department
+}
+
+
+```
+
+```{r}
+#| include: FALSE
 
 # Define the capacity categories, matching the exact column names in the dataset
 capacity_categories <- c(
@@ -118,12 +177,12 @@ capacity_categories <- c(
   "Technological infrastructure"
 )
 
-# Filter data for the Department of Forestry
-forestry_data <- data %>%
+# Filter data for the current Department
+dept_data <- data %>%
   filter(Department == department)
 
 # Calculate mean scores for each capacity category
-category_stats <- forestry_data %>%
+category_stats <- dept_data %>%
   select(all_of(capacity_categories)) %>%
   summarise_all(mean, na.rm = TRUE) %>%
   pivot_longer(cols = everything(), names_to = "Category", values_to = "Mean_Score") %>%
@@ -144,7 +203,7 @@ weakest <- category_stats %>%
   select(Category, Mean_Score)
 
 # Generate rating counts for each category
-rating_counts <- forestry_data %>%
+rating_counts <- dept_data %>%
   select(all_of(capacity_categories)) %>%
   pivot_longer(cols = everything(), names_to = "Category", values_to = "Score") %>%
   mutate(Category = str_trim(gsub("\n", "", Category))) %>%
@@ -187,7 +246,7 @@ So, capacity is about people, action, and results, all influenced by the context
 #| label: fig-Capacity-people-context-environment
 #| fig-cap: "Capacity – people, context & environment"
 #| fig-pos: "H"
-#| echo: false
+#| fig-cap-location: top
 #| out-width: "300px"
 knitr::include_graphics("img/Capacity-people-context-environment.png")
 ```
@@ -199,7 +258,7 @@ It is important to understand the idea of “capacity” as an emergent property
 #| label: fig-factors-influencing-capacity
 #| fig-cap: "Key factors influencing ‘capacity’"
 #| fig-pos: "H"
-#| echo: false
+#| fig-cap-location: top
 #| out-width: "400px"
 knitr::include_graphics("img/factors-influencing-capacity.png")
 ```
@@ -222,7 +281,7 @@ In summary, the following key points are essential to consider when planning for
 
 # Institutional Capacity Assessment Grid
 
-## How Department of Forestry’s institutional capacity was assessed
+## How `r department`’s institutional capacity was assessed
 
 OPSC’s Framework for Institutional Capacity Assessment and Development (see Appendix A) is designed to clarify the capacity needs, and assessment and development approach that is relevant at the level of the Institution or Agency. The focus is on institutional capacity targeting organisational design, HRM, operational systems, leadership and management practice, facilities and equipment, and the effectiveness of the organisation in coordinating action to achieve operational and development objectives.
 
@@ -234,7 +293,7 @@ The objectives of the ICAG, which can be used by staff and stakeholders alike, i
 -   To assess changes in an institution’s capacity over time by readministering the ICAG;
 -   To draw out different views within an organisation regarding capacity. Different responses to the ICAG amongst staff, stakeholders, and donors, for example, can be a valuable discussion starter within an organisation.
 
-This assessment examined a range of institutional capacity elements within the Department of Forestry. A total of eleven (11) Department of Forestry staff completed the institutional capacity assessment in November 2019.
+This assessment examined a range of institutional capacity elements within the `r department`. A total of eleven (11) `r department` staff completed the institutional capacity assessment in August 2025.
 
 The primary tool used to undertake the assessment is the Institutional Capacity Assessment Grid (ICAG), a diagnostic tool that has been developed and tailored to capture key data about capacity that is relevant to line agencies or institutions. The ICAG asks the reader to score the organisation on each element of organisational capacity provided, by selecting the text that best describes the organisation’s current status or performance.
 
@@ -242,7 +301,14 @@ The ICAG itself is not a scientific tool, and should not be used as one. It is d
 
 The tool is meant to be a starting point for conversation leading to capacity development planning. The 5 steps in the process are described in the following diagram.
 
-*Figure 2: Key factors influencing ‘capacity’* (Placeholder for Figure 2, repeated as per document)
+```{r}
+#| label: fig-five-steps-assessing-planning-capacity-development
+#| fig-cap: "Five-Step Process for Assessing and Planning Capacity Development Using the ICAG"
+#| fig-pos: "H"
+#| fig-cap-location: top
+#| out-width: "500px"
+knitr::include_graphics("img/five-steps-assessing-planning-capacity-development.png")
+```
 
 This report supports Step 3, and is intended to encourage closer examination of key capacity areas that can then become the focus of capacity development. The ICAG is also designed to help the members of individual agencies reflect on and assess their own organisational capacity.
 
@@ -256,9 +322,9 @@ The results of the ICAG can be used in many ways:
 
 ### Data Collection
 
-The Institutional Capacity Assessment Grid (ICAG) was used to gather information about the organizational capacity of different departments within the Vanuatu Public Sector, including the Department of Forestry. This tool helps evaluate key areas like organizational design, human resource management, operational systems, leadership practices, and infrastructure. The survey was conducted using Microsoft Office 365 Forms. They rated 31 capacity categories on a scale from 1 (Clear Need) to 4 (High) based on statements that described how well the department was performing (e.g., from "little shared understanding" to "clear and compelling vision").
+The Institutional Capacity Assessment Grid (ICAG) was used to gather information about the organizational capacity of different departments within the Vanuatu Public Sector, including the `r department`. This tool helps evaluate key areas like organizational design, human resource management, operational systems, leadership practices, and infrastructure. The survey was conducted using Microsoft Office 365 Forms. They rated 31 capacity categories on a scale from 1 (Clear Need) to 4 (High) based on statements that described how well the department was performing (e.g., from "little shared understanding" to "clear and compelling vision").
 
-The survey responses were collected through Microsoft Office 365 Forms and saved into a spreadsheet. This file included answers from various departments, such as the Department of Forestry and the Department of Water Resources. Each row in the spreadsheet represents one respondent, with details like their ID, email, name, province, ministry, department, and their ratings for the 31 capacity categories, written as descriptive text based on their chosen score.
+The survey responses were collected through Microsoft Office 365 Forms and saved into a spreadsheet. This file included answers from various departments, such as the `r department` and the Department of Water Resources. Each row in the spreadsheet represents one respondent, with details like their ID, email, name, province, ministry, department, and their ratings for the 31 capacity categories, written as descriptive text based on their chosen score.
 
 ### Data Processing
 
@@ -273,12 +339,12 @@ The information from the survey was prepared for analysis. Here’s what was don
     -   C = 3 (Moderate)
     -   D = 4 (High) The first letter of each response was used to assign the correct number. If a response was missing or unclear, it was marked as missing and handled later.
 
-## Data Analysis
+### Data Analysis
 
-The prepared data was analyzed using R to understand the Department of Forestry’s institutional capacity. The process included the following steps:
+The prepared data was analyzed using R to understand the `r department`’s institutional capacity. The process included the following steps:
 
-1.  **Loading the Dataset**: The survey data was brought into R[^1], and only the responses from the Department of Forestry were selected.
-2.  **Calculating Mean Scores**: We figured out the average scores for each of the 31 capacity categories based on the Department of Forestry’s responses.
+1.  **Loading the Dataset**: The survey data was brought into R[^1], and only the responses from the `r department` were selected.
+2.  **Calculating Mean Scores**: We figured out the average scores for each of the 31 capacity categories based on the `r department`’s responses.
 3.  **Identifying Strongest and Weakest Capacities**: The top two categories with the highest average scores were noted as the strongest, and categories with averages of 2 or lower were marked as the weakest.
 4.  **Rating Distribution**: We counted how many times each score (1 to 4) appeared for each capacity category.
 5.  **Visualization Data**: The average scores were prepared for charts, with one chart showing categories from most to least developed and another from least to most developed.
@@ -286,18 +352,26 @@ The prepared data was analyzed using R to understand the Department of Forestry�
 
 [^1]: See Appendix A for detailed steps and the R code used in the analysis.
 
+### How the ICAG Scale and Analysis Methods Were Chosen
+
+The Institutional Capacity Assessment Grid (ICAG) scale, ranging from 1 to 4, was carefully designed to reflect the varying levels of organizational capacity within the Vanuatu Public Sector, including the `r department`. This scale—where 1 represents "Clear Need," 2 indicates "Basic," 3 denotes "Moderate," and 4 signifies "High"—was developed based on qualitative descriptors tailored to the local context, drawing from established organizational development frameworks. The descriptors for each level (e.g., "little shared understanding" for 1, "clear and compelling vision" for 4) were crafted to capture the spectrum of performance across 31 capacity categories, ensuring relevance to the department’s operational and strategic challenges.
+
+The analysis methods, including the calculation of mean scores and the establishment of thresholds for identifying weakest capacities, were selected to provide a robust, evidence-based foundation for actionable priorities. Mean scores were computed by averaging the ratings provided by the 11 `r department` staff who participated in the August 2025 assessment, offering a reliable aggregate measure of capacity across each category. The threshold of ≤ 2 was chosen to flag capacities requiring urgent attention, as scores at or below this level indicate performance that is either at "Clear Need" or just reaching "Basic," signaling significant gaps that hinder effective service delivery and strategic goal attainment. This cutoff was determined to align with the National Sustainability Development Plan’s (NSDP) goal of strengthening public institutions, ensuring that the `r department` can prioritize resource allocation and capacity-building efforts where they are most needed. This approach enables the department to focus on critical areas, such as infrastructure or responsiveness, while supporting long-term planning and improvement.
+
 ## Overview of results
 
-As a public institution with a broad scope and mandate for implementing the national government’s priorities, MALFFB Corporate Plan, Department Business Plan, and other priorities of the NSDP, the Department of Forestry acknowledges its challenges including limited financial and human resources. Department of Forestry has undertaken to shift its approach toward working closely with, and harnessing the available resources offered through other government line agencies, and credible non-government, civil, and faith-based organisations. This brings with it the requirement for development and consolidation of particular skills and capacities.
+As a public institution with a broad scope and mandate for implementing the national government’s priorities, the MALFFB Corporate Plan, the Department Business Plan, and other priorities of the National Sustainability Development Plan (NSDP), the `r department` acknowledges its challenges, including limited financial and human resources. The Department has undertaken to shift its approach toward working closely with, and harnessing the available resources offered through other government line agencies, as well as credible non-government, civil, and faith-based organizations. This shift necessitates the development and consolidation of specific skills and capacities.
 
-To build an evidence base for capacity development to support this shift, staff from the Department of Forestry participated in an institutional capacity assessment activity in November 2019.
+To build an evidence base for capacity development to support this transition, staff from the `r department` participated in an institutional capacity assessment activity conducted by the Office of the Public Service Commission (OPSC) in August 2025. The assessment, based on the Institutional Capacity Assessment Grid (ICAG), involved 11 staff members and evaluated 31 capacity categories to identify strengths and areas for improvement.
+
+The analysis reveals that the `r department` excels in strategic planning and mission clarity, with mean scores reflecting a moderate to high capacity in these areas. However, critical gaps persist in infrastructure, responsiveness to environmental changes, and financial management, necessitating targeted interventions to enhance overall performance. These findings provide a foundation for the Department to prioritize resource allocation and capacity-building efforts, aligning with the NSDP’s goal of strengthening public institutions.
 
 ```{r}
 #| label: fig-summary-bar
 #| fig-cap: "Summary of results by category (institutional average)"
 #| fig-pos: "H"
-#| echo: false
-#| code-fold: true
+#| fig-cap-location: top
+
 ggplot(fig3_data, aes(x = reorder(Category, -Mean_Score), y = Mean_Score, fill = Mean_Score)) +
   geom_bar(stat = "identity", width = 0.7) +
   scale_fill_gradient2(low = "#8B0000", mid = "#FF0000", high = "#00FF00", midpoint = 2.5) +
@@ -317,20 +391,21 @@ ggplot(fig3_data, aes(x = reorder(Category, -Mean_Score), y = Mean_Score, fill =
         panel.grid.minor = element_blank())
 ```
 
-A more detailed breakdown of the data indicates the following:
-
 ### Strongest Capacities
 
-Based on Figure 3, capacities that indicate just a little over moderate level...
+Based on Figure 3, capacities that indicate a moderate to high level include:
 
--   **(2) Mission and Purpose**, described as, “Clear expression of organisation’s reason for existence which reflects its purpose and values; held by many within the organisation and referred to often”.
+-   **Mission and Purpose**, described as, “Clear expression of organisation’s reason for existence which reflects its purpose and values; held by many within the organisation and referred to often”.
+-   **Strategic plan (Corporate or business plan)**, described as, “The plan is in place, is up to date and links well to the mission; Most strategies in the plan have been developed into clear projects with budgets and activities well defined to guide work and program planning; Most staff are aware of the plan, use it and were consulted when it was developed; Plans are used to guide management decisions”.
 
--   **(5) Strategic plan (Corporate or business plan)**, described as, “The plan is in place, is up to date and links well to the mission; Most strategies in the plan have been developed into clear projects with budgets and activities well defined to guide work and program planning; Most staff are aware of the plan, use it and were consulted when it was developed; Plans are used to guide management decisions”.
+```{=latex}
+\vspace{0.5cm}
+```
 
 ```{r}
-#| echo: false
+
 #| label: tbl-summary-capacities
-#| tbl-cap: "Summary of Strongest and Weakest Capacities"
+#| comment: ""  # Removes the ## output prefix for cleaner output
 
 summary_capacities <- bind_rows(
   mutate(strongest, Type = "Strongest"),
@@ -338,142 +413,62 @@ summary_capacities <- bind_rows(
 ) %>%
   arrange(Type, desc(Mean_Score))
 
-# Create the table
-kable(summary_capacities, format = "latex", booktabs = TRUE, col.names = c("Capacity Category", "Mean Score", "Type")) %>%
-  kable_styling(latex_options = c("striped", "hold_position"))
+# Create the table with bold column names
+kable(summary_capacities, 
+      booktabs = TRUE, 
+      col.names = c("Capacity Category", "Mean Score", "Type"),
+      caption = "Summary of Strongest and Weakest Capacities") %>%
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
+  column_spec(1, width = "7cm")
 
 ```
 
-### Capacity Priorities for Development
+### Top 10 Development Priorities and Recommendations
 
-Analysis of the assessment results indicates the following opportunities and development recommendations. Note that all recommendations made need to be validated through examination and conversation with Department of Forestry or agency staff.
-
-For improved institutional performance, the results of the institutional capacity assessment highlight the following areas for development to raise the level of capacity from “Basic” or just below moderate level, up to at least a “Moderate” level.
+The OPSC analysis identifies the following 10 capacity areas as priorities for development, based on mean scores ≤ 2.5, indicating performance at or below the "Basic" level. These priorities are critical for the `r department` to address to enhance institutional effectiveness and align with NSDP goals. Recommended actions are provided to guide decision-making and resource allocation.
 
 ```{r}
-#| echo: false
-#| label: tbl-weakest-capacities
-#| tbl-cap: "Weakest Capacities (Mean Score ≤ 2)"
 
-kable(weakest, format = "latex", booktabs = TRUE) %>%
-  kable_styling(latex_options = c("striped", "hold_position"))
+#| label: tbl-top-10-priorities
+top_10_priorities <- category_stats %>%
+  filter(Mean_Score <= 2.5) %>%
+  arrange(Mean_Score) %>%
+  slice_head(n = 10)
+recommendations <- c(
+  "Develop a clear vision statement through staff workshops",
+  "Review and update policy/legal framework with legal experts",
+  "Implement training on environmental responsiveness",
+  "Establish an inclusive strategic planning committee",
+  "Introduce regular plan review schedules",
+  "Enhance budget training and align with GoV processes",
+  "Integrate programs with mission through a review process",
+  "Redesign structure with updated roles and chart",
+  "Revise job descriptions and align with salary scales",
+  "Update and enforce operational procedures"
+)
+n_rows <- nrow(top_10_priorities)
+if (n_rows > 0) {
+  top_10_priorities <- top_10_priorities %>%
+    mutate(Recommended_Action = recommendations[seq_len(n_rows)])
+} else {
+  top_10_priorities <- top_10_priorities %>%
+    mutate(Recommended_Action = NA_character_)
+}
+kable(top_10_priorities,
+      booktabs = TRUE, 
+      col.names = c("Capacity Category", "Mean Score", "Recommended Action"),
+      linesep = "",
+      caption = "Development Priorities and Recommendations") %>%
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
+  column_spec(3, width = "7cm")
 
 ```
 
-Capacities that are at a level of basic or lower than moderate capacity, and are therefore priorities for development are:
+### Capacities Requiring Urgent Development
 
-1.  **Clarity of Vision**: “Mixed understanding of what the organisation aspires to achieve; lacks clarity or specificity; held by only a few people or just something that is written on a plan but with little ownership”.
-2.  **Policy and Legal framework**: “Policy or legal framework exists but is scant, unclear and subject to many different interpretations; Critical legislation is out of date and needs review”.
-3.  **Responsiveness to changes in the operating environment**: “Basic knowledge and understanding of what is happening in the operating environment including political changes and emerging issues; Low level ability to respond appropriately”.
-4.  **Strategic planning process**: “Some ability and tendency to develop plans; Planning is mainly done behind ‘closed doors’ by management; Some consultation with staff is done, but most decisions about priorities are made at the top; The plan often has many untested assumptions”.
-5.  **Plan review processes**: “The plan review is done, but it is usually reactive and may be based on an outside request or a problem that has emerged; Plan review is not a normal part of management practice”.
-6.  **Budget and financial management**: “Budget and financial management is not well understood; Financial management is reactive and based on the budget that is allocated; Budget setting does not link to the GoV process”.
-7.  **Program and service relevance and integration**: “Most programs and services are well defined and can be linked to the mission and purpose; Program offerings may be somewhat scattered, perhaps reactive to emerging needs rather than clearly aligned”.
-8.  **Structure and function**: “Some organisational functions are clearly defined, others are not; Key roles are formalised but many are not; Staff are unclear about roles, responsibilities, delegations and accountabilities; Organisational chart is out of date and incomplete”.
-9.  **Individual job design**: “Positions exist for most key roles; Most key positions are well defined and have job descriptions; Some cases of unclear responsibilities, delegations or accountabilities; Some roles don’t have job descriptions; Some problems are evident in relation to the alignment between role and salary”.
-10. **Operational procedures (e.g. staff manual/workplace procedures)**: “Some procedures exist but are out of date or not in use; Some awareness exists of the need to establish and meet quality standards for the work”.
-11. **Internal coordination**: “Interactions between different programs or organisational units are generally good although some coordination issues do exist; Some pooling of ideas and resources”.
-12. **Access to suitable administrative/office support staff**: “It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable”.
-13. **Access to suitable technical/professional staff**: “It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable”.
-14. **Staff Performance and feedback**: “Performance standards and expectations are not clearly defined; Feedback and coaching staff on performance issues occurs sporadically; Staff appraisal process is in place, but may be ineffective or inconsistently applied”.
-15. **Human resource development and training**: “Some understanding of learning and development needs but no active development plan in place; Training is seen as a way to ‘fix’ a problem; Management are reactive responding to emerging needs in a ‘hit and miss’ manner; Development needs are addressed based on opportunities that present, rather than according to a plan”.
-16. **Staff retention**: “Staff tend to stay but mostly for reasons concerned with having no other place to go”.
-17. **Decision making**: “The appropriate decision makers are known with clear delegations of authority; The decision making process is fairly well established, but breaks down if key people are not available; Decisions made are not always well informed”.
-18. **Staff engagement and communication**: “Staff are consulted at times but are usually left out of the main discussions; Some processes (e.g. email notifications) exist to keep staff informed about what is going on, but they are not always reliable or timely”.
-19. **Workplace meetings (e.g. management meetings, staff meetings, team meetings)**: “Meetings occur on an ad hoc basis and are usually in response to an issue that has become critical; No clear agenda or purpose of the meeting is established; When they occur, meetings are experienced as not very efficient or effective in addressing operational needs”.
-20. **Change management and project implementation**: “Change is approached passively and avoided until urgent; Staff do not embrace change, but they tend not to resist it either; Managers spend time driving the change, often through senior staff who they hold accountable; Implementation can be slow with lots of time spent selling ideas to staff, but can be successful”.
-21. **Service delivery standards**: “Staff are guided by standards although these are not clearly specified in organisational documents but are talked about; Staff tend to instruct each other; Service delivery is experienced as variable, and depends largely on who delivering the service”.
-22. **Stakeholder partnership (e.g. NGOs, charitable, not-for-profit, for-profit, church, and community organisations)**: “Some partnerships and alliances in place; Not very active and/or troubled by some poor relationships”.
-23. **Organisational Performance monitoring (M&E)**: “A few measures of performance are in place that focus on activities and outputs; This gives staff the information that they need to assess some aspects of internal efficiency, but does not indicate outcome or impact level effectiveness; Performance measures are only occasionally reviewed”.
-24. **Teamwork and the interpersonal environment**: “Teamwork is not the usual mode of operation but can be done when needed; Initiated and organised by managers; Team members usually come into collaborative work in positive ways; Relationships generally work well”.
-25. **Service as a shared value**: “The organisation recognises the importance of service but has some difficulty in following through, perhaps because of clunky, inefficient processes; Service delivery is seen as important by staff, but clients do not always feel satisfied by the interaction”.
-26. **Workplace learning**: “The organisation tends to react negatively when things go wrong but avoids laying blame; Staff hesitate in communicating problems or failures to management for fear of consequences; Management reaction is often open but can be unpredictable”.
-27. **Physical infrastructure**: “Physical infrastructure can be made to work well enough to suit the organisation’s immediate needs; Little if any room for growth; Obvious improvements could be made to help increase effectiveness and efficiency (e.g. improved maintenance; rearrangement of office space)”.
-28. **Technological infrastructure**: “Basic access to needed technology through shared facilities (phone, fax, computer, print etc); May be moderately reliable and user-friendly”.
-
-### Clear need for capacity development
-
-Capacities that are at a level of Clear need for capacity development or lower than Basic capacity, and are therefore priorities for urgent development are:
-
--   **Managing workplace and out-of-work responsibilities**: “Staff find it difficult to attend work and to achieve the required work hours; They feel very pulled in the direction of their out-of-work responsibilities. Characterised by high levels of unauthorised absence, usually unexplained; Management recognise the problems but fail to take action and don’t hold staff accountable for absences”.
-
-### Top 10 Development Priorities and Recommendations for Department of Forestry
-
-*Note – Five (5) from the 10 will be shared in thermometer illustration below, however all highlighted 10 in Figure 4 should be prioritised in this year’s (2020) planning.*
-
-### Managing workplace and out-of-work responsibilities (29)
-
-### Structure and function (10)
-
-**Capacity Development Recommendation**
-
-It is recommended that Department of Forestry engage in a process to redefine structure and function so that the way that Department of Forestry is organised supports greater levels of performance and achievement.
-
-Some key principles of organisational design are offered to guide the process:
-
--   **Structure supports purpose**: Your organisation exists to fulfil a purpose (or a number of purposes), so you need to be able to clarify what the purpose actually is.
--   **Client’s service needs are met**: The structure must support service delivery and enable smooth and effective coordination.
--   **Delegations, responsibilities, accountabilities, and authorities are clear**: Lines of authority and reporting relationships are clear to everyone.
--   **Everyone knows what their role is and how it contributes to purpose**: Roles need to be arranged in the structure so that everyone knows how they will contribute to the achievement of the organisation’s purpose.
--   **Structure supports timely communication, information transfer, and decision making**: The design of the structure needs to support the organisation to be responsive and flexible in meeting changes.
--   **Structure supports a positive and productive working environment – collaboration and teamwork**: Thinking about how people will work together is critical to ensuring a workable and practical structure. The structure should not create barriers to teamwork.
--   **Structure offers opportunity for career progression**: It needs to be clear what pathways are available for staff to progress.
-
-### Technological infrastructure (31)
-
-### Responsiveness to changes in the operating environment (4)
-
-### Budget and financial management (8)
-
-Although Department of Forestry assessment indicates that “individual staff performance” is not a top 10 priority capacity need, the information below supports the understanding of staff performance processes and to address staff performance gaps because ultimately, staff performances contribute to overall institutional performance.
-
-### Staff performance and feedback (16)
-
-**Capacity Development Recommendation**
-
-A key part of good Human Resource Management practice is ensuring that staff know what is expected of them, how they are performing, what they are doing well, and how they can improve. This usually involves setting up a performance appraisal and feedback process. This is a conversationally based process that is conducted on a regular basis between management and staff.
-
-*Figure 6: A performance appraisal framework* (Placeholder for Figure 6)
-
-Department of Forestry is implementing the standard PSC performance assessment and feedback process. For such a process to work well, the following elements need to be in place.
-
-It is therefore recommended that the Department of Forestry process be implemented as planned to provide a regular opportunity for performance conversations to occur. Such conversation may be:
-
--   Formal and set at regular time intervals, such as yearly or 6-monthly;
--   Informal and based on needs as they emerge. Such performance and feedback conversations can happen any time when they are needed.
-
-If additional support in this area of HRM is required, this can be acquired through:
-
--   OPSC - to help to establish practical and effective HRM systems and processes;
--   Learning and development support to be offered to Human Resource Officers and administrative staff to develop capacity in HRM practice;
--   Learning and development support to be offered to Human Resource Officers through the HRO Network;
--   Learning and development support to be offered to staff to build capacity for workplace coaching and mentoring.
-
-It is recommended that the Department of Forestry seek to supplement their own internal capacity development efforts through these various learning and development opportunities available to it. Note that development in this area links to the recommendations for (23) Service delivery standards as indicated in Figure 3.
-
-```{r}
-#| label: fig-ranked-capacities
-#| fig-cap: "Results for all capacity elements, ranked from least to most developed capacity"
-#| fig-pos: "H"
-#| echo: false
-ggplot(category_stats, aes(x = reorder(Category, -Mean_Score), y = Mean_Score, fill = Mean_Score)) +
-  geom_bar(stat = "identity", width = 0.7) +
-  scale_fill_gradient2(low = "#8B0000", mid = "#FF0000", high = "#00FF00", midpoint = 2.5) +
-  geom_hline(yintercept = c(1.0, 1.5, 2.5, 3.5), linetype = "dashed", color = c("#8B0000", "#FF0000", "#FFA500", "#00FF00")) +
-  annotate("text", x = Inf, y = 1.0, label = "Clear need", hjust = 1.1, vjust = -0.5, color = "#8B0000", size = 3) +
-  annotate("text", x = Inf, y = 1.5, label = "Basic", hjust = 1.1, vjust = -0.5, color = "#FF0000", size = 3) +
-  annotate("text", x = Inf, y = 2.5, label = "Moderate", hjust = 1.1, vjust = -0.5, color = "#FFA500", size = 3) +
-  annotate("text", x = Inf, y = 3.5, label = "High", hjust = 1.1, vjust = -0.5, color = "#00FF00", size = 3) +
-  coord_flip() +
-  labs(x = "Capacity Categories", y = "Mean Score (1 = Clear Need, 4 = High)") +
-  theme_minimal() +
-  theme(legend.position = "none", 
-        axis.text.y = element_text(size = 6),
-        axis.title.x = element_text(size = 7, face = "bold"),
-        axis.title.y = element_text(size = 7, face = "bold"),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank())
-```
+Among the top 10 priorities, Managing workplace and out-of-work responsibilities stands out as a capacity with a mean score indicating "Clear Need," characterized by, “Staff find it difficult to attend work and to achieve the required work hours; They feel very pulled in the direction of their out-of-work responsibilities. Characterised by high levels of unauthorised absence, usually unexplained; Management recognise the problems but fail to take action and don’t hold staff accountable for absences.” This area requires immediate action, alongside the other nine priorities listed in the table, to raise performance to at least a "Moderate" level and support the Department’s strategic objectives.
 
 # Appendix A: OPSC’s Framework for Institutional Capacity Assessment and Development
 
@@ -481,7 +476,7 @@ ggplot(category_stats, aes(x = reorder(Category, -Mean_Score), y = Mean_Score, f
 
 # Appendix B: Planning for Institutional Capacity Development
 
-The following process is offered as a means by which Department of Forestry can:
+The following process is offered as a means by which `r department` can:
 
 -   Make sense of the results of the ICAG
 -   Identify key priorities and strategies to address capacity needs, and
