@@ -1,0 +1,510 @@
+---
+title: "Institutional Capacity Assessment Report - Vanuatu Public Service"
+subtitle: "Comparative Analysis Across Ministries"
+author: "Vanuatu Public Service Commission"
+date: "2025-09-01"
+format:
+  pdf:
+    documentclass: report
+    geometry: margin=0.5in
+    fontsize: 10pt
+    toc: true
+    lot: true
+    lof: true
+    number-sections: true
+    pdf-engine: xelatex
+    mainfont: "Source Sans 3"
+    include-in-header:
+      text: |
+        \usepackage{geometry}
+        \usepackage{titlesec}
+        \usepackage{parskip}
+        \usepackage{setspace}
+        \usepackage{pdflscape}
+        \onehalfspacing
+        \usepackage{fontspec}
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{array}
+        \usepackage{multirow}
+        \usepackage{wrapfig}
+        \usepackage{float}
+        \usepackage{hyperref}
+        \hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+        \usepackage{graphicx}
+        \usepackage{xcolor}
+        \usepackage{colortbl}
+        \definecolor{mygray}{HTML}{303538}
+        \definecolor{titleblue}{HTML}{006498}
+        \titleformat{\chapter}{\color{titleblue}\normalfont\LARGE\bfseries}{\thechapter.}{1em}{}
+        \titleformat{\section}{\color{titleblue}\normalfont\large\bfseries}{\thesection}{1em}{}
+        \titleformat{\subsection}{\color{titleblue}\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+        \makeatletter
+        \def\@titlepage{%
+          \newpage
+          \thispagestyle{empty}%
+          \null
+          \vfil
+          \begin{center}%
+            \let \footnote \thanks
+            {\color{titleblue}\LARGE \textbf{\@title} \par\vskip 10\p@ }
+            {\large \textit{\@subtitle} \par\vskip 10\p@ }
+            \vskip 1em
+            {\large \@author \par\vskip 1em}
+            \vskip 1em
+            {\large \@date \par}
+            \vfil
+          \end{center}
+          \null
+        }
+        \makeatother
+        \AtBeginDocument{\color{mygray}}
+        \usepackage{lscape}
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(kableExtra)
+library(readr)
+library(stringr)
+
+# Define ministry abbreviations
+ministry_abbreviations <- c(
+  "Ministry of Agriculture, Livestock, Forestry and Biosecurity" = "MALFB",
+  "Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity" = "MALFFB",
+  "Ministry of Climate Change and Adaptation" = "MOCCA",
+  "Ministry of Education and Training" = "MoET",
+  "Ministry of Finance and Economic Management" = "MFEM",
+  "Ministry of Fisheries, Ocean and Maritime Affairs" = "MFOMA",
+  "Ministry of Foreign Affairs, International Cooperation and External Trade" = "MFAICET",
+  "Ministry of Health" = "MoH",
+  "Ministry of Infrastructure and Public Utilities" = "MIPU",
+  "Ministry of Internal Affairs" = "MoIA",
+  "Ministry of Justice and Community Services" = "MJCS",
+  "Ministry of Lands and Natural Resources" = "MoLNR",
+  "Ministry of Prime Minister" = "PMO",
+  "Ministry of Trades and Commerce" = "MTC"
+)
+```
+
+```{r load-data, include=FALSE}
+data <- read_csv("ica_cleaned_data.csv", show_col_types = FALSE) %>%
+  mutate(Ministry = recode(Ministry, !!!ministry_abbreviations))
+year <- 2025
+total_responses <- nrow(data)
+```
+
+```{r}
+
+# Calculate response counts by Ministry and Department
+response_counts <- data %>%
+  group_by(Ministry, Department) %>%
+  summarise(Responses = n(), .groups = "drop")
+
+# Identify departments with 4 or fewer responses (for reporting purposes, if needed)
+low_response_departments <- data %>%
+  mutate(Ministry = recode(Ministry, !!!ministry_abbreviations)) %>%
+  group_by(Ministry, Department) %>%
+  summarise(Responses = n(), .groups = "drop") %>%
+  filter(Responses <= 4) %>%
+  select(Ministry, Department, Responses)
+
+```
+
+```{r data-processing, include=FALSE}
+# Define the capacity categories, matching the exact column names in the dataset
+capacity_categories <- c(
+  "Clarity of Vision",
+  "Mission and Purpose",
+  "Policy and Legal framework",
+  "Responsiveness to changes in the operating environment\n",
+  "Strategic plan (Corporate or business plan)",
+  "Strategic planning process",
+  "Plan review processes",
+  "Budget and financial management",
+  "Program and service relevance and integration",
+  "Structure and function",
+  "Individual job design",
+  "Operational procedures (e.g. staff manual/ workplace procedures)",
+  "Internal coordination",
+  "Access to suitable Administrative/ Office support staff",
+  "Access to suitable technical/ professional staff",
+  "Staff Performance and feedback",
+  "Human resource development and training",
+  "Staff retention",
+  "Decision making",
+  "Staff engagement and communication",
+  "Workplace meetings (e.g. management, staff, team)",
+  "Change management and project implementation",
+  "Service delivery standards",
+  "Stakeholder partnerships (e.g. NGO, CSOs, FBOs)",
+  "Organisational Performance monitoring (M&E)",
+  "Teamwork and the interpersonal environment",
+  "Service as a shared value",
+  "Workplace learning",
+  "Managing workplace and out-of-work responsibilities",
+  "Physical infrastructure",
+  "Technological infrastructure"
+)
+
+# Calculate mean scores by ministry for each capacity category
+ministry_stats <- data %>%
+  group_by(Ministry) %>%
+  summarise(across(all_of(capacity_categories), mean, na.rm = TRUE)) %>%
+  pivot_longer(cols = all_of(capacity_categories), names_to = "Category", values_to = "Mean_Score") %>%
+  mutate(Mean_Score = round(Mean_Score, 2),
+         Category = str_trim(gsub("\n", "", Category)))
+
+# Calculate overall capacity score per ministry (average across all categories)
+overall_capacity <- ministry_stats %>%
+  group_by(Ministry) %>%
+  summarise(Overall_Score = round(mean(Mean_Score, na.rm = TRUE), 2)) %>%
+  arrange(desc(Overall_Score))
+
+# Identify strongest and weakest ministries
+strongest_ministries <- overall_capacity %>%
+  slice_head(n = 2) %>%
+  select(Ministry, Overall_Score)
+
+weakest_ministries <- overall_capacity %>%
+  filter(Overall_Score <= 2) %>%
+  arrange(Overall_Score) %>%
+  select(Ministry, Overall_Score)
+
+# Identify strongest and weakest capacity categories per ministry
+strongest_by_category <- ministry_stats %>%
+  group_by(Category) %>%
+  slice_max(order_by = Mean_Score, n = 1, with_ties = FALSE) %>%
+  select(Category, Ministry, Mean_Score)
+
+weakest_by_category <- ministry_stats %>%
+  group_by(Category) %>%
+  slice_min(order_by = Mean_Score, n = 1, with_ties = FALSE) %>%
+  filter(Mean_Score <= 2) %>%
+  select(Category, Ministry, Mean_Score)
+
+# Generate heatmap data
+heatmap_data <- ministry_stats %>%
+  pivot_wider(names_from = Category, values_from = Mean_Score)
+
+# Calculate descriptive stats by ministry, sorted by mean
+desc_stats_by_ministry <- data %>%
+  group_by(Ministry) %>%
+  summarise(across(all_of(capacity_categories), list(
+    mean = ~mean(., na.rm = TRUE),
+    sd = ~sd(., na.rm = TRUE),
+    min = ~min(., na.rm = TRUE),
+    max = ~max(., na.rm = TRUE),
+    median = ~median(., na.rm = TRUE)
+  ))) %>%
+  pivot_longer(cols = -Ministry, names_to = c("Category", ".value"), names_sep = "_") %>%
+  mutate(across(c(mean, sd), ~round(., 2)),
+         Category = str_trim(gsub("\n", "", Category))) %>%
+  arrange(desc(mean))
+
+# Response counts by ministry
+response_counts <- data %>%
+  group_by(Ministry) %>%
+  summarise(Responses = n())
+```
+
+# List of Abbreviations
+
+```{r tbl-abbreviations, results='asis'}
+abbreviations <- tibble(
+  Abbreviation = c("CSO", "FBO", "HRM", "ICA", "ICAG", "IT", "M&E", "MALFB", "MALFFB", "MOCCA", "MoET", "MFEM", "MFOMA", "MFAICET", "MoH", "MIPU", "MoIA", "MJCS", "MoLNR", "PMO", "NGO", "NSDP", "OECD", "OPSC", "PSC", "UNDP"),
+  Definition = c("Civil Society Organization", "Faith-Based Organization", "Human Resource Management", "Institutional Capacity Assessment", "Institutional Capacity Assessment Grid", "Information Technology", "Monitoring and Evaluation", 
+                 "Ministry of Agriculture, Livestock, Forestry and Biosecurity", 
+                 "Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity", 
+                 "Ministry of Climate Change and Adaptation", 
+                 "Ministry of Education and Training", 
+                 "Ministry of Finance and Economic Management", 
+                 "Ministry of Fisheries, Ocean and Maritime Affairs", 
+                 "Ministry of Foreign Affairs, International Cooperation and External Trade", 
+                 "Ministry of Health", 
+                 "Ministry of Infrastructure and Public Utilities", 
+                 "Ministry of Internal Affairs", 
+                 "Ministry of Justice and Community Services", 
+                 "Ministry of Lands and Natural Resources", 
+                 "Ministry of Prime Minister", 
+                 "Non-Governmental Organization", 
+                 "National Sustainable Development Plan", 
+                 "Organisation for Economic Co-operation and Development", 
+                 "Office of the Public Service Commission", 
+                 "Public Service Commission", 
+                 "United Nations Development Programme")
+)
+kable(abbreviations, 
+      booktabs = TRUE, 
+      col.names = c("Abbreviation", "Definition"),
+      caption = "List of Abbreviations") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
+  column_spec(1, width = "3cm") %>%
+  column_spec(2, width = "10cm")
+```
+
+# Acknowledgments
+
+We express our gratitude to all staff across the Vanuatu Public Service for participating in the Institutional Capacity Assessment (ICA) survey conducted in August 2025. Their insights have been crucial for comparing institutional capacities across ministries. We thank the PSC for supporting this initiative and the Vanuatu Bureau of Statistics (VBoS) for digitizing the `r year` ICA report, enabling automated data processing and analysis. This effort supports our commitment to strengthening public institutions in alignment with the NSDP.
+
+## Ministries with Low Response Rates
+
+The following departments had four or fewer responses to the Institutional Capacity Assessment (ICA) survey conducted in August 2025 and, therefore, have not been taken into consideration or have been filtered out from this report to ensure the reliability and representativeness of the analysis:
+
+```{r}
+#| label: tbl-low_response_departments
+
+kable(low_response_departments, 
+      booktabs = TRUE, 
+      col.names = c("Ministry", "Department", "Number of Responses"),
+      caption = "Departments with Four or Fewer Responses") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8)
+
+```
+
+These departments were excluded from the comparative analysis and visualizations (e.g., heatmap, department rankings) to avoid skewed results due to insufficient data. Future assessments should aim to increase participation from these departments to ensure a comprehensive evaluation of institutional capacities across the Vanuatu Public Service.
+
+# Introduction
+
+The NSDP’s society pillar goal 6 aims for “strong and effective institutions for ensuring a dynamic public sector with good governance principles and strong institutions delivering the support and services expected by all citizens of Vanuatu.” The OPSC’s capacity assessment program is guided by this goal.
+
+This report compares institutional capacities across all ministries in the Vanuatu Public Service, based on the ICA conducted in August 2025 with `r total_responses` staff responses. It identifies variations in capacity, highlights strongest and weakest areas by ministry, and provides recommendations to address gaps, ensuring alignment with the NSDP.
+
+# Institutional Capacity Assessment Grid
+
+## How Ministries’ Institutional Capacities Were Assessed
+
+The OPSC’s Framework (Appendix A) focuses on organizational design, HRM, systems, leadership, and infrastructure. The ICAG aims to:
+
+- Compare capacity areas across ministries.
+- Track changes over time.
+- Highlight differing views for discussion.
+
+In August 2025, `r total_responses` staff across all ministries evaluated 31 capacity elements, scoring from 1 (Clear Need) to 4 (High). The ICAG provides an indicative measure to guide improvement.
+
+```{r fig-five-steps-assessing-planning-capacity-development, fig.cap="Five-Step Process for Assessing and Planning Capacity Development Using the ICAG", fig.pos="H", out.width="500px", fig.align="center"}
+knitr::include_graphics("img/five-steps-assessing-planning-capacity-development.png")
+```
+
+This report supports Step 3, comparing ministries to prioritize development.
+
+## Methodology
+
+### Data Collection
+
+The ICAG, digitized by VBoS using Microsoft Office 365 Forms, assessed 31 capacity categories. Staff scored from 1 (Clear Need) to 4 (High) based on descriptive statements. Responses were collected in a spreadsheet.
+
+### Data Processing
+
+VBoS performed:
+
+1. **Data Extraction**: Exported responses to a spreadsheet.
+2. **Data Cleaning**: Converted text responses to numeric scores (A = 1, B = 2, C = 3, D = 4). Missing responses were marked as missing.
+
+### Data Analysis
+
+VBoS used R to analyze data:
+
+1. **Calculating Mean Scores**: Computed averages by ministry for each category using R[^1].
+2. **Ranking Ministries**: Calculated overall capacity scores.
+3. **Identifying Extremes**: Found strongest and weakest ministries and categories.
+4. **Visualization**: Created heatmaps and bar plots to compare ministries.
+
+[^1]: R is a free, open-source software used for statistical analysis, data processing, creating visualizations like graphs and tables, and automating this report’s generation.
+
+### How the ICAG Scale and Analysis Methods Were Chosen
+
+The ICAG scale (1–4) reflects Vanuatu’s public sector context. Mean scores were calculated from `r total_responses` responses. A threshold of ≤ 2 identifies urgent gaps, aligning with NSDP goals.
+
+## Overview of Results
+
+The Vanuatu Public Service faces resource constraints but is shifting toward collaboration with NGOs, CSOs, and FBOs. The August 2025 ICAG assessment compared ministries to identify capacity variations.
+
+### Ministry Rankings
+
+The following table ranks ministries by overall capacity score (average across all categories), based on `r sum(response_counts$Responses)` responses from `r nrow(response_counts)` ministries.
+
+```{r tbl-ministry-rankings, results='asis'}
+kable(overall_capacity, 
+      booktabs = TRUE, 
+      col.names = c("Ministry", "Overall Capacity Score"),
+      caption = "Overall Capacity Scores by Ministry") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
+  column_spec(1, width = "8cm")
+```
+
+### Comparative Capacity Across Ministries
+
+The heatmap below compares the distribution of mean capacity scores across ministries, focusing on the top 5 strongest and top 5 weakest capacity categories based on overall performance in the August 2025 ICAG assessment. Each cell represents a ministry’s mean score for a category, with colors indicating Clear Need (≤1.5, dark red), Basic (>1.5–2.5, red), Moderate (>2.5–3.5, orange), and High (>3.5, green). Categories are ordered by their average score across ministries.
+
+```{r comparative-capacity-table, fig.cap="Mean Capacity Scores Across Ministries for Top 5 Strongest and Weakest Categories", fig.pos="H", out.width="100%", fig.height=6}
+# Prepare data: Identify top 5 strongest and weakest categories
+category_ranks <- ministry_stats %>%
+  group_by(Category) %>%
+  summarise(Avg_Score = mean(Mean_Score, na.rm = TRUE)) %>%
+  arrange(Avg_Score)
+weakest_categories <- head(category_ranks$Category, 5)
+strongest_categories <- tail(category_ranks$Category, 5)
+focus_categories <- c(weakest_categories, strongest_categories)
+
+# Prepare table data: Pivot to have ministries as rows and categories as columns
+table_data <- ministry_stats %>%
+  filter(Category %in% focus_categories) %>%
+  pivot_wider(names_from = Category, values_from = Mean_Score) %>%
+  mutate(across(where(is.numeric), ~round(., 2)))
+
+# Use heatmap_data (long format) for the heatmap
+heatmap_data <- ministry_stats %>%
+  filter(Category %in% focus_categories) %>%
+  mutate(Category = factor(Category, levels = focus_categories))
+
+# Create heatmap
+ggplot(heatmap_data, aes(x = Category, y = Ministry, fill = Mean_Score)) +
+  geom_tile(color = "white", size = 0.5) +
+  scale_fill_gradientn(colors = c("#8B0000", "#FF0000", "#FFA500", "#00FF00"),
+                       values = scales::rescale(c(0, 1.5, 2.5, 3.5, 4)),
+                       breaks = c(1.5, 2.5, 3.5, 4),
+                       labels = c("Clear Need", "Basic", "Moderate", "High"),
+                       na.value = "white") +
+  labs(x = "Capacity Category", y = "Ministry") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+        axis.text.y = element_text(size = 8),
+        legend.title = element_blank(),
+        legend.position = "bottom",
+        plot.caption = element_text(color = "#006498", face = "bold")) +
+  guides(fill = guide_colorbar(barwidth = 10, barheight = 1))
+```
+
+The heatmap illustrates mean capacity scores across the top 5 weakest and top 5 strongest categories, identifying significant disparities among ministries. MJCS excels in "Strategic plan" (3.57, green), indicating robust planning processes, while MoET struggles with "Human resource development and training" (1.85, dark red), signaling a critical need for improvement. Overall, categories like "Access to suitable Administrative/Office support staff" and "Staff retention" frequently fall in the red-to-orange range (e.g., 2.0–2.76), suggesting widespread challenges in human resource support. Conversely, "Mission and Purpose" and "Strategic planning process" often score in the orange-to-green range (e.g., 3.07–3.44), reflecting relative strengths. PMO and MFAICET demonstrate consistent orange scores (2.33–3.22), indicating moderate to strong capacity, while MoH shows red scores (1.94–2.65), highlighting areas requiring urgent attention. This visualization, supported by detailed data in Appendix B (@tbl-appendix-b1 : Mean Capacity Scores by Ministry), underscores the need for targeted interventions, particularly in human resource development and infrastructure, to align with the NSDP’s goal of effective public institutions.
+
+### Strongest Ministries and Capacities
+
+The top-performing ministries are:
+
+```{r tbl-strongest-ministries, results='asis'}
+kable(strongest_ministries, 
+      booktabs = TRUE, 
+      col.names = c("Ministry", "Overall Capacity Score"),
+      caption = "Top-Performing Ministries") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
+  column_spec(1, width = "8cm")
+```
+
+Ministries excelling in specific capacities include:
+
+```{r tbl-strongest-by-category, results='asis'}
+kable(strongest_by_category, 
+      booktabs = TRUE, 
+      col.names = c("Capacity Category", "Ministry", "Mean Score"),
+      caption = "Strongest Capacity Categories by Ministry") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = c("scale_down", "HOLD_position"), font_size = 8) %>%
+  column_spec(1, width = "6cm")
+```
+
+### Weakest Ministries and Capacities
+
+Ministries requiring urgent attention (overall score ≤ 2) include:
+
+```{r tbl-weakest-ministries, results='asis'}
+kable(weakest_ministries, 
+      booktabs = TRUE, 
+      col.names = c("Ministry", "Overall Capacity Score"),
+      caption = "Ministries Requiring Urgent Capacity Development") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
+  column_spec(1, width = "8cm")
+```
+
+Capacities with mean scores ≤ 2 by ministry include:
+
+```{r tbl-weakest-by-category, results='asis'}
+kable(weakest_by_category, 
+      booktabs = TRUE, 
+      col.names = c("Capacity Category", "Ministry", "Mean Score"),
+      caption = "Weakest Capacity Categories by Ministry") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = c("scale_down", "HOLD_position"), font_size = 8) %>%
+  column_spec(1, width = "6cm")
+```
+
+### Top 10 Development Priorities and Recommendations
+
+The following priorities focus on ministries and categories with mean scores ≤ 2.5.
+
+```{r tbl-top-10-priorities, results='asis'}
+top_10_priorities <- ministry_stats %>%
+  filter(Mean_Score <= 2.5) %>%
+  arrange(Mean_Score) %>%
+  slice_head(n = 10) %>%
+  mutate(Recommended_Action = case_when(
+    Category == "Clarity of Vision" ~ "Conduct vision-setting workshops",
+    Category == "Policy and Legal framework" ~ "Update legal frameworks with expert consultation",
+    Category == "Responsiveness to changes in the operating environment" ~ "Provide training on environmental adaptability",
+    Category == "Strategic planning process" ~ "Form inclusive planning committees",
+    Category == "Plan review processes" ~ "Implement regular review schedules",
+    Category == "Budget and financial management" ~ "Enhance financial training",
+    Category == "Program and service relevance and integration" ~ "Align programs with mission",
+    Category == "Structure and function" ~ "Redesign organizational structures",
+    Category == "Individual job design" ~ "Revise job descriptions",
+    Category == "Operational procedures" ~ "Update and enforce procedures",
+    TRUE ~ "General capacity-building initiatives"
+  ))
+kable(top_10_priorities,
+      booktabs = TRUE, 
+      col.names = c("Capacity Category", "Ministry", "Mean Score", "Recommended Action"),
+      caption = "Top 10 Development Priorities and Recommendations") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = c("scale_down", "HOLD_position"), font_size = 8) %>%
+  column_spec(1, width = "5cm") %>%
+  column_spec(4, width = "5cm")
+```
+
+# Appendix A: Descriptive Statistics by Ministry
+
+Descriptive statistics for each capacity category by ministry are provided below, ordered by highest to lowest mean score.
+
+```{r tbl-desc-stats-by-ministry, results='asis'}
+kable(desc_stats_by_ministry, 
+      booktabs = TRUE, 
+      col.names = c("Ministry", "Category", "Mean", "SD", "Min", "Max", "Median"),
+      caption = "Descriptive Statistics by Ministry and Category (Ordered by Mean Score)") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = c("scale_down", "HOLD_position"), font_size = 8) %>%
+  column_spec(1, width = "1.5cm") %>%
+  column_spec(2, width = "4cm") %>%
+  column_spec(3:7, width = "1cm")
+```
+
+# Appendix B: Detailed Data
+
+## Mean Capacity Scores by Ministry
+
+Below is the table of mean capacity scores used to generate the heatmap, presented for reference.
+
+```{r tbl-appendix-b1, results='asis'}
+
+#| label: tbl-appendix-b1
+#| tbl-cap: "Mean Capacity Scores by Ministry"
+
+kable(table_data, 
+      booktabs = TRUE,
+      caption = ("Mean Capacity Scores by Ministry"))%>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  column_spec(1, width = "1.5cm") %>%
+  column_spec(2:ncol(table_data), width = "1.5cm")%>%
+  landscape()
+```

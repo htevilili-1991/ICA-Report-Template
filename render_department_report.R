@@ -3,10 +3,28 @@ library(readr)
 library(stringr)
 library(quarto)
 
+# Store the original working directory
+original_wd <- getwd()
 setwd("~/Documents/Work/ICA/ICA Report")
 
 # Load data
 data <- read_csv("ica_cleaned_data.csv", show_col_types = FALSE)
+
+# Get unique Ministry names and convert to safe names
+unique_ministries <- data %>%
+  select(Ministry) %>%
+  distinct() %>%
+  arrange(Ministry) %>%
+  mutate(safe_min = str_replace_all(Ministry, "[^[:alnum:]]", "_"))
+
+# Print the safe Ministry names for reference
+cat("Safe Ministry Names (used for folder creation):\n")
+print(unique_ministries$safe_min)
+
+# Create a folder for each unique Ministry
+for (ministry in unique_ministries$safe_min) {
+  dir.create(file.path("Reports", ministry), showWarnings = FALSE, recursive = TRUE)
+}
 
 # Get unique Ministry and Department pairs
 unique_ministry_dept <- data %>%
@@ -21,14 +39,32 @@ for (i in seq_len(nrow(unique_ministry_dept))) {
     department = unique_ministry_dept$Department[i]
   )
   
+  # Create safe names for Ministry and Department
   safe_dept <- str_replace_all(unique_ministry_dept$Department[i], "[^[:alnum:]]", "_")
   safe_min <- str_replace_all(unique_ministry_dept$Ministry[i], "[^[:alnum:]]", "_")
-  output_file <- paste0("ICA Report - ", safe_dept, ".pdf")
   
+  # Define output file name (just the file name)
+  output_file <- paste0("ICA_Report_", safe_dept, ".pdf")
+  
+  # Define the target path in the Ministry folder
+  ministry_folder <- file.path("Reports", safe_min)
+  target_path <- file.path(ministry_folder, output_file)
+  
+  # Render the report to the original working directory
   quarto::quarto_render(
-    input = "ICA_Report_Template.qmd",
+    input = file.path(original_wd, "ICA_Report_Template.qmd"),
     execute_params = params_list,
     output_file = output_file,
     output_format = "pdf"
   )
+  
+  # Move the rendered PDF to the Ministry folder
+  if (file.exists(file.path(original_wd, output_file))) {
+    file.rename(file.path(original_wd, output_file), target_path)
+  } else {
+    warning(paste("PDF not found:", output_file, "for", params_list$department))
+  }
 }
+
+# Ensure the working directory is restored (though not strictly necessary here)
+setwd(original_wd)
