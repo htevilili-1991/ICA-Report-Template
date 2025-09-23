@@ -8,7 +8,10 @@ original_wd <- getwd()
 setwd("~/Documents/Work/ICA/ICA Report")
 
 # Load data
-data <- read_csv("ica_cleaned_data.csv", show_col_types = FALSE)
+data <- read_csv("ica_cleaned_data.csv", show_col_types = FALSE) %>%
+  group_by(Ministry, Department) %>%
+  filter(n() > 4) %>%
+  ungroup()
 
 # Get unique Ministry names and convert to safe names
 unique_ministries <- data %>%

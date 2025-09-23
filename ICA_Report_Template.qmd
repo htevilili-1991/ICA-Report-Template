@@ -188,10 +188,10 @@ strongest <- category_stats %>%
   arrange(desc(Mean_Score)) %>%
   slice_head(n = 2) %>%
   select(Category, Mean_Score)
-# Generate weakest capacities (bottom categories with Mean_Score <= 2)
-weakest <- category_stats %>%
-  filter(Mean_Score <= 2) %>%
+# Generate lowest capacities (bottom 2, regardless of mean score)
+lowest_capacities <- category_stats %>%
   arrange(Mean_Score) %>%
+  slice_head(n = 2) %>%
   select(Category, Mean_Score)
 # Generate rating counts for each category
 rating_counts <- dept_data %>%
@@ -207,13 +207,187 @@ fig3_data <- category_stats
 desc_stats <- dept_data %>%
   select(all_of(capacity_categories)) %>%
   summarise(across(everything(), list(mean = ~mean(., na.rm = TRUE),
-                                       sd = ~sd(., na.rm = TRUE),
-                                       min = ~min(., na.rm = TRUE),
-                                       max = ~max(., na.rm = TRUE),
-                                       median = ~median(., na.rm = TRUE)))) %>%
+                                     sd = ~sd(., na.rm = TRUE),
+                                     min = ~min(., na.rm = TRUE),
+                                     max = ~max(., na.rm = TRUE),
+                                     median = ~median(., na.rm = TRUE)))) %>%
   pivot_longer(everything(), names_to = c("Category", ".value"), names_sep = "_") %>%
   mutate(across(c(mean, sd), ~round(., 2)),
          Category = str_trim(gsub("\n", "", Category)))
+
+# Precompute descriptions for strongest capacities
+strongest_desc_1 <- switch(strongest$Category[1],
+  "Mission and Purpose" = "Clear expression of organisation’s reason for existence which reflects its purpose and values; held by many within the organisation and referred to often",
+  "Strategic plan (Corporate or business plan)" = "The plan is in place, is up to date and links well to the mission; Most strategies in the plan have been developed into clear projects with budgets and activities well defined to guide work and program planning; Most staff are aware of the plan, use it and were consulted when it was developed; Plans are used to guide management decisions",
+  "Clarity of Vision" = "Mixed understanding of what the organisation aspires to achieve; lacks clarity or specificity; held by only a few people or just something that is written on a plan but with little ownership",
+  "Policy and Legal framework" = "Policy or legal framework exists but is scant, unclear and subject to many different interpretations; Critical legislation is out of date and needs review",
+  "Responsiveness to changes in the operating environment" = "Basic knowledge and understanding of what is happening in the operating environment including political changes and emerging issues; Low level ability to respond appropriately",
+  "Strategic planning process" = "Some ability and tendency to develop plans; Planning is mainly done behind “closed doors” by management; Some consultation with staff is done, but most decisions about priorities are made at the top; The plan often has many untested assumptions",
+  "Plan review processes" = "The plan review is done, but it is usually reactive and may be based on an outside request or a problem that has emerged; Plan review is not a normal part of management practice",
+  "Budget and financial management" = "Budget and financial management is not well understood; Financial management is reactive and based on the budget that is allocated; Budget setting does not link to the GoV process",
+  "Program and service relevance and integration" = "Most programs and services are well defined and can be linked to the mission and purpose; Program offerings may be somewhat scattered, perhaps reactive to emerging needs rather than clearly aligned",
+  "Structure and function" = "Some organisational functions are clearly defined, others are not; Key roles are formalised but many are not; Staff are unclear about roles, responsibilities, delegations and accountabilities; Organisational chart is out of date and incomplete",
+  "Individual job design" = "Positions exist for most key roles; Most key positions are well defined and have job descriptions; Some cases of unclear responsibilities, delegations or accountabilities; Some roles dont have job descriptions; Some problems are evident in relation to the alignment between role and salary",
+  "Operational procedures (e.g. staff manual/ workplace procedures)" = "Some procedures exist but are out of date or not in use; Some awareness exists of the need to establish and meet quality standards for the work",
+  "Internal coordination" = "Interactions between different programs or organisational units are generally good although some coordination issues do exist; Some pooling of ideas and resources",
+  "Access to suitable Administrative/ Office support staff" = "It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable",
+  "Access to suitable technical/ professional staff" = "It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable",
+  "Staff Performance and feedback" = "Performance standards and expectations are not clearly defined; Feedback and coaching staff on performance issues occurs sporadically; Staff appraisal process is in place, but may be ineffective or inconsistently applied",
+  "Human resource development and training" = "Some understanding of learning and development needs but no active development plan in place; Training is seen as a way to “fix” a problem; Management are reactive responding to emerging needs in a “hit and miss” manner; Development needs are addressed based on opportunities that present, rather than according to a plan",
+  "Staff retention" = "Staff tend to stay but mostly for reasons concerned with having no other place to go",
+  "Decision making" = "The appropriate decision makers are known with clear delegations of authority; The decision making process is fairly well established, but breaks down if key people are not available; Decisions made are not always well informed",
+  "Staff engagement and communication" = "Staff are consulted at times but are usually left out of the main discussions; Some processes (e.g. email notifications) exist to keep staff informed about what is going on, but they are not always reliable or timely",
+  "Workplace meetings (e.g. management meetings, staff meetings, team meetings)" = "Meetings occur on an ad hoc basis and are usually in response to an issue that has become critical; No clear agenda or purpose of the meeting is established; When they occur, meetings are experienced as not very efficient or effective in addressing operational needs",
+  "Change management and project implementation" = "Change is approached passively and avoided until urgent; Staff do not embrace change, but they tend not resisted it either; Managers spend time driving the change, often through senior staff who they hold accountable; Implementation can be slow with lots of time spent selling ideas to staff, but can be successful",
+  "Service delivery standards" = "Staff are guided by standards although these are not clearly specified in organisational documents but are talked about; Staff tend to instruct each other; Service delivery is experienced as variable, and depends largely on who delivering the service",
+  "Stakeholder partnerships (e.g. NGO, CSOs, FBOs)" = "Some partnerships and alliances in place; Not very active and/or troubled by some poor relationships",
+  "Organisational Performance monitoring (M&E)" = "A few measures of performance are in place that focus on activities and outputs; This gives staff the information that they need to assess some aspects of internal efficiency, but does not indicate outcome or impact level effectiveness; Performance measures are only occasionally reviewed",
+  "Teamwork and the interpersonal environment" = "Teamwork is not the usual mode of operation but can be done when needed; Initiated and organised by managers; Team members usually come into collaborative work in positive ways; Relationships generally work well",
+  "Service as a shared value" = "The organisation recognises the importance of service but has some difficulty in following though, perhaps because of clunky, inefficient processes; Service delivery is seen as important by staff, but clients do not always feel satisfied by the interaction",
+  "Workplace learning" = "The organisation tends to react negatively when things go wrong but avoids laying blame; Staff hesitate in communicating problems or failures to management for fear of consequences; Management reaction is often open but can be unpredictable",
+  "Managing workplace and out-of-work responsibilities" = "Physical infrastructure can be made to work well enough to suit the organisations immediate needs; Little if any room for growth; Obvious improvements could be made to help increase effectiveness and efficiency (e.g. improved maintenance; rearrangement of office space)",
+  "Physical infrastructure" = "Basic access to needed technology through shared facilities (phone, fax, computer, print etc); May be moderately reliable and user-friendly",
+  "Technological infrastructure" = "Basic access to needed technology through shared facilities (phone, fax, computer, print etc); May be moderately reliable and user-friendly",
+  "Unknown description"
+)
+
+strongest_desc_2 <- switch(strongest$Category[2],
+  "Mission and Purpose" = "Clear expression of organisation’s reason for existence which reflects its purpose and values; held by many within the organisation and referred to often",
+  "Strategic plan (Corporate or business plan)" = "The plan is in place, is up to date and links well to the mission; Most strategies in the plan have been developed into clear projects with budgets and activities well defined to guide work and program planning; Most staff are aware of the plan, use it and were consulted when it was developed; Plans are used to guide management decisions",
+  "Clarity of Vision" = "Mixed understanding of what the organisation aspires to achieve; lacks clarity or specificity; held by only a few people or just something that is written on a plan but with little ownership",
+  "Policy and Legal framework" = "Policy or legal framework exists but is scant, unclear and subject to many different interpretations; Critical legislation is out of date and needs review",
+  "Responsiveness to changes in the operating environment" = "Basic knowledge and understanding of what is happening in the operating environment including political changes and emerging issues; Low level ability to respond appropriately",
+  "Strategic planning process" = "Some ability and tendency to develop plans; Planning is mainly done behind “closed doors” by management; Some consultation with staff is done, but most decisions about priorities are made at the top; The plan often has many untested assumptions",
+  "Plan review processes" = "The plan review is done, but it is usually reactive and may be based on an outside request or a problem that has emerged; Plan review is not a normal part of management practice",
+  "Budget and financial management" = "Budget and financial management is not well understood; Financial management is reactive and based on the budget that is allocated; Budget setting does not link to the GoV process",
+  "Program and service relevance and integration" = "Most programs and services are well defined and can be linked to the mission and purpose; Program offerings may be somewhat scattered, perhaps reactive to emerging needs rather than clearly aligned",
+  "Structure and function" = "Some organisational functions are clearly defined, others are not; Key roles are formalised but many are not; Staff are unclear about roles, responsibilities, delegations and accountabilities; Organisational chart is out of date and incomplete",
+  "Individual job design" = "Positions exist for most key roles; Most key positions are well defined and have job descriptions; Some cases of unclear responsibilities, delegations or accountabilities; Some roles dont have job descriptions; Some problems are evident in relation to the alignment between role and salary",
+  "Operational procedures (e.g. staff manual/ workplace procedures)" = "Some procedures exist but are out of date or not in use; Some awareness exists of the need to establish and meet quality standards for the work",
+  "Internal coordination" = "Interactions between different programs or organisational units are generally good although some coordination issues do exist; Some pooling of ideas and resources",
+  "Access to suitable Administrative/ Office support staff" = "It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable",
+  "Access to suitable technical/ professional staff" = "It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable",
+  "Staff Performance and feedback" = "Performance standards and expectations are not clearly defined; Feedback and coaching staff on performance issues occurs sporadically; Staff appraisal process is in place, but may be ineffective or inconsistently applied",
+  "Human resource development and training" = "Some understanding of learning and development needs but no active development plan in place; Training is seen as a way to “fix” a problem; Management are reactive responding to emerging needs in a “hit and miss” manner; Development needs are addressed based on opportunities that present, rather than according to a plan",
+  "Staff retention" = "Staff tend to stay but mostly for reasons concerned with having no other place to go",
+  "Decision making" = "The appropriate decision makers are known with clear delegations of authority; The decision making process is fairly well established, but breaks down if key people are not available; Decisions made are not always well informed",
+  "Staff engagement and communication" = "Staff are consulted at times but are usually left out of the main discussions; Some processes (e.g. email notifications) exist to keep staff informed about what is going on, but they are not always reliable or timely",
+  "Workplace meetings (e.g. management meetings, staff meetings, team meetings)" = "Meetings occur on an ad hoc basis and are usually in response to an issue that has become critical; No clear agenda or purpose of the meeting is established; When they occur, meetings are experienced as not very efficient or effective in addressing operational needs",
+  "Change management and project implementation" = "Change is approached passively and avoided until urgent; Staff do not embrace change, but they tend not resisted it either; Managers spend time driving the change, often through senior staff who they hold accountable; Implementation can be slow with lots of time spent selling ideas to staff, but can be successful",
+  "Service delivery standards" = "Staff are guided by standards although these are not clearly specified in organisational documents but are talked about; Staff tend to instruct each other; Service delivery is experienced as variable, and depends largely on who delivering the service",
+  "Stakeholder partnerships (e.g. NGO, CSOs, FBOs)" = "Some partnerships and alliances in place; Not very active and/or troubled by some poor relationships",
+  "Organisational Performance monitoring (M&E)" = "A few measures of performance are in place that focus on activities and outputs; This gives staff the information that they need to assess some aspects of internal efficiency, but does not indicate outcome or impact level effectiveness; Performance measures are only occasionally reviewed",
+  "Teamwork and the interpersonal environment" = "Teamwork is not the usual mode of operation but can be done when needed; Initiated and organised by managers; Team members usually come into collaborative work in positive ways; Relationships generally work well",
+  "Service as a shared value" = "The organisation recognises the importance of service but has some difficulty in following though, perhaps because of clunky, inefficient processes; Service delivery is seen as important by staff, but clients do not always feel satisfied by the interaction",
+  "Workplace learning" = "The organisation tends to react negatively when things go wrong but avoids laying blame; Staff hesitate in communicating problems or failures to management for fear of consequences; Management reaction is often open but can be unpredictable",
+  "Managing workplace and out-of-work responsibilities" = "Physical infrastructure can be made to work well enough to suit the organisations immediate needs; Little if any room for growth; Obvious improvements could be made to help increase effectiveness and efficiency (e.g. improved maintenance; rearrangement of office space)",
+  "Physical infrastructure" = "Basic access to needed technology through shared facilities (phone, fax, computer, print etc); May be moderately reliable and user-friendly",
+  "Technological infrastructure" = "Basic access to needed technology through shared facilities (phone, fax, computer, print etc); May be moderately reliable and user-friendly",
+  "Unknown description"
+)
+
+# Precompute descriptions for lowest capacities
+lowest_desc_1 <- switch(lowest_capacities$Category[1],
+  "Mission and Purpose" = "Clear expression of organisation’s reason for existence which reflects its purpose and values; held by many within the organisation and referred to often",
+  "Strategic plan (Corporate or business plan)" = "The plan is in place, is up to date and links well to the mission; Most strategies in the plan have been developed into clear projects with budgets and activities well defined to guide work and program planning; Most staff are aware of the plan, use it and were consulted when it was developed; Plans are used to guide management decisions",
+  "Clarity of Vision" = "Mixed understanding of what the organisation aspires to achieve; lacks clarity or specificity; held by only a few people or just something that is written on a plan but with little ownership",
+  "Policy and Legal framework" = "Policy or legal framework exists but is scant, unclear and subject to many different interpretations; Critical legislation is out of date and needs review",
+  "Responsiveness to changes in the operating environment" = "Basic knowledge and understanding of what is happening in the operating environment including political changes and emerging issues; Low level ability to respond appropriately",
+  "Strategic planning process" = "Some ability and tendency to develop plans; Planning is mainly done behind “closed doors” by management; Some consultation with staff is done, but most decisions about priorities are made at the top; The plan often has many untested assumptions",
+  "Plan review processes" = "The plan review is done, but it is usually reactive and may be based on an outside request or a problem that has emerged; Plan review is not a normal part of management practice",
+  "Budget and financial management" = "Budget and financial management is not well understood; Financial management is reactive and based on the budget that is allocated; Budget setting does not link to the GoV process",
+  "Program and service relevance and integration" = "Most programs and services are well defined and can be linked to the mission and purpose; Program offerings may be somewhat scattered, perhaps reactive to emerging needs rather than clearly aligned",
+  "Structure and function" = "Some organisational functions are clearly defined, others are not; Key roles are formalised but many are not; Staff are unclear about roles, responsibilities, delegations and accountabilities; Organisational chart is out of date and incomplete",
+  "Individual job design" = "Positions exist for most key roles; Most key positions are well defined and have job descriptions; Some cases of unclear responsibilities, delegations or accountabilities; Some roles dont have job descriptions; Some problems are evident in relation to the alignment between role and salary",
+  "Operational procedures (e.g. staff manual/ workplace procedures)" = "Some procedures exist but are out of date or not in use; Some awareness exists of the need to establish and meet quality standards for the work",
+  "Internal coordination" = "Interactions between different programs or organisational units are generally good although some coordination issues do exist; Some pooling of ideas and resources",
+  "Access to suitable Administrative/ Office support staff" = "It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable",
+  "Access to suitable technical/ professional staff" = "It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable",
+  "Staff Performance and feedback" = "Performance standards and expectations are not clearly defined; Feedback and coaching staff on performance issues occurs sporadically; Staff appraisal process is in place, but may be ineffective or inconsistently applied",
+  "Human resource development and training" = "Some understanding of learning and development needs but no active development plan in place; Training is seen as a way to “fix” a problem; Management are reactive responding to emerging needs in a “hit and miss” manner; Development needs are addressed based on opportunities that present, rather than according to a plan",
+  "Staff retention" = "Staff tend to stay but mostly for reasons concerned with having no other place to go",
+  "Decision making" = "The appropriate decision makers are known with clear delegations of authority; The decision making process is fairly well established, but breaks down if key people are not available; Decisions made are not always well informed",
+  "Staff engagement and communication" = "Staff are consulted at times but are usually left out of the main discussions; Some processes (e.g. email notifications) exist to keep staff informed about what is going on, but they are not always reliable or timely",
+  "Workplace meetings (e.g. management meetings, staff meetings, team meetings)" = "Meetings occur on an ad hoc basis and are usually in response to an issue that has become critical; No clear agenda or purpose of the meeting is established; When they occur, meetings are experienced as not very efficient or effective in addressing operational needs",
+  "Change management and project implementation" = "Change is approached passively and avoided until urgent; Staff do not embrace change, but they tend not resisted it either; Managers spend time driving the change, often through senior staff who they hold accountable; Implementation can be slow with lots of time spent selling ideas to staff, but can be successful",
+  "Service delivery standards" = "Staff are guided by standards although these are not clearly specified in organisational documents but are talked about; Staff tend to instruct each other; Service delivery is experienced as variable, and depends largely on who delivering the service",
+  "Stakeholder partnerships (e.g. NGO, CSOs, FBOs)" = "Some partnerships and alliances in place; Not very active and/or troubled by some poor relationships",
+  "Organisational Performance monitoring (M&E)" = "A few measures of performance are in place that focus on activities and outputs; This gives staff the information that they need to assess some aspects of internal efficiency, but does not indicate outcome or impact level effectiveness; Performance measures are only occasionally reviewed",
+  "Teamwork and the interpersonal environment" = "Teamwork is not the usual mode of operation but can be done when needed; Initiated and organised by managers; Team members usually come into collaborative work in positive ways; Relationships generally work well",
+  "Service as a shared value" = "The organisation recognises the importance of service but has some difficulty in following though, perhaps because of clunky, inefficient processes; Service delivery is seen as important by staff, but clients do not always feel satisfied by the interaction",
+  "Workplace learning" = "The organisation tends to react negatively when things go wrong but avoids laying blame; Staff hesitate in communicating problems or failures to management for fear of consequences; Management reaction is often open but can be unpredictable",
+  "Managing workplace and out-of-work responsibilities" = "Staff find it difficult to attend work and to achieve the required work hours; They feel very pulled in the direction of their out-of-work responsibilities. Characterised by high levels of unauthorised absence, usually unexplained; Management recognise the problems but fail to take action and don’t hold staff accountable for absences",
+  "Physical infrastructure" = "Physical infrastructure can be made to work well enough to suit the organisations immediate needs; Little if any room for growth; Obvious improvements could be made to help increase effectiveness and efficiency (e.g. improved maintenance; rearrangement of office space)",
+  "Technological infrastructure" = "Basic access to needed technology through shared facilities (phone, fax, computer, print etc); May be moderately reliable and user-friendly",
+  "Unknown description"
+)
+
+lowest_desc_2 <- switch(lowest_capacities$Category[2],
+  "Mission and Purpose" = "Clear expression of organisation’s reason for existence which reflects its purpose and values; held by many within the organisation and referred to often",
+  "Strategic plan (Corporate or business plan)" = "The plan is in place, is up to date and links well to the mission; Most strategies in the plan have been developed into clear projects with budgets and activities well defined to guide work and program planning; Most staff are aware of the plan, use it and were consulted when it was developed; Plans are used to guide management decisions",
+  "Clarity of Vision" = "Mixed understanding of what the organisation aspires to achieve; lacks clarity or specificity; held by only a few people or just something that is written on a plan but with little ownership",
+  "Policy and Legal framework" = "Policy or legal framework exists but is scant, unclear and subject to many different interpretations; Critical legislation is out of date and needs review",
+  "Responsiveness to changes in the operating environment" = "Basic knowledge and understanding of what is happening in the operating environment including political changes and emerging issues; Low level ability to respond appropriately",
+  "Strategic planning process" = "Some ability and tendency to develop plans; Planning is mainly done behind “closed doors” by management; Some consultation with staff is done, but most decisions about priorities are made at the top; The plan often has many untested assumptions",
+  "Plan review processes" = "The plan review is done, but it is usually reactive and may be based on an outside request or a problem that has emerged; Plan review is not a normal part of management practice",
+  "Budget and financial management" = "Budget and financial management is not well understood; Financial management is reactive and based on the budget that is allocated; Budget setting does not link to the GoV process",
+  "Program and service relevance and integration" = "Most programs and services are well defined and can be linked to the mission and purpose; Program offerings may be somewhat scattered, perhaps reactive to emerging needs rather than clearly aligned",
+  "Structure and function" = "Some organisational functions are clearly defined, others are not; Key roles are formalised but many are not; Staff are unclear about roles, responsibilities, delegations and accountabilities; Organisational chart is out of date and incomplete",
+  "Individual job design" = "Positions exist for most key roles; Most key positions are well defined and have job descriptions; Some cases of unclear responsibilities, delegations or accountabilities; Some roles dont have job descriptions; Some problems are evident in relation to the alignment between role and salary",
+  "Operational procedures (e.g. staff manual/ workplace procedures)" = "Some procedures exist but are out of date or not in use; Some awareness exists of the need to establish and meet quality standards for the work",
+  "Internal coordination" = "Interactions between different programs or organisational units are generally good although some coordination issues do exist; Some pooling of ideas and resources",
+  "Access to suitable Administrative/ Office support staff" = "It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable",
+  "Access to suitable technical/ professional staff" = "It is possible to source suitably qualified staff for most key roles, but it often takes quite a deal of time to find best fit incumbents; The market supply of suitable staff is quite limited and unstable",
+  "Staff Performance and feedback" = "Performance standards and expectations are not clearly defined; Feedback and coaching staff on performance issues occurs sporadically; Staff appraisal process is in place, but may be ineffective or inconsistently applied",
+  "Human resource development and training" = "Some understanding of learning and development needs but no active development plan in place; Training is seen as a way to “fix” a problem; Management are reactive responding to emerging needs in a “hit and miss” manner; Development needs are addressed based on opportunities that present, rather than according to a plan",
+  "Staff retention" = "Staff tend to stay but mostly for reasons concerned with having no other place to go",
+  "Decision making" = "The appropriate decision makers are known with clear delegations of authority; The decision making process is fairly well established, but breaks down if key people are not available; Decisions made are not always well informed",
+  "Staff engagement and communication" = "Staff are consulted at times but are usually left out of the main discussions; Some processes (e.g. email notifications) exist to keep staff informed about what is going on, but they are not always reliable or timely",
+  "Workplace meetings (e.g. management meetings, staff meetings, team meetings)" = "Meetings occur on an ad hoc basis and are usually in response to an issue that has become critical; No clear agenda or purpose of the meeting is established; When they occur, meetings are experienced as not very efficient or effective in addressing operational needs",
+  "Change management and project implementation" = "Change is approached passively and avoided until urgent; Staff do not embrace change, but they tend not resisted it either; Managers spend time driving the change, often through senior staff who they hold accountable; Implementation can be slow with lots of time spent selling ideas to staff, but can be successful",
+  "Service delivery standards" = "Staff are guided by standards although these are not clearly specified in organisational documents but are talked about; Staff tend to instruct each other; Service delivery is experienced as variable, and depends largely on who delivering the service",
+  "Stakeholder partnerships (e.g. NGO, CSOs, FBOs)" = "Some partnerships and alliances in place; Not very active and/or troubled by some poor relationships",
+  "Organisational Performance monitoring (M&E)" = "A few measures of performance are in place that focus on activities and outputs; This gives staff the information that they need to assess some aspects of internal efficiency, but does not indicate outcome or impact level effectiveness; Performance measures are only occasionally reviewed",
+  "Teamwork and the interpersonal environment" = "Teamwork is not the usual mode of operation but can be done when needed; Initiated and organised by managers; Team members usually come into collaborative work in positive ways; Relationships generally work well",
+  "Service as a shared value" = "The organisation recognises the importance of service but has some difficulty in following though, perhaps because of clunky, inefficient processes; Service delivery is seen as important by staff, but clients do not always feel satisfied by the interaction",
+  "Workplace learning" = "The organisation tends to react negatively when things go wrong but avoids laying blame; Staff hesitate in communicating problems or failures to management for fear of consequences; Management reaction is often open but can be unpredictable",
+  "Managing workplace and out-of-work responsibilities" = "Staff find it difficult to attend work and to achieve the required work hours; They feel very pulled in the direction of their out-of-work responsibilities. Characterised by high levels of unauthorised absence, usually unexplained; Management recognise the problems but fail to take action and don’t hold staff accountable for absences",
+  "Physical infrastructure" = "Physical infrastructure can be made to work well enough to suit the organisations immediate needs; Little if any room for growth; Obvious improvements could be made to help increase effectiveness and efficiency (e.g. improved maintenance; rearrangement of office space)",
+  "Technological infrastructure" = "Basic access to needed technology through shared facilities (phone, fax, computer, print etc); May be moderately reliable and user-friendly",
+  "Unknown description"
+)
+
+# Generate top 10 priorities
+top_10_priorities <- category_stats %>%
+  filter(Mean_Score <= 2.5) %>%
+  arrange(Mean_Score) %>%
+  slice_head(n = 10)
+recommendations <- c(
+  "Develop a clear vision statement through staff workshops",
+  "Review and update policy/legal framework with legal experts",
+  "Implement training on environmental responsiveness",
+  "Establish an inclusive strategic planning committee",
+  "Introduce regular plan review schedules",
+  "Enhance budget training and align with GoV processes",
+  "Integrate programs with mission through a review process",
+  "Redesign structure with updated roles and chart",
+  "Revise job descriptions and align with salary scales",
+  "Update and enforce operational procedures"
+)
+n_rows <- nrow(top_10_priorities)
+if (n_rows > 0) {
+  top_10_priorities <- top_10_priorities %>%
+    mutate(Recommended_Action = recommendations[seq_len(n_rows)])
+} else {
+  top_10_priorities <- top_10_priorities %>%
+    mutate(Recommended_Action = NA_character_)
+}
+
+# Find the category with the lowest mean score for the urgent section
+lowest <- category_stats %>%
+  arrange(Mean_Score) %>%
+  slice_head(n = 1)
+
 ```
 
 # LIST OF ABBREVIATIONS
@@ -414,27 +588,22 @@ ggplot(fig3_data, aes(x = reorder(Category, -Mean_Score), y = Mean_Score, fill =
 
 ### Strongest Capacities
 
-Based on Figure 3, capacities that indicate a moderate to high level include:
+Based on @fig-summary-bar, capacities that indicate a moderate to high level include:
 
-- **Mission and Purpose**, described as, “Clear expression of organisation’s reason for existence which reflects its purpose and values; held by many within the organisation and referred to often”.
-- **Strategic plan (Corporate or business plan)**, described as, “The plan is in place, is up to date and links well to the mission; Most strategies in the plan have been developed into clear projects with budgets and activities well defined to guide work and program planning; Most staff are aware of the plan, use it and were consulted when it was developed; Plans are used to guide management decisions”.
+- **`r strongest$Category[1]`**, described as `r strongest_desc_1`, with a mean score of `r strongest$Mean_Score[1]`.
+- **`r strongest$Category[2]`**, described as `r strongest_desc_2`, with a mean score of `r strongest$Mean_Score[2]`.
 
 ```{=latex}
 \vspace{0.5cm}
 ```
 
 ```{r}
-#| label: tbl-summary-capacities
+#| label: tbl-summary-capacities-strongest
 #| comment: ""
-summary_capacities <- bind_rows(
-  mutate(strongest, Type = "Strongest"),
-  mutate(weakest, Type = "Weakest")
-) %>%
-  arrange(Type, desc(Mean_Score))
-kable(summary_capacities, 
+kable(strongest, 
       booktabs = TRUE, 
-      col.names = c("Capacity Category", "Mean Score", "Type"),
-      caption = "Summary of Strongest and Weakest Capacities") %>%
+      col.names = c("Capacity Category", "Mean Score"),
+      caption = "Summary of Strongest Capacities") %>%
   row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
   kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
   column_spec(1, width = "7cm")
@@ -482,7 +651,85 @@ kable(top_10_priorities,
 
 ### Capacities Requiring Urgent Development
 
-Among the top 10 priorities, Managing workplace and out-of-work responsibilities stands out as a capacity with a mean score indicating "Clear Need," characterized by, “Staff find it difficult to attend work and to achieve the required work hours; They feel very pulled in the direction of their out-of-work responsibilities. Characterised by high levels of unauthorised absence, usually unexplained; Management recognise the problems but fail to take action and don’t hold staff accountable for absences.” This area requires immediate action, alongside the other nine priorities listed in the table, to raise performance to at least a "Moderate" level and support the Department’s strategic objectives.
+```{r}
+
+#| label: check-means-and-display
+#| include: true
+#| echo: false
+
+# Precompute dynamic values
+dept_name <- department
+lowest_cat1 <- lowest_capacities$Category[1]
+lowest_desc1 <- lowest_desc_1
+lowest_score1 <- round(lowest_capacities$Mean_Score[1], 2)
+lowest_cat2 <- lowest_capacities$Category[2]
+lowest_desc2 <- lowest_desc_2
+lowest_score2 <- round(lowest_capacities$Mean_Score[2], 2)
+# Check if all mean scores are >= 2
+all_means_above_2 <- all(category_stats$Mean_Score >= 2, na.rm = TRUE)
+
+if (all_means_above_2) {
+  # Define num_other_priorities for the if branch
+  num_other_priorities <- nrow(top_10_priorities)
+  # Build the Markdown text string for means >= 2
+  text_output <- paste0(
+    "The ", dept_name, " demonstrates commendable effort and capacity across most assessed areas, with all mean scores exceeding 2, reflecting a solid foundation in delivering its mandate. This achievement highlights the dedication of the staff and the effectiveness of current practices. However, there are still areas where improvement is needed to enhance overall performance. The following capacities, identified as the lowest scoring, warrant focused attention:\n\n",
+    "- **", lowest_cat1, "**, described as ", lowest_desc1, ", with a mean score of ", lowest_score1, ".\n",
+    "- **", lowest_cat2, "**, described as ", lowest_desc2, ", with a mean score of ", lowest_score2, ".\n\n",
+    "While these areas show mean scores above the 'Basic' level, there is still work to be done to elevate them to at least a 'Moderate' level, supporting the ", dept_name, "’s strategic objectives.\n\n"
+  )
+  table_data <- lowest_capacities  # Use lowest_capacities for the table
+} else {
+  # Filter for capacities with mean < 2
+  urgent_capacities <- lowest_capacities %>% 
+    filter(Mean_Score < 2)
+  
+  # Define num_other_priorities dynamically based on number of urgent capacities
+  num_other_priorities <- nrow(top_10_priorities) - nrow(urgent_capacities)
+  
+  # If there are capacities with mean < 2, build dynamic bullet points
+  if (nrow(urgent_capacities) > 0) {
+    # Generate descriptions dynamically using switch (assuming lowest_desc_1, lowest_desc_2 are precomputed for lowest_capacities)
+    bullet_points <- sapply(seq_len(nrow(urgent_capacities)), function(i) {
+      desc <- if (i == 1) lowest_desc_1 else if (i == 2) lowest_desc_2 else "Unknown description"
+      paste0("- **", urgent_capacities$Category[i], "**, described as ", desc, ", with a mean score of ", round(urgent_capacities$Mean_Score[i], 2), ".\n")
+    })
+    bullet_points <- paste(bullet_points, collapse = "")
+    
+    text_output <- paste0(
+      "The ", dept_name, " shows varying levels of capacity across assessed areas, with some mean scores falling below 2, indicating critical gaps that require urgent attention to strengthen its ability to deliver its mandate. While certain strengths exist, the following ", ifelse(nrow(urgent_capacities) == 1, "capacity", "capacities"), ", identified as having mean scores below the 'Basic' level, highlight areas where immediate action is essential to improve performance:\n\n",
+      bullet_points, "\n",
+      ifelse(nrow(urgent_capacities) == 1, "This area", "These areas"), ", alongside the other ", num_other_priorities, " priorities listed in the top 10 priorities table must be addressed promptly to elevate capacity to at least a 'Moderate' level, aligning with the ", dept_name, "’s strategic objectives.\n\n"
+    )
+    table_data <- urgent_capacities  # Use urgent_capacities for the table
+  } else {
+    # Fallback if no capacities have mean < 2
+    num_other_priorities <- nrow(top_10_priorities)
+    text_output <- paste0(
+      "The ", dept_name, " shows varying levels of capacity, with some areas requiring attention to strengthen its ability to deliver its mandate. However, no capacities were identified with mean scores below 2. The following capacities, identified as the lowest scoring, still warrant focus to improve performance:\n\n",
+      "- **", lowest_cat1, "**, described as ", lowest_desc1, ", with a mean score of ", lowest_score1, ".\n",
+      "- **", lowest_cat2, "**, described as ", lowest_desc2, ", with a mean score of ", lowest_score2, ".\n\n",
+      "These areas, alongside the other ", num_other_priorities, " priorities listed in the table, should be addressed to elevate capacity to at least a 'Moderate' level, aligning with the ", dept_name, "’s strategic objectives.\n\n"
+    )
+    table_data <- lowest_capacities  # Use lowest_capacities for the table
+  }
+}
+
+# Output the text
+knitr::asis_output(text_output)
+
+# Output the table
+kable(table_data, 
+      booktabs = TRUE, 
+      col.names = c("Capacity Category", "Mean Score"),
+      caption = "Summary of Capacities Requiring Attention") %>%
+  row_spec(0, bold = TRUE, background = "#006498", color = "white") %>%
+  kable_styling(latex_options = "HOLD_position", font_size = 8) %>%
+  column_spec(1, width = "7cm")
+
+```
+
+
 
 # Appendix A: Descriptive Statistics
 
@@ -499,6 +746,7 @@ kable(desc_stats,
   kable_styling(latex_options = c("scale_down", "HOLD_position"), font_size = 8) %>%
   column_spec(1, width = "6cm")
 ```
+
 
 # Appendix B: Planning for Institutional Capacity Development
 

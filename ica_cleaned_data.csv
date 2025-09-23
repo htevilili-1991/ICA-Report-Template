@@ -1,418 +1,418 @@
-,ID,Email,Firstname Lastname,Province,Ministry,Department,Clarity of Vision,Mission and Purpose,Policy and Legal framework,"Responsiveness to changes in the operating environment
+,ID,Province,Ministry,Department,Clarity of Vision,Mission and Purpose,Policy and Legal framework,"Responsiveness to changes in the operating environment
 ",Strategic plan (Corporate or business plan),Strategic planning process,Plan review processes,Budget and financial management,Program and service relevance and integration,Structure and function,Individual job design,Operational procedures (e.g. staff manual/ workplace procedures),Internal coordination,Access to suitable Administrative/ Office support staff,Access to suitable technical/ professional staff,Staff Performance and feedback,Human resource development and training,Staff retention,Decision making,Staff engagement and communication,"Workplace meetings (e.g. management, staff, team)",Change management and project implementation,Service delivery standards,"Stakeholder partnerships (e.g. NGO, CSOs, FBOs)",Organisational Performance monitoring (M&E),Teamwork and the interpersonal environment,Service as a shared value,Workplace learning,Managing workplace and out-of-work responsibilities,Physical infrastructure,Technological infrastructure
-1,1,esammy@vanuatu.gov.vu,Erickson Sammy,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,3,4,4,4,3,3,4,2,2,3,2,2,2,3,2,2,3,2,3,4,3,4,4,3,3,4,3,1,2
-2,2,wpierro@vanuatu.gov.vu,Pierro Willie,Shefa,Ministry of Prime Minister,Citizenship Office,4,3,3,4,3,3,3,3,2,2,2,2,3,1,2,3,2,2,2,2,1,2,3,2,1,2,2,2,1,1,3
-3,3,kantfalo@trade-vanuatu.gov.vu,Keith Antfalo,Shefa,Ministry of Trades and Commerce,Department of Industry,4,4,4,4,1,3,3,4,4,4,4,1,3,2,2,1,1,1,2,2,2,3,1,3,1,2,3,2,2,1,4
-4,4,lfatdal@vanuatu.gov.vu,Lilly Fatdal,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2
-5,5,rmagmui@vanuatu.gov.vu,Ridley Magmui,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,4,4,4,4,4,4,3,4,4,4,4,4,2,1,3,3,4,3,2,2,1,2,4,2,3,3,3,3,3,3
-6,6,ittabiaga@vanuatu.gov.vu,Ini Tabiaga,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,4,2,4,3,3,3,2,4,2,2,3,2,2,3,1,3,4,3,2,3,2,1,3,3,3,3,3,1,2
-7,7,gduvu@vanuatu.gov.vu,Gloria Duvu,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,4,2,3,1,3,3,1,2,2,3,1,2,2,2,2,2,3,2,2,3,2,2,3,1,2,2,2,2,1,2
-8,8,bleah@vanuatu.gov.vu,Leah Bani,Shefa,Ministry of Prime Minister,Department of Language Services,3,3,2,2,2,3,3,3,2,4,3,3,3,4,2,2,3,2,2,2,2,2,3,2,3,4,4,2,3,4,4
-9,9,bjoylyn@vanuatu.gov.vu,Joylyn Boe,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,4,4,3,4,4,3,3,4,4,4,4,3,3,2,2,3,2,3,2,3,4,4,2,4,2,3,3,3,2,3,3
-10,10,nmoses@vanuatu.gov.vu,Nambo Moses,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,3,3,2,4,3,4,4,3,4,4,4,3,3,2,2,3,3,4,4,4,4,3,2,1,2,4,2,4,4,3,4
-11,11,rshing@digital.gov.vu,Ross Shing,Shefa,Ministry of Prime Minister,Office of Government Chief Information Officer,2,2,3,3,3,3,3,3,3,3,2,3,2,3,2,2,3,3,3,3,2,3,2,2,3,3,3,3,2,2,4
-12,12,mkalotap@trade-vanuatu.gov.vu,Mark Kalotap,Shefa,Ministry of Trades and Commerce,Department of Tourism,4,3,2,3,2,3,3,3,2,3,3,3,3,3,2,2,2,2,2,3,3,3,2,3,2,3,2,2,2,2,2
-13,13,lbulesulu@vanuatu.gov.vu,Leisongi Bulesulu,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,2,3,3,3,4,3,3,2,3,2,3,2,2,3,3,3,2,3,3,3,3,3,3,3,3,4,4,1,2
-14,14,wrex@vanuatu.gov.vu,Willie Rex,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,3,3,3,3,3,3,2,3,2,3,2,2,2,2,2,2,2,3,2,2,3,3,3,2,1,3,3,3,3,3,3
-15,15,jmark@vanuatu.gov.vu,Jeff Mark,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,4,3,4,4,4,4,3,4,4,4,4,3,3,4,4,3,3,2,2,3,4,3,4,3,4,4,3,3,3
-16,16,rsmithy@vanuatu.gov.vu,Roger Smithy,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1,2,2,2,2,3,2,3,3,3,3,1,3
-17,17,gntari@vanuatu.gov.vu,Gwenneth Natu-Tari,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,2,2,2,2,4,3,3,3,3,3,3,2,3,2,2,2,2,3,3,3,3,3,2,3,2,4,4,3,2,2,3
-18,18,mmetsan@vanuatu.gov.vu,Murielle Meltenoven,Shefa,Ministry of Internal Affairs,Department of Labour,4,4,4,3,3,3,4,3,3,3,3,3,3,2,2,3,3,1,3,3,4,3,2,4,3,4,2,3,3,3,2
-19,19,gwillie@vanuatu.gov.vu,Gordon Willie,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",2,2,2,2,3,2,3,1,2,2,1,3,1,1,1,2,1,3,2,1,3,3,1,3,2,2,2,2,2,1,2
-20,20,wwnaki@vanuatu.gov.vu,Wensie Naki,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,4,3,3,4,3,2,2,4,3,4,4,3,4,4,4,4
-21,21,gbrechtefeld@vanuatu.gov.vu,George Brechtefeld,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,3,3,3,3,3,3,2,2,3,2,2,1,1,2,2,2,2,3,3,1,2,2,2,3,1,1,1,1,3
-22,22,hbill@vanuatu.gov.vu,Henry Bill,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,4,1,4,4,4,3,4,4,2,2,1,1,1,3,1,2,1,1,3,1,1,3,3,1,3,2,2,3,4,4
-23,23,bjtaura@vanuatu.gov.vu,Ben Taura,Shefa,Ministry of Health,Department of Public Health,4,4,4,3,4,4,4,4,4,4,4,4,4,2,3,3,4,2,2,3,4,4,4,4,4,3,4,3,4,1,2
-24,24,hrmalsokle@vanuatu.gov.vu,Henrickson Malsokle,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,2,3,4,3,3,3,2,3,2,2,3,2,2,3,3,3,2,3,3,2,2,3,2,4,3,3,2,2,3
-25,25,stbebe@vanuatu.gov.vu,Simon Bebe,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,3,2,4,3,3,2,3,3,2,2,2,2,3,4,4,4,4,3,4,3,4,3,4,4,4,3,3,4
-26,26,wlilip@vanuatu.gov.vu,Wilson Lilip,Shefa,Ministry of Health,Department of Policy and Planning,3,3,3,2,3,3,3,3,2,3,3,3,3,2,2,3,2,3,3,4,4,3,3,3,2,4,3,3,3,2,3
-27,27,sewillie@vanuatu.gov.vu,Simon Willie,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,3,3,4,3,4,4,4,3,3,4,4,3,4,3,4,3,2,4,4,4,4,3,3,4,3,4,4,3,4,4,3
-28,28,jruben@vanuatu.gov.vu,John Ruben,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,4,3,3,3,3,3,3,3,3,3,3,3,2,2,3,2,2,3,3,3,3,3,3,3,3,3,3,3,2,2
-29,29,ljeremiah@vanuatu.gov.vu,Lolyne Jeremiah,Tafea,Ministry of Health,Department of Public Health,4,3,4,3,4,4,4,3,3,2,1,2,2,2,2,3,2,2,3,2,3,1,3,3,1,3,2,3,3,2,1
-30,30,jnaura@vanuatu.gov.vu,Jimmy Naura,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,1,4,3,3,3,4,4,2,4,3,3,4,2,2,1,3,2,2,4,4,4,4,3,4,4,3,4,4,4,2,3
-31,31,ftoa@vanuatu.gov.vu,Florita Toa,Shefa,Ministry of Health,Department of Public Health,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-32,32,hotto@vanuatu.gov.vu,Henry Otto,Shefa,Ministry of Education and Training,Department of Policy and Planning,3,4,2,1,3,3,3,2,2,2,1,2,1,1,2,2,2,3,2,1,2,2,2,3,2,2,1,3,2,2,3
-33,33,laising@trade-vanuatu.gov.vu,Lazarus Aising,Shefa,Ministry of Trades and Commerce,Department of Industry,3,4,2,3,4,3,4,3,3,2,1,1,2,2,1,2,2,1,2,3,3,3,3,4,3,4,3,3,3,3,3
-34,34,ratari@vanuatu.gov.vu,Reedly Tari,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,3,4,3,3,3,4,4,3,3,3,3,3,2,2,3,2,2,4,3,4,4,2,4,3,4,3,3,4,3,3
-35,35,gbarang@vanuatu.gov.vu,Gina Barang,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,3,3,4,4,3,3,4,3,3,4,3,2,2,4,3,1,3,4,4,3,4,3,1,4,4,4,4,2,3
-36,36,hwetul@vanuatu.gov.vu,Henry Wetul,Torba,Ministry of Health,Department of Public Health,4,4,3,2,2,2,2,3,2,4,3,3,3,2,1,3,2,1,2,3,3,4,3,3,1,4,3,4,3,1,2
-37,37,wsmala@trade-vanuatu.gov.vu,William Mala,Penama,Ministry of Trades and Commerce,Department of Tourism,4,4,4,3,4,4,4,3,4,3,3,4,3,2,1,2,2,3,2,3,3,3,3,3,3,3,3,3,3,3,3
-38,38,cgharrison@vanuatu.gov.vu,Charlie Harrison,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,2,3,3,3,2,3,2,4,3,4,4,4,3,3,2,2,3,3,3,3,3,3,3,3,3,3,3,1,1
-39,39,lotto@vanuatu.gov.vu,Leinearu Otto,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,3,3,2,3,3,3,3,3,2,3,3,2,3,2,2,3,3,2,2,3,2,2,3,3,2,3,3,3,3,3,2
-40,40,ppio@trade-vanuatu.gov.vu,Paul Pio,Shefa,Ministry of Trades and Commerce,Department of Tourism,4,4,4,3,4,3,3,4,4,2,3,3,2,3,3,3,2,2,2,2,2,2,3,3,3,2,2,2,2,2,3
-41,41,jgaroleo@vanuatu.gov.vu,Julie Garoleo,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,2,3,2,3,3,3,2,2,2,1,2,2,2,2,1,1,2,1,2,2,3,2,2,2,2,2,2,2
-42,42,ltari@vanuatu.gov.vu,Lindon Tari,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,3,3,3,3,3,3,3,3,3,2,1,3,3,1,1,1,3,2,3,3,3,3,2,2,2,2,3,3,3,1,2
-43,43,ssawan@vanuatu.gov.vu,Samson Sawan,Shefa,Ministry of Education and Training,Department of Finance and Admin,3,1,2,2,4,3,3,3,4,3,1,2,3,2,1,2,2,1,2,2,2,2,3,3,3,3,3,3,2,2,2
-44,44,jpakoa@vanuatu.gov.vu,Joe Pakoa,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of External Trade,4,4,3,3,4,4,4,3,2,4,3,1,3,4,2,3,3,3,3,3,4,4,2,3,3,4,4,4,2,2,2
-45,45,wnaviti@vanuatu.gov.vu,William Naviti,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,4,3,4,3,2,4,3,3,2,3,3,3,3,2,2,3,2,4,3,3,3,3,2,3,3,4,3,4,3,1,4
-46,46,ribani@vanuatu.gov.vu,Richard Bani,Sanma,Ministry of Justice and Community Services,Department of Correctional Services,3,3,4,2,2,2,3,3,1,2,1,2,2,1,1,2,1,2,2,2,3,3,3,2,2,2,2,3,1,3,2
-47,47,gtaravaki@vanuatu.gov.vu,Gilda Taravaki,Shefa,Ministry of Prime Minister,Department of Language Services,4,4,4,3,3,3,4,4,4,4,4,4,4,2,2,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,3
-48,48,ijerry@vanuatu.gov.vu,Iaruel Jerry,Tafea,Ministry of Health,Corporate Service Unit,4,4,3,3,3,3,3,3,3,3,3,3,3,3,2,4,3,3,3,3,3,3,2,3,2,3,3,3,3,3,3
-49,49,abill@vanuatu.gov.vu,Arold Bill,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of Foreign Affairs,2,2,2,2,2,2,2,1,2,3,3,1,2,1,2,1,1,1,2,3,2,4,2,2,2,2,2,2,2,1,1
-50,50,badolphe@vanuatu.gov.vu,Adolphe Bani,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of External Trade,4,4,3,3,4,4,4,3,4,4,4,4,4,4,4,4,2,4,4,4,4,4,4,3,4,4,4,4,4,2,1
-51,51,lwarimavute@vanuatu.gov.vu,Lionel Warimavute,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of Foreign Affairs,4,4,3,3,3,4,3,3,2,4,2,3,2,2,3,3,1,3,2,3,2,2,3,3,3,3,3,4,3,3,2
-52,52,lyerta@vanuatu.gov.vu,Lopanga Ores,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,3,4,3,3,4,4,3,3,4,3,3,3,3,3,3,3,4,4,4,4,4,3,3,4,4,3,4,2,3,3
-53,53,fsiba@vanuatu.gov.vu,Fred Siba,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,4,3,4,4,4,3,2,3,1,3,3,3,2,2,2,3,2,3,3,3,3,3,2,3,2,2,3,2,2
-54,54,lhannah@vanuatu.gov.vu,Hannah Liunakwalau,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,3,3,1,2,2,2,2,4,2,2,2,1,2,3,1,1,2,3,1,2,1,1,2,2,2,2,2,1,1,3,4
-55,55,jiopa@vanuatu.gov.vu,Jason Iopa,Shefa,Ministry of Health,Department of Policy and Planning,3,3,3,3,3,3,3,3,3,3,2,3,3,1,1,2,2,1,3,2,2,2,3,3,2,3,3,2,3,1,1
-56,56,NA,NA,Sanma,Ministry of Health,Department of Curative and Hospital Services,3,3,3,3,2,3,3,3,3,2,3,3,3,2,2,3,2,1,3,3,3,3,4,4,3,4,3,3,3,1,2
-57,57,NA,NA,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,3,3,3,4,3,3,3,3,2,2,3,2,2,3,2,4,3,3,4,3,3,4,2,3,3,3,2,2,3
-58,58,NA,NA,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,3,3,2,3,3,3,3,3,3,3,3,3,2,2,2,1,1,3,3,3,3,3,3,3,3,3,3,3,2,3
-59,59,NA,NA,Penama,Ministry of Health,Department of Public Health,2,1,1,1,2,2,3,1,2,2,2,1,1,1,1,1,2,1,1,1,2,1,2,2,2,1,1,2,1,1,2
-60,60,NA,NA,Shefa,Ministry of Health,Corporate Service Unit,3,4,2,2,2,4,3,3,3,3,3,2,3,2,2,2,2,2,3,4,3,3,4,3,2,4,3,4,3,2,2
-61,61,NA,NA,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,4,4,4,3,4,4,4,4,4,4,3,4,3,2,2,4,3,4,4,4,4,4,4,4,4,4,4,4,4,2,3
-62,62,NA,NA,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,2,3,3,3,4,4,4,2,3,3,4,4,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-63,63,NA,NA,Shefa,Ministry of Finance and Economic Management,Vanuatu National Audit Office,4,4,2,4,3,3,3,3,3,3,3,3,3,1,2,3,2,3,1,3,3,2,3,3,3,3,3,4,3,3,3
-64,64,NA,NA,Shefa,Ministry of Climate Change and Adaptation,Department of Climate Change,4,4,3,4,4,4,4,4,4,4,4,4,4,1,1,3,3,3,4,3,4,4,4,3,3,4,3,4,4,3,2
-65,65,NA,NA,Shefa,Ministry of Health,Department of Curative and Hospital Services,2,2,2,3,3,2,3,3,2,3,2,2,2,2,2,2,3,2,2,3,3,3,2,3,2,3,2,3,2,3,2
-66,66,NA,NA,Shefa,Ministry of Climate Change and Adaptation,Department of Climate Change,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-67,67,NA,NA,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,4
-68,68,NA,NA,Torba,Ministry of Health,Department of Policy and Planning,1,1,1,1,2,2,2,2,1,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-69,69,NA,NA,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,3,3,2,2,2,2,2,2,2,3,3,2,2,2,2,2,2,2,2,3,3,2,2,3,2,2,2,2,2,1,2
-70,70,NA,NA,Shefa,Ministry of Prime Minister,Office of Government Chief Information Officer,1,4,3,4,3,3,4,3,2,3,2,2,3,2,2,4,4,4,3,3,4,3,2,3,3,3,3,3,4,1,3
-71,71,NA,NA,Shefa,Ministry of Finance and Economic Management,Vanuatu National Audit Office,4,3,4,3,4,2,4,4,3,4,3,4,3,2,2,3,4,3,2,4,4,3,2,3,3,3,4,3,4,3,2
-72,72,NA,NA,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,3,3,3,3,4,3,3,3,3,2,3,2,2,3,3,3,3,3,3,3,2,3,2,3,3,3,3,3,3
-73,73,NA,NA,Shefa,Ministry of Health,Department of Curative and Hospital Services,2,2,1,2,2,2,3,1,2,2,2,1,2,2,2,2,2,2,2,2,3,3,2,3,3,3,2,2,3,3,3
-74,74,NA,NA,Shefa,Ministry of Health,Department of Public Health,4,2,2,3,3,3,4,3,3,3,2,3,3,2,3,2,2,2,2,3,2,1,2,3,2,2,3,2,1,2,3
-75,75,NA,NA,Shefa,Ministry of Climate Change and Adaptation,Department of Climate Change,3,3,2,3,4,3,3,4,3,2,1,3,2,1,2,3,3,3,2,3,3,3,3,3,3,4,4,3,3,3,3
-76,76,NA,NA,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,3,3,1,2,1,1,1,3,3,2,3,2,2,1,1,1,3,2,2,3,3,2,3,2,2,2,3,3,3,2,3
-77,77,NA,NA,Torba,Ministry of Health,Department of Curative and Hospital Services,3,3,4,3,3,3,4,3,3,3,3,4,3,3,2,4,3,3,4,3,3,3,3,4,4,3,3,3,3,3,3
-78,78,NA,NA,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,3,4,4,4,4,4,4,4,3,3,3,3,3,1,3,2,2,2,3,4,3,2,4,3,2,2,2,2,3,3
-79,79,NA,NA,Penama,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,3,4,3,4,4,4,4,4,4,4,4,4
-80,80,NA,NA,Shefa,Ministry of Health,Department of Curative and Hospital Services,1,1,2,2,2,2,1,1,2,1,1,1,2,2,2,1,1,2,1,1,1,1,2,3,1,1,1,1,1,3,2
-81,81,NA,NA,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,2,2,3,3,2,2,2,4,2,3,1,4,3,3,3,2,2,2,3,3,3,3,3,3,2,4,4,3,3,3,3
-82,82,NA,NA,Malampa,Ministry of Infrastructure and Public Utilities,Public Works Department,2,2,3,2,3,3,3,3,2,3,2,3,2,2,2,2,2,3,2,2,3,2,3,2,3,3,3,3,3,3,3
-83,83,NA,NA,Torba,Ministry of Infrastructure and Public Utilities,Public Works Department,4,3,2,4,3,4,4,3,3,4,3,4,4,3,2,4,1,4,4,4,4,4,3,3,2,3,4,3,4,2,4
-84,84,NA,NA,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,2,3,4,4,4,4,4,4,4,2,3,4,3,2,4,3,1,4,4,4,2,3,3,4,3,4,4,4,1,4
-85,85,NA,NA,Shefa,Ministry of Health,Department of Public Health,2,2,3,2,3,2,1,2,2,2,3,2,2,2,1,1,2,2,3,3,3,2,3,3,1,3,3,3,3,2,3
-86,86,NA,NA,Tafea,Ministry of Health,Department of Curative and Hospital Services,3,3,1,2,3,3,3,2,2,2,2,2,2,1,1,2,2,1,2,2,2,1,2,3,2,3,2,2,2,2,2
-87,87,NA,NA,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-88,88,nham@vanuatu.gov.vu,Nellie Ham,Shefa,Ministry of Health,Department of Public Health,4,4,2,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,2,3,2,2,3,3,3,3,2,2,2,2
-89,89,besther@vanuatu.gov.vu,Esther Muluane,Shefa,Ministry of Internal Affairs,Corporate Service Unit,2,2,2,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,2,3,3,3,1,3,2,3,3,3,3,3,3
-90,90,aspakoa@vanuatu.gov.vu,Ann Pakoa,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,3,3,2,3,4,4,3,3,2,2,3,3,3,3,3,3,3,2,1,2,2,2,3,4,3,3,2,3,2,1,3
-91,91,jarnhambat@vanuatu.gov.vu,Jerrol Joseph Arnhambat,Shefa,Ministry of Justice and Community Services,Department of Youth and Sports,1,2,3,2,4,4,4,3,4,3,3,3,3,1,2,1,1,1,3,3,4,2,2,1,2,3,3,3,3,2,3
-92,92,kobed@vanuatu.gov.vu,Kethy Obed,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Corporate Service Unit,4,4,4,3,4,4,3,4,3,2,3,2,3,2,2,2,3,4,4,3,2,3,3,3,4,4,3,3,4,3,2
-93,93,John Mark Melve,jmmelve@vanuatu.gov.vu,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,4,3,3,4,3,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-94,95,trenly@trade-vanuatu.gov.vu,Renly Tari,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,2,3,2,2,3,3,3,2,1,1,1,2,2,1,2,2,2,2,3,2,3,3,3,2,3,1
-95,96,jmyaviong@vanuatu.gov.vu,John Mark Yaviong,Tafea,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,3,4,4,4,4,4,4,4,4,4,4,3,4,4,3,4,3,3,4,4,4,3,4,4,3,3,4,4
-96,97,nnawiwa@vanuatu.gov.vu,Ninton Nawiwa,Tafea,Ministry of Infrastructure and Public Utilities,Public Works Department,3,4,3,2,4,3,2,3,2,2,3,2,3,3,3,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2
-97,98,ckones@caav.vu,Chanelle Kones,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,2,3,2,2,3,2,2,2,2,2,2,2,2,3,3,3,3,2,2,3,3,2,1,1,4,4,4,4,4,3,3
-98,99,mmala@vanuatu.gov.vu,Michelle Mala,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,3,2,3,4,4,4,3,4,4,4,4,4,3,3,3,4,3,3,4,3,3,3,4,4,4,4,4,3,3
-99,100,jhakwa@vanuatu.gov.vu,James Hakwa,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,1,2,2,2,3,2,2,3,2,3,2,2,2,3,3,2,2,2,2,2,2,2,2,2,1,3,2,2,2,2,2
-100,101,messau@caav.vu,Madeleine ESSAU,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,2,2,1,2,1,1,1,3,1,2,2,2,2,1,1,1,1,1,2,2,3,2,3,3,3,3,3,3,1,1,1
-101,102,trex@vanuatu.gov.vu,Thomas Rex Tandak,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Corporate Service Unt,2,2,2,1,2,2,4,3,2,2,4,2,2,2,2,3,1,2,2,2,2,3,2,4,2,3,2,3,2,1,2
-102,103,crovo@vanuatu.gov.vu,Carol Rovo,Shefa,Ministry of Internal Affairs,Department of Urban Affairs,1,1,2,2,1,1,1,2,2,2,2,2,2,4,3,3,3,3,2,3,2,2,3,3,2,4,3,3,2,2,2
-103,104,pworwor@vanuatu.gov.vu,Paul Worwor,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Corporate Service Unit,3,3,3,3,4,4,4,4,4,3,3,3,3,2,2,2,2,2,3,3,3,3,3,3,4,4,3,3,3,2,3
-104,105,takaug@vanuatu.gov.vu,Geormy Takau,Shefa,Ministry of Internal Affairs,Corporate Service Unit,2,2,2,2,2,2,2,3,3,3,3,3,3,2,2,3,2,2,2,2,2,2,2,2,2,2,2,3,3,3,2
-105,106,mboesel@vanuatu.gov.vu,Melvin,Penama,Ministry of Justice and Community Services,Corporate Service Unit,4,4,3,4,4,4,4,4,4,2,4,4,4,4,2,4,4,2,2,2,1,1,2,4,4,4,4,4,4,1,4
-106,107,bminnie@vanuatu.gov.vu,Minnie Bani,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,3,3,2,3,3,3,3,3,3,2,2,2,2,3,3,3,2,3,3,3,2,3,3,3,3,3,3,3,3
-107,108,PHILIP ROY,TARI,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-108,109,ptari@vanuatu.gov.vu,PHILIP ROY TARI,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,3,4,4,4,4,4,4
-109,110,mngwango@vanuatu.gov.vu,Morgan Ngwango,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,3,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-110,111,nlapi@vanuatu.gov.vu,Nanise Lapi,Shefa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,2,2,2,3,3,2,2,3,2,2,1,2,2,2,3,2,2,3,2,3,3,1,2,2,2
-111,112,mjkalomuana@gmail.com,Malau Kalo,Tafea,Ministry of Health,Department of Curative and Hospital Services,2,2,2,3,4,2,3,3,3,3,4,1,3,3,2,3,3,3,3,3,3,3,2,3,3,4,4,3,2,2,3
-112,113,hallanson@vanuatu.gov.vu,Harold Allanson,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,3,4,3,3,4,3,2,3,2,2,2,2,3,3,3,3,3,2,3,3,2,2,1,4,4,3,3,2,2
-113,114,gvora@digital.gov.vu,Glennys Vora Kaltapau,Shefa,Ministry of Prime Minister,Office of Government Chief Information Officer,3,3,3,3,3,4,4,4,3,3,2,2,3,2,1,3,2,3,2,3,4,3,2,4,2,4,3,4,4,1,3
-114,115,ramalsale@vanuatu.gov.vu,Rose Malsale,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,3,3,3,3,4,3,3,4,3,3,3,2,2,3,3,2,2,3,3,3,2,2,3,3,3,3,2,1,2
-115,116,palick@caav.vu,Pascal Alick,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,3,2,2,2,1,1,1,2,1,2,3,2,2,2,1,2,2,2,1,3,3,1,2,1,1,1,2,1,1,1,3
-116,117,jnphilip@vanuatu.gov.vu,Jack Norris Philip,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,3,2,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2
-117,118,jkaltau@vanuatu.gov.vu,Kaltau John,Shefa,Ministry of Education and Training,Department of Tertiary Education,4,4,4,4,4,3,3,3,2,3,2,3,3,1,1,3,2,4,2,3,4,4,3,4,2,3,3,3,3,3,3
-118,119,hjimmy@vanuatu.gov.vu,Henry Jimmy,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,4,4,4,4,3,3,4,4,4,3,3,3,3,2,4,3,4,4,3,3,4,3,4,4,4,4,1,3
-119,120,etakiau@caav.vu,Ellory Takiau,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,3,1,2,2,2,3,1,1,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2
-120,121,etinning@vanuatu.gov.vu,Emory Tinning,Shefa,Ministry of Education and Training,Department of Finance and Admin,4,3,3,3,3,3,4,3,3,2,2,3,2,2,2,3,1,2,1,3,1,2,3,4,2,3,3,3,2,2,3
-121,122,myamsiu@vanuatu.gov.vu,Marcel Yamsiu,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,3,3,4,4,3,3,3,3,2,3,2,2,3,2,4,2,3,4,4,3,4,3,3,3,3,3,3,3
-122,123,ptosul@vanuatu.gov.vu,Peter Tosul,Shefa,Ministry of Health,Department of Curative and Hospital Services,3,3,3,2,2,3,3,2,3,3,3,4,3,2,2,3,3,4,3,3,4,3,3,4,3,4,4,4,4,4,3
-123,124,lalbert@vanuatu.gov.vu,Lorina Albert,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,4,4,3,3,3,3,3,3,3,4,4,4,4,3,3,4,3,3,3,4,2,3,3,2,2,3,3,3,3
-124,125,jlowane@trade-vanuatu.gov.vu,Jack Lowane,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,4,4,3,3,4,4,4,4,4,4,3,2,3,3,3,3,2,2,1,2,2,2,3,3,3,4,3,3,4,2,3
-125,126,hobed@vanuatu.gov.vu,Harold Obed-Tahun,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,4,4,3,3,4,3,3,3,4,4,3,4,4,3,2,2
-126,127,jjovi@vanuatu.gov.vu,John JOVI,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,3,2,3,3,3,2,3,3,1,2,2,1,2,2,2,2,2,2,2,2,3,3,3,3,3,2,2,4
-127,128,bmassing@vanuatu.gov.vu,Betty Massing,Sanma,Ministry of Health,Department of Curative and Hospital Services,2,1,2,3,3,2,1,3,3,2,2,3,2,2,2,2,1,1,3,2,2,2,3,4,3,3,3,3,3,2,2
-128,129,Jbibi@vanuatu.gov.vu,Jean-Yves Bibi,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,2,3,2,4,3,2,3,2,2,3,3,2,2,2,2,2,2,2,2,3,2,2,2,1,1,2,2,2,2,3
-129,130,cmandavah@vanuatu.gov.vu,Crem MANDAVAH,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,4,4,4,3,2,4,4,4,4,3,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-130,131,gshem@vanuatu.gov.vu,George Shem,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,2,4,4,3,1,2,4,3,2,3,3,1,2,1,2,2,3,3,1,1,3,1,3,1,1,4,1,2
-131,132,Jhnharryson@mail.com,John Harryson,Penama,Ministry of Health,Department of Curative and Hospital Services,3,3,3,3,4,3,4,3,4,3,4,3,2,2,2,3,2,3,4,3,3,4,4,4,3,4,4,3,3,3,2
-132,133,mtakau@vanuatu.gov.vu,Marian Takau,Shefa,Ministry of Health,Department of Curative and Hospital Services,2,2,1,1,1,2,1,2,2,2,2,1,2,1,2,2,2,2,2,1,1,1,2,2,1,1,2,2,2,1,1
-133,134,plesines@vanuatu.gov.vu,Pierrick LESINES,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,4,4,3,4,4,4,3,3,4,3,3,3,2,2,2,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3
-134,135,wnasak@vanuatu.gov.vu,William,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,4,4,3,4,4,4,4,4,4,4,4,4,2,2,3,4,3,4,4,3,3,3,4,4,4,4,3,3,1,3
-135,136,cilow@vanuatu.gov.vu,Chris Ilow,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,3,2,3,3,2,2,1,2,2,1,2,2,3,2,1,2,3,2,1,2,2,1,2,2,1,1,3,2,1
-136,137,mljack@vanuatu.gov.vu,Marcelline Leikary Jack,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,4,3,3,4,2,3,3,4,3,2,2,4,1,3,1,3,3,3,2,3,3,3,2,3,4,3,3,2,2
-137,138,juobed@vanuatu.gov.vu,Julie Obed,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,2,3,3,3,2,3,2,2,2,1,2,2,3,2,1,3,3,2,2,1,2,3,2,2,2,1,2,1,3
-138,139,lebong@vanuatu.goc.vu,Leeroy Bong,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-139,140,gshem@vanuatu.gov.vu,George Shem,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,4,3,1,4,3,1,2,4,3,1,3,2,1,2,2,2,2,3,4,1,1,2,1,2,1,1,4,1,1
-140,141,eletishia@vanuatu.gov.vu,Letishia Ephraim,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,4,4,4,4,4,3,3,3,4,4,4,4,3,4,3,3,3,3,4,3,3,4,4,3,4,4,3,3,1,2
-141,142,ijerry@vanuatu.gov.vu,Jerry Iaruel,Tafea,Ministry of Health,Corporate Service Unit,3,4,3,3,4,4,4,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3
-142,143,msalwai@vanuatu.gov.vu,Marlene Salwai,Penama,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,3,3,3,4,3,3,3,3,3,2,3,1,3,3,2,2,3,1,1,3,1,2,3,2,4,2,1,1
-143,144,garaes@vanuatu.gov.vu,Stewart GARAE,Shefa,Ministry of Prime Minister,Department of Language Services,4,4,3,3,3,3,3,3,3,4,4,3,3,3,2,3,3,3,3,4,3,3,3,3,2,4,3,3,4,3,3
-144,145,mmeake@vanuatu.gov.vu,Mala Meake,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,3,2,4,4,4,3,4,4,4,4,4,1,2,4,4,3,2,3,3,1,4,3,4,4,4,4,4,4,2
-145,146,smatbibi@vanuatu.gov.vu,Sonia Matbibi,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,3,4,3,3,3,4,3,3,3,2,2,2,3,2,4,3,3,3,3,3,3,2,3
-146,147,lsawan@vanuatu.gov.vu,Lolita Sawan,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,4,2,2,3,4,4,3,3,3,3,3,3,3,3,3,2,2,3,3,2,3,3,3,2,3,3,2,3,2,2
-147,148,lnafoui@vanuatu.gov.vu,Lolina Nafoui,Shefa,Ministry of Education and Training,Corporate Service Unit,3,3,2,3,3,4,3,3,3,3,2,3,3,3,2,2,2,2,4,3,3,2,3,4,3,3,3,2,3,3,2
-148,149,jerick@vanuatu.gov.vu,Erick Jimmy,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-149,150,jwtari@vanuatu.gov.vu,John Tari,Penama,Ministry of Education and Training,Department of Education Services,3,3,3,3,4,4,3,4,4,3,3,3,3,3,3,4,3,3,3,4,4,3,3,4,3,4,4,3,4,3,3
-150,151,jsisi@vanuatu.gov.vu,Jessica Leitam Sisi,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,3,2,2,3,3,3,3,4,3,2,3,3,2,3,3,2,3,3,3,3,2,3,3,3,2,3,2,1,2
-151,152,dtangalobani@vanuatu.gov.vu,Darrell Tangalobani,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,2,3,3,3,3,3,1,2,2,2,1,3,3,3,2,3,1,3,1,3,2,2,3,3,2,4,3,2,1,1,3
-152,153,hkaenbo@vanuatu.gov.vu,Honore Kaenbo,Shefa,Ministry of Prime Minister,Office of Public Service Commission,1,3,3,3,3,3,4,3,3,4,4,3,3,4,3,3,2,3,2,3,3,3,3,4,3,3,4,3,4,3,3
-153,154,cavock@vanuatu.gov.vu,Cindy Avock,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,2,2,2,1,3,4,2,3,3,3,3,2,3,3,2,3,3,3,2,3,3,3,3,3,4,3,3,3,2,3
-154,155,Benuel,Tapi,Sanma,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",4,4,2,2,2,2,3,3,3,3,3,2,2,1,2,3,3,1,4,3,4,4,3,3,3,3,3,4,3,1,3
-155,156,rbilly@vanuatu.gov.vu,Richard Billy,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,2,2,2,3,2,3,3,3,2,1,3,3,2,2,2,1,1,2,4,1,3,3,3,3,3,2,3,3,2,3
-156,157,mamos@vanuatu.gov.vu,Morris Amos,Shefa,Ministry of Health,Department of Policy and Planning,3,3,3,3,2,3,1,3,1,1,3,2,2,2,2,2,2,2,2,3,3,3,2,3,3,3,2,2,3,3,2
-157,158,rlawac@vanuatu.gov.vu,Rosine Lawac,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,3,3,2,3,2,4,3,3,3,3,2,3,2,2,3,2,3,3,3,4,3,3,1,3,3,2,3,3,3,2
-158,159,ltarisa@vanuatu.gov.vu,Lavigna Tarisa,Shefa,Ministry of Prime Minister,Department of Language Services,4,4,3,2,4,4,4,3,3,4,4,3,3,2,1,3,2,2,3,4,1,4,4,4,4,3,3,3,3,3,3
-159,160,cbebe@vanuatu.gov.vu,Clemency Bebe,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,3,3,3,3,2,2,2,3,3,3,2,2,2,3,3,2,3,1,1,2,3,3,2,3,2,2,3,3
-160,161,navitid@vanuatu.gov.vu,David Naviti,Shefa,Ministry of Education and Training,Department of Education Services,2,2,3,3,3,3,2,4,3,2,1,3,3,2,2,3,3,2,2,2,3,3,3,4,2,4,4,3,3,3,3
-161,162,mkhetumau@dofa.gov.vu,Mayolene Hetumau,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Corporate Service Unit,2,2,3,2,3,2,3,2,2,4,3,2,2,2,2,2,2,3,2,2,2,2,2,3,3,2,2,2,2,2,2
-162,163,kadeline@vanuatu.gov.vu,Adeline KONMAWI,Tafea,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,3,3,2,3,4,4,4,4,4,3,2,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3
-163,164,msaleloui@vanuatu.gov.vu,Mark Saleloui,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,2,3,4,4,3,3,3,3,3,3,4,4,3,4,3,3,4,4,3,3,2,3,4,3,3,3,2,2
-164,165,tsebastien@vanuatu.gov.vu,Sebastien TARI,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of Foreign Affairs,3,4,3,3,3,3,2,3,3,4,3,4,2,3,4,2,2,3,2,2,1,4,2,2,2,4,3,3,3,4,3
-165,166,bmathias@vanuatu.gov.vu,Mathias Bulewak,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,1,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,3
-166,167,rniroa@vanuatu.gov.vu,Rebeccah Niroa,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,4,4,4,2,4,2,3,3,2,3,2,2,3,2,3,4,3,3,4,2,4,4,4,4,3,4,3,3
-167,168,jhinge@vanuatu.gov.vu,Jay Hinge,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,2,3,3,3,3,3,1,3,2,1,2,3,3,2,2,3,3,3,2,3,3,1,3
-168,169,lelwolken@vanuatu.gov.vu,Lerissa Gresse Elwolken,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,3,4,1,3,3,2,2,2,1,3,3,2,4,4,2,4,4,2,3,4,1,3,2,1,3,3,4,4,1,2
-169,170,stasombo@vanuatu.gov.vu,Sam Tasombo,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,4,3,3,4,3,3,4,3,3,2,4,4,3,3,3,4,3,3,3,3,3,4,3,4,3,4,3,3
-170,171,mggaraesere@vanuatu.gov.vu,Morgan Garaesere,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-171,172,hrmalsokle@vanuatu.gov.vu,Henrickson Malsokle,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,3,3,3,3,3,3,2,4,3,3,3,2,2,2,2,2,3,3,3,3,3,2,2,3,4,3,2,2,2
-172,173,gtshem@vanuatu.gov.vu,Shem George Talako,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,1,1,1,1,1,1,1,2,1,2,3,1,1,2,2,3,3,1,4,1,1,1,1,4,4,4,4,1,2
-173,174,krodolph@vanuatu.gov.vu,Rodolph Koapa,Tafea,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,3,3,3,3,3,3,3,3,3,2,2,2,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,2
-174,175,nkouback@vanuatu.gov.vu,Noah Patrick Kouback,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Corporate Service Unit,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,2,3,4,3,3,3,3,3,3,3,3,2,3
-175,176,dstanley@vanuatu.gov.vu,Stanley W David,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,4,4,3,3,3,4,3,4,3,4,4,3,4,2,3,3,2,3,3,4,3,3,3,3,4,3,4,4,3,3
-176,177,gmtoa@vanuatu.gov.vu,Greg Toa,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,2,2,3,3,3,3,2,3,3,2,3,2,3,3,3,3,3,1,3,4,3,2,1,2
-177,178,elishnaki@gmail.com,Elish Naki,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,2,2,3,3,3,3,2,3,3,2,3,2,3,3,3,3,3,1,3,4,3,2,1,2
-178,179,robinshem@gmail.com,Robin Shem,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,2,2,3,3,3,3,2,3,3,2,3,2,3,3,3,3,3,1,3,4,3,2,1,2
-179,180,bbanilolovuro@vanuatu.gov.vu,Brownie Karl Banilolovuro,Malampa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,3,4,4,4,3,4,4,4,2,3,4,4,4,4,4,2,4,4,4,4,4,4,4,4,4,4,4,4,3,4
-180,181,wnalu@trade-vanuatu.gov.vu,WESLEY PAKOA NALU,Shefa,Ministry of Trades and Commerce,Department of Industry,3,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-181,182,rlawac@vanuatu.gov.vu,Rosine Lawac,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,3,2,3,2,3,3,3,3,1,3,3,3,3,3,3,3
-182,183,dlangises@vanuatu.gov.vu,Donald Langises,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,4,4,3,2,4,4,4,3,4,3,3,3,2,3,3,3,3,3,3,3,2,3,3,3,3,3,3,4,4,1,3
-183,184,csaul@vanuatu.gov.vu,CYNTHIA NAKE,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,3,2,2,2,3,1,2,1,3,2,3,1,2,1,1,1,2,2,2,2,3,1,2,3,3,2,2,1,3
-184,185,tamatar@vanuatu.gov.vu,Richie Tamata,Penama,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,4,2,3,3,4,3,2,3,3,3,3,3,4,3,2,3,4,3,4,2,3,1,2,4,3,4,4,4,3
-185,186,cngwero@vanuatu.gov.vu,Cobin Ngwero,Shefa,Ministry of Education and Training,Department of Policy and Planning,2,2,3,2,3,3,4,3,3,3,3,3,3,3,3,2,2,1,2,2,2,3,3,3,2,3,2,2,3,3,2
-186,187,gsamuel@vanuatu.gov.vu,Namaka Samuel George,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,3,4,3,3,4,3,3,3,3,3,3,3,3,3,2,2,3,3,3,3,4,3,3,4,3,4,4,4,3,4,3
-187,188,jnihmei@vanuatu.gov.vu,Jobson Nihmei,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,3,3,3,2,2,3,2,3,1,2,1,1,1,2,2,2,1,1,3,3,2,2,3,2,2,3,3,4,4,4,3
-188,189,bhenry@trade.vanuatu.gov.vu,Binson Iaukou,Shefa,Ministry of Trades and Commerce,Department of Cooperative,4,3,3,3,3,4,3,3,1,3,3,2,2,2,1,2,3,3,2,1,4,2,2,3,3,3,4,2,1,2,2
-189,190,keric@trade-vanuatu.gov.vu,Eric Kalterikia,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,3,3,2,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-190,191,amtari@trade-vanuatu.gov.vu,Amson Tari,Malampa,Ministry of Trades and Commerce,Department of Industry,4,3,3,3,3,3,3,2,3,4,3,4,3,3,3,4,3,3,4,4,4,4,3,4,4,4,4,4,4,4,3
-191,192,mtheophile@trade-vanuatu.gov.vu,Manuel Theophile,Sanma,Ministry of Trades and Commerce,Department of Industry,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,3,3,3,2,3,2,4,4,3,3,4,2
-192,193,amelsul@trade-vanuatu.gov.vu,Ailyne Melsul,Shefa,Ministry of Trades and Commerce,Department of Tourism,2,2,2,2,2,2,1,2,1,2,2,1,1,1,2,1,1,1,1,2,1,2,2,3,1,3,2,3,2,1,2
-193,194,sjenny@vanuatu.gov.vu,Jenny Stephens,Shefa,Ministry of Health,Department of Public Health,2,2,2,2,2,3,2,2,2,2,1,1,2,1,1,2,2,1,2,2,3,2,2,3,1,2,2,3,2,2,2
-194,195,ibasis@vanuatu.gov.vu,Ishmael Bases,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,4,3,3,3,4,4,3,4,4,3,3,3,3,3,2,3,3,3,3,3,3,4,4,3,3,2,2,3,4
-195,196,aviragos@vanuatu.gov.vu,Angelica Viragos LUI,Sanma,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,3,3,3,3,4,3,3,3,2,3,3,3,3,2,3,3,2,2,2,3,3,3,2,2,3,3,3,3,3
-196,197,jtatangis@trade-vanuatu.gov.vu,James Kevin Tatangis,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,4,4,3,3,3,4,3,3,3,3,3,3,3,4,4,4,3,3,4,2,4,3,3,3,3,3
-197,198,gbaltor@vanuatu.gov.vu,Gabriel Baltor,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,3,2,3,4,3,3,3,4
-198,199,jrapulpul@vanuatu.gov.vu,Jinola Rapulpul,Sanma,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-199,200,sbrandy@vanuatu.gov.vu,Brandy shahe,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,3,3,4,4,4,4,3,3,2,2,3,3,2,3,2,3,3,3,3,4,3,3,3,3,3,3,3,3,2,3
-200,201,hnalau@vanuatu.gov.vu,Harry Nalau Ilo,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,4,4,4,3,4,4,4,4,4,4,3,3,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4
-201,202,ysilas@fisheries.gov.vu,Yakar SILAS,Tafea,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,2,2,4,3,4,4,3,3,4,3,3,3,3,2,2,3,2,2,3,3,3,3,4,4,4,4,3,3,4,3,4
-202,203,Kalkandijoslyne@gmail.com,Kalkandi jocelyn,Shefa,Ministry of Health,Department of Public Health,4,4,3,2,2,2,2,3,4,3,2,1,1,1,2,1,1,4,1,2,3,1,4,3,2,3,3,3,3,1,1
-203,204,bnirambath@vanuatu.gov.vu,Blandine Nirambath,Shefa,Ministry of Prime Minister,Department of Language Services,1,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,2,1,3,3,3,2,3,3,3,1,3,2,1,3
-204,205,mtarinako@vanuatu.gov.vu,Mike Tarinako,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,3,3,4,3,3,3,3,2,2,3,2,2,1,3,3,3,2,2,3,4,4,2,4,3,3,3,2,3
-205,206,rtavoa@vanuatu.gov.vu,Raynelyn Tavoa,Sanma,Ministry of Health,Department of Public Health,2,2,2,2,2,2,3,3,3,2,2,3,3,2,3,2,2,2,2,2,2,2,3,3,1,4,3,2,2,2,2
-206,207,btokal@vanuatu.gov.vu,Ben Tokal,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,3,3,3,4,2,3,3,2,2,2,2,2,2,2,3,2,3,3,3,2,4,4,3,3,3,2,2,3
-207,208,sfanai@vanuatu.gov.vu,Saen Fanai,Shefa,Ministry of Health,Department of Public Health,3,3,2,2,2,2,2,2,1,1,1,3,1,3,3,1,1,2,1,2,1,1,2,3,1,2,2,1,1,1,1
-208,209,lkwari@vanuatu.gov.vu,Linda Kwari,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,4,3,3,3,3,3,3,3,3,3,4,2,3,3,2,3,2,2,2,3,4,3,3,3,3,3,2,2
-209,210,tkalsakau@vanuatu.gov.vu,Toufau Kalsakau,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Forestry,3,3,3,3,3,3,2,3,4,3,3,2,3,2,2,3,2,1,3,3,2,3,3,3,3,3,3,3,3,3,2
-210,211,rarthur@vanuatu.gov.vu,Remah Arthur,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,3,4,3,3,3,3,3,3,2,3,3,2,3,2,2,3,3,2,3,2,2,2,3,3,4,3,4,3
-211,212,rmailalong@vanuatu.gov.vu,Roan Mailalong,Shefa,Ministry of Prime Minister,Corporate Service Unit,3,4,4,3,4,4,2,3,4,4,4,2,3,2,3,4,2,3,4,3,1,3,3,2,3,4,3,3,3,2,3
-212,213,achilia@vanuatu.gov.vu,Alvina Chilia,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,3,3,3,3,3,3,3,3,3,4,2,2,2,3,4,3,3,3,4,3,3,1,3,3,3,3,2,3
-213,214,fliliord@vanuatu.gov.vu,Florent iliord,Malampa,Ministry of Justice and Community Services,Corporate Service Unit,3,4,2,1,4,2,3,2,4,2,1,3,2,1,2,1,3,2,3,1,3,4,1,4,3,4,2,1,1,4,2
-214,215,lmolul@vanuatu.gov.vu,Linda Olul,Shefa,Ministry of Justice and Community Services,Customary land Management Office,3,3,3,4,3,3,2,2,3,3,2,2,2,2,2,3,2,3,1,1,1,2,3,3,2,3,3,3,2,3,3
-215,216,htarosa@vanuatu.gov.vu,Harold Tarosa,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4
-216,217,jsablan@vanuatu.gov.vu,Junne Sablan,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,2,3,2,2,2,2,3,3,3,3,2,1,3,3,4,2,2,3,3,3,2,2,2,4,3,3,3,3,3,2,3
-217,218,pmoses@vanuatu.gov.vu,Moses Peter,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,1,3,3,2,4,4,4,4,4,3,3,3,3,1,1,1,1,1,2,2,1,2,3,3,3,3,4,1,3,3,2
-218,219,rubenw@vanuatu.gov.vu,Ruben William,Sanma,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,2,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,4,3,4,3,3,3,3,3,3,3,4,4
-219,220,skaltavara@vanuatu.gov.vu,SCOTT KALTAVARA,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,4,3,3,3,3,3,3,3,4,2,3,2,2,3,2,3,2,2,3,3,2,3,2,3,3,3,4,3,3
-220,222,lrsalwai@vanuatu.gov.vu,Line-Rose Salwai,Shefa,Ministry of Prime Minister,Department of Language Services,2,3,1,2,3,2,2,1,2,3,3,2,2,2,2,2,1,2,1,1,1,2,2,2,2,4,3,3,2,2,2
-221,223,derica@fisheries.gov.vu,Erica Dick,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,4,2,2,2,4,3,4,3,3,4,3,4,3,4,4,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4
-222,224,jnipiko@vanuatu.gov.vu,Julian Nipiko,Tafea,Ministry of Health,Corporate Service Unit,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2
-223,225,msarial@vanuatu.gov.vu,Malcolm Sarial,Penama,Ministry of Justice and Community Services,Customary land Management Office,3,3,3,4,4,4,4,3,4,4,2,3,4,3,3,4,3,4,3,3,3,3,3,3,3,4,3,4,3,2,3
-224,226,mwilly@trade-vanuatu.gov.vu,Mariane Willy,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,2,3,3,3,3,3,3,3,3,2,2,3,2,3,3,3,2,1,1,3,2,2,1,2,3,3,1,3,4,4
-225,227,dnaplaui@vanuatu.gov.vu,Deline Naplaui,Shefa,Ministry of Prime Minister,Corporate Service Unit,4,4,2,2,3,3,4,4,3,3,4,3,4,3,2,3,3,2,4,4,4,4,2,4,4,4,3,4,2,4,3
-226,228,pkomie@vanuatu.gov.vu,Tasi,Torba,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,2,3,3,3,3,3,3,2,2,2,2,2,2,2,4,2,2,3,3,3,3,4,3,2,3,3,2,2
-227,229,lsope@fisheries.gov.vu,Leisei Sope,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,4,3,4,3,3,3,4,3,4,3,3,2,3,2,3,1,2,3,3,3,3,4,3,3,3,3,3,3,3,3,4
-228,230,pkorisa@vanuatu.gov.vu,Peter Kamil,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",3,3,3,2,3,3,3,2,3,3,4,3,2,2,2,3,2,1,2,2,2,4,4,4,2,3,4,3,2,1,2
-229,231,bray@vanuatu.gov.vu,Baniuri Ray Karau,Torba,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-230,232,calbert@vanuatu.gov.vu,Cyndia Albert,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,3,3,3,3,4,3,4,4,3,3,4,3,4,4,3,4,3,4,4,3,3,2,3,2,3,3,3,3,2,3
-231,233,nmoses@vanuatu.gov.vu,Nambo Moses,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,4,4,3,4,4,4,4,4,4,4,3,3,3,2,3,3,4,3,4,4,4,4,3,4,3,3,3,4,3,4,2
-232,234,mnatonga@vanuatu.gov.vu,Madeleine Natonga,Shefa,Ministry of Internal Affairs,Department of Immigration,4,3,3,2,3,2,3,4,2,2,2,3,3,2,3,3,2,2,2,2,2,3,3,3,3,3,2,3,3,3,3
-233,235,knoxd5130@gmail.com,Jim Knox,Sanma,Ministry of Justice and Community Services,Customary land Management Office,3,3,1,2,4,3,3,3,3,2,1,3,3,2,2,2,3,3,3,2,2,4,3,3,3,3,4,3,3,3,3
-234,236,fmulonturala@vanuatu.gov.vu,Mulonturala Flaviana,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,3,3,4,4,4,4,3,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,3,3,4,4,4,2,4
-235,237,dwoiala@vanuatu.gov.vu,Daniella Woiala,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,3,4,4,3,4,4,2,3,2,1,3,3,3,3,2,2,3,3,3,3,2,3,4,4,2,1,1,1,2
-236,238,kstephens@trade-vanuatu.gov.vu,Kathy Garoleo,Shefa,Ministry of Trades and Commerce,Department of Tourism,3,3,2,4,3,2,3,3,3,2,2,1,2,3,4,1,2,1,2,2,3,2,4,3,2,2,3,3,3,3,4
-237,239,titingsom@gmail.com,zygin dini,Torba,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,4,3,4,4,3,3,2,2,4,3,3,3,4,3,3,2,3,3,3,3,3,3,3,3,4,4,4,4,1,1
-238,240,devaberu@gmail.com,Madeleine Kristeva Berukilukilu,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,1,2
-239,241,rdonald@vanuatu.gov.vu,Rose Donald,Sanma,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,3,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,3,3,4,4,4,4,4,4,4,4,3,4
-240,242,abthompson@trade-vanuatu.gov.vu,Alick Berry,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-241,243,sottiman@vanuatu.gov.vu,Salome Ottiman,Shefa,Ministry of Prime Minister,Corporate Service Unit,2,3,3,2,3,2,2,2,2,2,2,1,2,2,1,2,2,3,1,1,1,1,2,1,2,2,3,3,3,2,3
-242,244,jbogiri@trade-vanuatu.gov.vu,Jason Bogiri,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,4,4,3,3,3,2,4,3,3,3,3,2,2,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-243,245,Worworbualick@gmail.com,Alick Donald worworbu,Malampa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,3,2,1,2,3,3,4,2,2,3,1,2,2,4,4,1,4,3,3,2,2,2,2,2,2,3,3,4,2,2,2
-244,246,rvocor@vanuatu.gov.vu,Robert Vocor,Shefa,Ministry of Health,Department of Curative and Hospital Services,3,3,2,2,3,4,3,3,2,2,2,2,2,2,1,2,3,2,2,2,3,2,2,3,2,2,2,2,2,2,4
-245,247,mjtrief@vanuatu.gov.vu,Michelle Jonas Trief,Shefa,Ministry of Internal Affairs,Department of Internal Affairs,3,3,2,4,3,4,4,3,3,3,3,3,4,2,3,3,3,3,3,3,4,4,3,4,3,4,4,4,4,4,4
-246,248,jswillie@vanuatu.gov.vu,James Verekon Willie,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,3,3,3,3,3,3,2,3,3,3,3,2,3,2,3,2,2,1,2,3,3,3,2,2,2,3,3,3,3,3,4
-247,249,marcelrelie.2018@gamil.com,Ray Marcelin Relie,Sanma,Ministry of Finance and Economic Management,Corporate Service Unit,4,3,4,3,2,3,3,2,3,2,2,3,4,2,2,3,4,3,4,4,1,4,3,2,4,4,4,4,3,4,2
-248,250,lluke@vanuatu.gov.vu,Laimona Vire,Sanma,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,4,4,4,3,3,4,3,3,4,4,4,3,3,4,2,1,2,4,2,3,4,4,4,4,3,4,4,4,1,3,4
-249,251,tmhorry@vanuatu.gov.vu,Tari Malon Horry,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,3,3,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,3,1,1
-250,252,jnamani@vanuatu.gov,John Namani,Tafea,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-251,253,rtekon@vanuatu.gov.vu,Roline Lesines TEKON,Shefa,Ministry of Prime Minister,Corporate Service Unit,4,4,4,3,4,4,3,3,3,4,3,3,3,3,3,3,3,4,3,2,3,2,3,3,3,4,4,4,3,1,2
-252,254,hworek@vanuatu.gov.vu,Henry Worek,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,4,4,3,3,2,4,4,4,3,4,3,3,3,3,3,3,3,2,2,3,4,3,3,3,3,3,3,3,3,3,3
-253,255,emanaroto@vanuatu.gov.vu,Esau Christian Manaroto,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,4,3,3,2,3,4,4,3,3,3,4,3,4,3,4,4,3,4,4,4,3,4,4,4,3,4,4,4,4,4,4
-254,256,vjoseph@vanuatu.gov.vu,Joseph Vanmelbu,Shefa,Ministry of Prime Minister,Department of Language Services,4,4,4,4,4,4,3,3,4,4,3,3,3,2,2,4,2,2,3,3,3,3,4,3,3,3,3,4,3,1,1
-255,257,yjulissa@vanuatu.gov.vu,Julissa Evelyn Young,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,4,4,3,2,4,4,3,2,2,1,2,1,3,2,2,2,1,1,1,1,1,2,2,2,3,3,3,4,2,1,2
-256,258,ctasale@vanuatu.gov.vu,Christine Tasale,Shefa,Ministry of Internal Affairs,Department of Immigration,4,4,3,2,3,3,3,3,3,3,2,3,3,4,2,3,3,2,3,2,3,3,3,4,4,4,4,3,3,3,4
-257,259,sbtoa@vanuatu.gov.vu,Serah Toa Kaiapam,Shefa,Ministry of Health,Corporate Service Unit,3,3,4,2,4,3,2,2,2,2,2,2,2,4,2,3,2,4,4,3,2,2,2,2,2,4,3,3,3,2,3
-258,260,mrory@vanuatu.gov.vu,Marcellina Maeva Rory,Shefa,Ministry of Prime Minister,Department of Language Services,3,3,3,2,2,3,3,2,3,3,3,3,2,2,2,3,2,3,2,3,3,3,3,3,3,4,3,3,3,3,3
-259,261,htrief@vanuatu.gov.vu,Harisson Trief,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,3,2,3,3,4,4,4,3,2,2,3,2,2,3,3,2,3,3,3,3,2,3,2,3,3,3,4,3,2,2
-260,262,karaet@vanuatu.gov.vu,Tristelle Karae,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,3,3,3,3,3,4,3,1,3,3,2,1,2,2,2,3,2,2,2,2,1,2,2,3,2,2,3,2,2,1,2
-261,263,mtabi@vanuatu.gov.vu,Markson Tabi,Penama,Ministry of Health,Department of Public Health,1,3,3,1,3,4,3,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,3,1,4,1,1,3,3,1
-262,264,mnash@vanuatu.gov.vu,Meriam Nash,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,2,2,2,3,3,2,3,3,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,2,2,2
-263,265,rsdnatnaur@gmail.com,Serah David Natnaur,Penama,Ministry of Health,Department of Curative and Hospital Services,1,2,2,2,2,2,2,3,2,2,3,4,3,3,2,3,3,4,2,2,2,3,2,3,3,4,3,4,2,2,2
-264,266,winasak@vanuatu.gov.vu,William Iamasore Nasak,Shefa,Ministry of Education and Training,Department of Policy and Planning,4,4,2,3,3,3,3,2,2,3,2,2,2,3,1,2,2,2,2,2,2,2,2,3,2,2,3,2,2,3,3
-265,267,jalain@vanuatu.gov.vu,Josh Alain,Malampa,Ministry of Education and Training,Department of Finance and Admin,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-266,268,bmalapa@vanuatu.gov.vu,Badggio Malapa,Shefa,Ministry of Education and Training,Department of Tertiary Education,3,3,4,3,3,3,3,2,2,3,2,2,3,1,2,3,1,2,3,3,4,3,2,3,2,3,3,3,2,1,2
-267,269,aharrison@vanuatu.gov.vu,Harrison Paraliyu,Shefa,Ministry of Education and Training,Department of Finance and Admin,1,2,2,2,3,3,2,2,3,2,3,2,3,1,2,2,3,3,1,2,3,2,2,2,2,2,3,3,2,3,3
-268,270,dodowaema@gmail.com,Dorian Waema,Penama,Ministry of Health,Department of Public Health,3,3,3,3,2,2,3,4,4,2,3,4,4,1,1,1,3,3,4,4,1,1,4,4,4,4,4,4,3,1,1
-269,271,kmarie@vanuatu.gov.vu,Marie Keiruan,Tafea,Ministry of Education and Training,Department of Policy and Planning,4,4,4,3,3,3,4,3,4,3,3,4,3,4,4,2,2,1,1,1,4,4,4,4,4,4,4,4,4,1,4
-270,272,prymill@vanuatu.gov.vu,Prudence Rymill,Shefa,Ministry of Health,Department of Public Health,3,2,2,2,3,3,4,4,3,3,3,2,3,2,3,2,1,3,2,3,4,3,2,4,2,4,4,3,4,1,3
-271,273,jrichard@vanuatu.gov.vu,Richard Japheth,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,4,3,4,3,3,2,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3
-272,274,jnandrew@vanuatu.gov.vu,Jackson Andrew,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,3,3,3,3,3,4,4,3,3,2,3,3,3,3,4,3,3,3,3,3,3,3,3,4,4,4,4,4,2,3
-273,275,wsanthy@vanuatu.gov.vu,Willie Santhy,Shefa,Ministry of Education and Training,Department of Education Services,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3
-274,276,wdorah@vanuatu.gov.vu,Dorah Willie,Malampa,Ministry of Education and Training,Department of Tertiary Education,3,3,3,3,3,4,3,3,3,3,3,3,3,2,2,3,2,3,3,4,4,3,3,4,3,3,3,3,3,2,3
-275,277,ljames@vanuatu.gov.vu,Lisa James,Shefa,Ministry of Internal Affairs,Department of Urban Affairs,4,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-276,278,gmatariki@vanuatu.gov.vu,George Matariki,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,4,4,4,4,4,2,4,4,4,2,4,3,4,2,1,2,4,4,4,4,2,4,4,4,4,4,4,2,4
-277,279,bpuas@vanuatu.gov.vu,Priel Buas,Shefa,Ministry of Education and Training,Department of Finance and Admin,3,3,2,3,3,3,3,2,3,2,3,4,3,2,2,3,2,3,3,2,2,2,3,3,3,4,3,4,3,3,3
-278,280,tprincely@vanuatu.gov.vu,Princely Tari,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,4,3,3,3,3,3,3,3,3,3,3,3,4,2,1,2,3,3,2,3,3,3,3,3,3,3,3,1,3
-279,281,adavid@vanuatu.gov.vu,Agnes David JOES,Shefa,Ministry of Education and Training,Department of Tertiary Education,4,3,1,4,3,3,4,2,3,2,4,2,3,1,3,1,1,1,1,2,3,2,3,3,2,3,2,4,3,1,1
-280,282,mpaolo@vanuatu.gov.vu,Paolo Malatu,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,4,3,3,3,3,4,4,4,3,4,3,3,2,3,4,2,1,3,3,3,3,3,4,3,4,4,4,3,1,2
-281,283,akoroka@vanuatu.gov.vu,Amanda KOROKA,Sanma,Ministry of Lands and Natural Resources,Corporate Service Unit,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,4,4,3,3,2,4,4,3,3,3,3
-282,284,dtabi@vanuatu.gov.vu,Daniel Tabi,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",1,2,2,1,2,2,2,1,1,1,1,1,1,2,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1
-283,285,gcamillia@vanuatu.gov.vu,Camillia Garae,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,4,3,3,3,4,4,3,3,3,3,3,4,3,2,3,3,1,3,4,3,4,2,3,4,4,4,4,3,3,3
-284,286,tljessa@vanuatu.gov.vu,Tusia Natu,Shefa,Ministry of Education and Training,Department of Finance and Admin,2,2,2,2,2,2,2,1,3,3,3,2,3,3,1,1,1,3,2,1,1,1,2,4,2,4,3,1,1,2,3
-285,287,snixon@vanuatu.gov.vu,Sonia Nixon,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,4,3,3,2,2,4,3,3,2,3,3,3,3,3,1,4,1,1,1,1,2,1,1,4,3,3,1,3,3
-286,288,atevi@vanuatu.gov.vu,Abraham Tevi,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,4,4,3,3,3,3,2,3,2,1,2,2,1,2,1,1,2,2,2,2,2,2,3,2,2,2,1,2,2,3
-287,289,kyamaimai@vanuatu.gov.vu,Kipsen Yamaimai,Tafea,Ministry of Education and Training,Department of Education Services,3,3,2,1,3,3,3,2,2,1,1,2,2,2,1,2,1,3,2,3,2,3,2,2,4,3,2,3,3,1,1
-288,290,gedwards@vanuatu.gov.vu,Gideon Edwards,Shefa,Ministry of Education and Training,Corporate Service Unit,2,2,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,3,2,2,2,2,2,2,2
-289,291,ltbakeo@vanuatu.gov.vu,Liane Thomas Bakeo,Shefa,Ministry of Prime Minister,Department of Language Services,2,2,2,2,1,1,1,1,1,3,2,1,2,2,2,1,2,2,2,1,1,2,2,3,1,4,3,3,3,2,2
-290,292,bbalmet@vanuatu.gov.vu,Brian Balmet,Shefa,Ministry of Education and Training,Corporate Service Unit,1,2,1,2,2,2,2,2,3,1,1,2,2,2,1,1,2,1,1,2,1,1,2,3,3,4,2,3,3,3,3
-291,293,hapinakapotoa@gmail.com,Hapina Kapotoa,Tafea,Ministry of Education and Training,Department of Education Services,2,4,2,2,3,3,3,3,2,2,1,2,3,2,2,2,1,4,2,3,3,3,3,2,2,4,4,3,2,3,1
-292,294,srema@vanuatu.gov.vu,REMA SIRI,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,1,3,4,4,1,2,4,3,2,4,1,1,3,4,4,3,2,3,4,2,2,1,3,4,4,3,4,4,4,1,3
-293,295,mwolul@vanuatu.gov.vu,Marisa WOLUL,Shefa,Ministry of Education and Training,Department of Tertiary Education,3,4,2,3,3,2,3,3,2,3,3,1,2,2,2,3,2,3,2,2,3,2,2,3,2,3,2,2,2,3,3
-294,296,trobson@vanuatu.gov.vu,Tari Robson,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,1,4,4,4,4,4,4,4,3,4,4,4,3,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,3
-295,297,acecilia@vanuatu.gov.vu,Cecilia Rep,Sanma,Ministry of Education and Training,Department of Education Services,2,2,2,2,3,3,3,2,3,1,3,3,3,3,3,1,2,3,1,2,2,2,2,3,1,3,3,3,3,2,2
-296,298,alshedrack@vanuatu.gov.vu,Amelia L. SHEDRACK,Shefa,Ministry of Education and Training,Department of Tertiary Education,3,3,2,2,3,3,3,3,2,3,3,3,3,2,2,3,2,3,3,3,2,3,3,3,3,3,3,3,3,4,4
-297,299,dmarineth@vanuatu.gov.vu,Marineth Daniel,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,2,3,2,3,3,2,4,4,3,2,2,3,2,2,3,3,1,2,1,4,4,4,4,2,2,2,4,4,3,3
-298,300,pling@vanuatu.gov.vu,Philimon Ling,Torba,Ministry of Education and Training,Department of Education Services,3,3,2,2,3,3,4,3,3,2,3,3,2,2,2,3,2,3,2,4,3,2,2,3,3,4,3,3,2,2,3
-299,301,oviramalakwai@gmail.com,Olive Viramalakwai,Penama,Ministry of Health,Department of Curative and Hospital Services,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,3,2,2,2,2,3,2,2,3,3,3,2,3,3,3,3
-300,302,fdinh@vanuatu.gov.vu,Fisher Young Dinh,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Corporate Service Unt,2,2,1,1,1,1,1,3,1,1,1,1,1,2,3,1,1,3,1,1,1,1,1,2,1,1,2,1,1,1,4
-301,303,nnapong@vanuatu.gov.vu,Noella Ravo,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,3,3,3,3,3,1,3,4,4,4,4,1,2
-302,304,chyngalynetavoasese@gmail.com,Chyngalyne Tavoasese,Penama,Ministry of Health,Department of Curative and Hospital Services,2,2,3,2,3,2,3,1,2,2,1,3,2,2,1,3,2,3,1,3,4,1,4,1,4,4,3,3,4,3,1
-303,305,blsahe@vanuatu.gov.vu,Bennen Sahe,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4
-304,306,jerickan@vanuatu.gov.vu,Jordan Erickan,Malampa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,3,4,3,2,3,4,4,3,4,4,4,2,3,4,1,4,1,4,4,4,1,4,3,3,4,4,4,4,4,1,1
-305,307,jjtari@vanuatu.gov.vu,Jean Jacques Tari,Shefa,Ministry of Education and Training,Department of Education Services,4,4,1,3,3,2,2,2,2,2,3,2,3,3,1,3,2,2,3,3,3,3,2,3,2,4,3,3,3,2,3
-306,308,alanadia858@gmail.com,Nadia Ala,Penama,Ministry of Health,Department of Public Health,2,2,2,2,2,2,2,2,2,2,2,2,1,2,1,2,2,4,2,3,3,1,2,1,2,3,2,3,3,2,2
-307,309,wwilliams@vanuatu.gov vu,Wendy Williams,Shefa,Ministry of Health,Department of Public Health,2,2,2,2,2,1,1,1,2,3,2,2,2,2,2,2,2,2,1,1,2,1,2,3,1,2,1,1,1,2,3
-308,310,epalaud21@gmail.com,Evelyne PALAUD,Shefa,Ministry of Education and Training,Department of Education Services,2,2,2,2,3,1,2,2,2,2,2,2,2,2,2,2,1,2,1,1,1,2,2,1,2,2,2,2,1,1,1
-309,311,wpakoa@vanuatu.gov.vu,Wilson Pakoa,Shefa,Ministry of Internal Affairs,Department of Immigration,4,3,3,3,3,4,3,3,3,3,3,3,4,2,3,3,3,4,4,4,4,4,3,4,4,3,3,3,3,3,4
-310,312,lrollyne@trade-vanuatu.gov.vu,Rollyne Liu,Malampa,Ministry of Trades and Commerce,Department of Tourism,2,3,3,3,2,2,3,1,1,2,1,1,2,2,2,2,2,2,2,2,2,2,3,3,2,2,2,2,3,2,3
-311,313,lrichard@vanuatu.gov.vu,Lesline Nasu,Shefa,Ministry of Education and Training,Department of Education Services,3,3,2,3,4,2,3,3,2,3,3,2,2,2,2,2,2,2,2,3,3,3,3,3,2,3,3,4,3,3,3
-312,314,jsano,jimmy Sano,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-313,315,jzimako@vanuatu.gov.vu,Zimako Jeffrey,Shefa,Ministry of Education and Training,Department of Policy and Planning,4,4,4,3,4,4,4,4,4,4,2,3,3,2,2,3,2,1,3,3,3,2,2,4,3,3,3,4,2,2,2
-314,316,jvakesa@vanuatu.gov.vu,Joel Lulu Vakesa,Shefa,Ministry of Internal Affairs,Department of Immigration,4,4,2,3,4,4,4,4,3,2,2,4,3,2,1,3,4,3,4,3,3,3,3,2,4,3,2,3,3,1,3
-315,317,Theophile,Gaston,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,3,2,3,4,4,4,2,4,4,4,2,3,2,3,3,2,4,4,4,4,2,4,4,3,4,4,4,3,1,4
-316,318,awells@vanuatu.gov.vu,Anna Wells Tavoa,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,4,3,3,3,3,3,3,2,2,2,3,2,2,3,2,4,2,2,2,3,2,3,3,3,3,4,4,3,3
-317,319,csilas@vanuatu.gov.vu,CHARLIE SILAS,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,4,4,4,4,3,4,4,3,3,3,2,2,4,1,1,1,2,1,1,4,4,2,4,4,3,4,4,3
-318,320,cvireibo@vanuatu.gov.vu,Chrissante VIREIBO,Shefa,Ministry of Education and Training,Department of Policy and Planning,2,2,4,2,4,3,4,3,4,1,4,1,3,3,3,2,2,2,3,1,1,3,4,1,4,4,3,2,3,2,3
-319,321,wtimatua@vanuatu.gov.vu,Winnie Timatua,Shefa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,3,2,3,3,3,3,3,2,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,2,2
-320,322,kcarter@vanuatu.gov.vu,Kevin Carter,Shefa,Ministry of Health,Department of Public Health,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3
-321,323,bbuas@vanuatu.gov.vu,Bettyrose,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of External Trade,4,4,4,4,4,4,3,3,3,3,2,3,3,4,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-322,324,mtemakon@vanuatu.gov.vu,Marcelin Temakon,Shefa,Ministry of Prime Minister,Corporate Service Unit,1,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,3,2,2,1,2,3,2,3,2,1,3,2,2,2
-323,325,kkalomor@vanuatu.gov.vu,KALTUK KALOMOR,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,2,1,1,2,1,1,1,3
-324,326,lbetuel@vanuatu.gov.vu,Luke Betuel,Shefa,Ministry of Prime Minister,Corporate Service Unit,1,2,1,2,1,2,1,1,2,2,3,1,2,2,2,2,2,2,3,2,1,1,2,2,2,2,2,2,3,2,3
-325,327,ajharrison@vanuatu.gov.vu,Jeanne-Amandine TARIUVI,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",4,3,4,4,4,3,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,4,4,4,3,4
-326,328,eiametal@vanuatu.gov.vu,Elizabeth Iametal,Tafea,Ministry of Education and Training,Department of Education Services,3,3,2,2,2,1,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,3,4,4,1
-327,329,lkalmai@vanuatu.gov.vu,Louisa Kalmai,Sanma,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,3,2,2,2,2,3,2,3,2,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,2
-328,330,swokeke@vanautu.gov.vu,Susan Tavimele Wokeke,Sanma,Ministry of Health,Department of Public Health,2,2,4,2,2,2,3,2,2,2,2,1,2,1,1,2,1,1,1,2,2,1,2,2,1,2,2,2,2,1,2
-329,331,aparaliu@vanuatu.gov.vu,Ambatha Paraliu,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,2,3,2,3,3,3,3,3,3,2,3,2,3,2,2,3,2,3,2,3,3,1,3,3,3,3,2,3,3
-330,332,sjunior@vanuatu.gov.vu,Junior Meter Alehe Salong,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Agriculture and Rural Development,3,2,3,2,3,3,3,2,3,3,3,2,2,2,2,2,2,1,4,3,2,2,2,3,1,3,3,3,2,2,2
-331,333,manthony@vanuatu.gov.vu,Anthony Melteres,Shefa,Ministry of Education and Training,Corporate Service Unit,3,3,3,2,3,3,4,1,4,2,2,3,2,2,1,3,2,1,2,4,2,3,3,3,2,3,2,3,2,2,1
-332,334,bmasseng@vanuatu.gov.vu,Bong George Masseng,Shefa,Ministry of Health,Department of Policy and Planning,2,2,2,2,3,3,3,3,3,3,3,2,3,2,2,2,2,3,2,2,1,3,3,3,2,3,2,3,2,2,2
-333,335,tambel@vanuatu.gov.vu,Lorna Tambe,Shefa,Ministry of Education and Training,Corporate Service Unit,1,1,1,1,4,4,4,3,4,3,3,4,4,3,3,3,3,2,3,3,4,3,3,4,3,4,4,3,4,4,3
-334,336,nmenie,Menie Nakomaha,Shefa,Ministry of Health,Department of Policy and Planning,3,3,2,3,4,4,3,2,2,2,3,2,3,3,2,3,3,3,3,2,3,3,3,3,3,4,3,4,3,3,3
-335,337,ssawan@vanuatu.gov.vu,Samson Sawan,Shefa,Ministry of Education and Training,Department of Finance and Admin,3,2,3,3,3,3,3,3,3,3,3,3,3,1,1,3,1,1,1,2,2,3,3,3,3,4,3,2,2,3,3
-336,338,pmanbit@vanuatu.gov.vu,Pamina Manbit,Shefa,Ministry of Health,Corporate Service Unit,4,4,3,3,3,4,3,4,3,4,3,4,3,4,4,4,4,4,3,4,3,4,3,4,4,4,3,3,3,3,3
-337,339,edick@nao.gov.vu,Elsie Willy,Malampa,Ministry of Finance and Economic Management,Vanuatu National Audit Office,3,4,3,3,3,4,3,3,3,3,3,2,3,2,2,3,3,3,3,3,3,2,3,3,3,3,3,4,3,2,3
-338,340,nonotabi12@gmail.com,Noe Tamtsu,Penama,Ministry of Health,Department of Public Health,3,3,3,4,3,3,3,2,3,4,4,4,4,2,2,3,3,2,4,2,4,3,2,4,3,4,3,1,4,4,2
-339,341,rnihapi@vanuatu.gov.vu,Rebecca Nihapi,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,4,3,3,4,3,3,4,4,4,2,3,4,3,4,1,2,4,4,4,4,4,4,4,3,4,3,4,3,4,4
-340,342,tmaimai@vanuatu.gov.vu,Tom Maimai,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,3,1,3,4,4,3,4,3,2,4,2,3,4,4,4,3,4,4,3,4,4,4,4,4,4,3,4,4,2,3
-341,343,tpresley@vanuatu.gov.vu,Presley Tari,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,2,2,2,1,2,2,2,1,1,1,2,2,2,1,1,1,1,1,1,2,2,2,1,2,2,2,2,2,1,1,3
-342,344,mtamara@nao.gov.vu,Mercy Tamara Seth,Shefa,Ministry of Finance and Economic Management,Vanuatu National Audit Office,3,3,2,3,3,2,2,3,2,4,3,3,2,2,2,3,3,2,2,3,3,3,3,3,2,3,3,3,3,3,3
-343,345,schilia@vanuatu.gov.vu,Serah Chilia,Shefa,Ministry of Climate Change and Adaptation,Department of Energy,4,4,3,3,4,3,3,3,3,2,3,3,3,3,3,3,2,3,2,3,2,3,3,3,2,4,3,3,3,3,2
-344,346,scevuard@vanuatu.gov.vu,Sandrine Cevuard,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,2,1,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,1,2,2,2,2,2,2,1,2,3
-345,347,abatick@vanuatu.gov.vu,Angelina Batick,Shefa,Ministry of Education and Training,Corporate Service Unit,3,3,2,3,3,4,4,4,4,4,4,4,3,2,4,3,1,1,4,1,4,3,3,4,4,1,2,1,3,3,3
-346,348,mhkalpoi@vanuatu.gov,Maya Heidi Kalpoi,Shefa,Ministry of Education and Training,Department of Education Services,3,3,2,2,2,2,2,3,3,3,2,3,3,3,3,3,2,2,2,1,2,4,4,1,3,4,4,1,1,2,4
-347,349,riauko@vanuatu.gov.vu,Iauko Robbie,Shefa,Ministry of Education and Training,Corporate Service Unit,2,2,3,2,2,2,2,2,1,2,1,2,1,2,2,2,1,1,2,1,2,2,2,2,1,2,2,1,1,2,2
-348,350,wmarango@vanuatu.gov.vu,Winy Marango,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,4,4,3,3,4,4,4,3,4,2,3,3,2,2,3,2,3,3,3,2,3,3,3,3,4,4,4,4,3,4
-349,351,angwele@vanuatu.gov.vu,Alan Ngwele,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,2,2,2,4,3,3,3,3,2,3,3,2,2,2,2,2,2,3,2,3,2,3,2,4,2,4,4,3,3,2,2
-350,352,wworworkon@meteo.gov.vu,William Worworkon,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-351,353,rwilliam@vanuatu.gov.vu,Ricardo William,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,2,3
-352,354,jpgeorges@vanuatu.gov.vu,Joshua Paul Georges,Shefa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,3,2,2,2,3,3,3,2,2,3,2,2,2,2,2,2,3,2,2,3,3,3,3,2,3
-353,355,altevanu@vanuatu.gov.vu,Anne-Lise Tevanu,Sanma,Ministry of Lands and Natural Resources,Corporate Service Unit,3,2,2,2,3,2,2,2,2,3,3,3,2,3,2,2,2,3,2,2,2,3,3,2,2,2,2,2,2,2,2
-354,356,leosteven355@gmail.com,Stephen Leo,Penama,Ministry of Health,Department of Public Health,1,2,4,2,2,1,2,2,3,3,2,3,3,1,1,3,2,2,1,2,3,1,4,3,3,2,2,1,1,2,1
-355,357,alangear77@gmail.com,Jeffery Angele Langear,Malampa,Ministry of Education and Training,Department of Education Services,4,4,4,2,4,3,4,3,3,3,4,3,3,3,3,3,2,4,4,3,2,3,3,4,2,4,4,4,4,2,4
-356,358,jgmalessas@vanuatu.gov.vu,Jenifer Atkin,Shefa,Ministry of Education and Training,Department of Tertiary Education,4,3,2,2,2,2,2,1,2,3,4,2,1,2,3,1,1,3,3,2,1,2,3,3,2,2,3,3,2,2,4
-357,359,esami@vanuatu.gov.vu,Erie Sami,Sanma,Ministry of Lands and Natural Resources,Department of Water Resources,4,3,4,4,4,3,2,2,3,2,2,2,2,2,2,2,2,2,3,3,3,3,3,4,2,3,3,3,2,3,3
-358,360,mtagaro@vanuatu.gov.vu,Markleen Tagarobiti,Penama,Ministry of Health,Department of Policy and Planning,3,3,2,3,3,3,3,3,3,3,3,3,2,2,2,2,3,2,2,2,3,2,2,3,2,3,3,2,2,3,3
-359,361,cmahana@vanuatu.gov.vu,Carolyn Mahana,Penama,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,3,3,3,3,3,2,3,3,2,3,3,2,3,2,3,3,2,4,3,3,3,2,2,2,2
-360,362,mgkalo@vanuatu.gov.vu,Mali Kalo,Shefa,Ministry of Health,Department of Public Health,3,4,3,3,4,3,3,3,4,3,3,4,4,2,2,3,3,2,4,4,4,4,3,3,3,4,4,4,4,3,4
-361,363,ewanemay@vanuatu.gov.vu,Leasabetha Elizabeth Wanemay,Sanma,Ministry of Justice and Community Services,Customary land Management Office,3,3,2,3,4,3,4,3,4,3,2,2,3,2,2,3,4,1,2,2,1,2,3,3,3,4,2,2,1,2,2
-362,364,smatan@vanuatu.gov.vu,Saravina Matan,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,3,2,2,2,2,3,3,2,3,4,2,3,1,2,2,2,2,1,3,3,3,3,3,3,3,3,3,3,3,3,3
-363,365,kjgasi@vanuatu.gov.vu,Keith Jacob Gasi,Sanma,Ministry of Health,Department of Public Health,2,2,4,4,3,2,1,1,4,1,4,4,4,1,1,1,1,1,1,1,3,1,2,4,1,4,4,4,4,4,4
-364,366,wkalmer@dofa.gov.vu,Werwer Kalmer,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Corporate Service Unit,1,4,3,2,2,2,2,2,2,3,2,2,2,2,2,1,1,2,2,2,2,2,2,3,2,2,2,2,2,1,2
-365,367,fiautu@vanuatu.gov.vu,Florence Iautu,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,4,2,3,3,3,4,3,3,3,3,3,3,3,2,3,3,3,3,3,4,3,3,3,3,3,3,3,3,2,4
-366,368,cebrieltarimataniki@gmail.com,Donny Tari,Penama,Ministry of Health,Department of Curative and Hospital Services,3,3,3,3,3,4,3,4,4,4,4,3,3,4,2,2,2,3,2,3,4,3,3,4,4,4,4,3,3,3,3
-367,369,ewaiwai@vanuatu.gov.vu,Elizabeth Waiwai,Shefa,Ministry of Climate Change and Adaptation,Department of Energy,4,3,4,3,3,3,3,4,3,4,3,2,3,3,3,3,3,1,2,2,3,4,2,3,3,4,4,3,3,3,3
-368,370,dviroliliu@vanuatu.gov.vu,Danny Viroliliu,Penama,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-369,371,lwilliam@vanuatu.gov.vu,Leana William,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,4,3,3,2,4,3,4,3,2,3,2,3,4,4,3,2,2,3,3,3,3,3,3,4,3,3,3,3,2,3
-370,372,"dhcoulon@vanuatu.gov,vu",David-Henri Coulon,Shefa,Ministry of Education and Training,Department of Education Services,4,4,2,3,3,3,3,4,3,2,2,2,1,1,2,2,1,1,3,3,2,4,2,4,2,3,2,1,3,3,3
-371,373,pfrank@vanuatu.gov.vu,Patricia Frank,Shefa,Ministry of Education and Training,Department of Tertiary Education,2,2,1,2,3,2,2,3,2,2,2,1,2,1,2,2,1,1,1,2,1,2,2,1,2,2,2,3,1,4,4
-372,374,enzoberu73@gmail.com,Lorenzo Toco Berukilukilu,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,1,1,1,1,1,1,2,1,1,1,1,1,1
-373,375,asanga@vanuatu.gov.vu,Alice Iarem Sanga,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,3,3,3,3,2,3,3,2,3,2,3,3,3,3,3,3,2,1,1,2,2,2,2,3,2,1,3,2,1,2,2
-374,376,efay@vanuatu.gov.vu,FayLeila Edward,Shefa,Ministry of Internal Affairs,Department of Labour,4,3,3,3,4,4,3,4,4,3,3,3,3,4,4,4,4,3,4,3,4,3,4,3,4,3,3,4,3,4,4
-375,377,jtuasu@vanuatu.gov.vu,Jenny Tuasu NAKI,Shefa,Ministry of Internal Affairs,Department of Urban Affairs,3,3,2,3,3,3,3,3,2,2,3,3,2,3,2,4,2,3,3,3,2,3,3,4,3,4,3,4,3,1,3
-376,378,ltaura@vanuatu.gov.vu,Lissie Taura,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,3,4,3,3,4,2,4,3,4,3,4,3,3,3,2,2,3,4,3,3,3,2,4,4,3,3,1,2
-377,379,gwells@vanuatu.gov.vu,Gwen Wells,Sanma,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,2,3,2,2,2,3,2,2,1,1,1,1,2,2,2,1,2,1,2,1,1,2,2,2,2,1,2,1,2,2
-378,380,gjoe@vanuatu.gov.vu,Gideon Joe,Shefa,Ministry of Education and Training,Department of Tertiary Education,2,2,2,3,3,3,3,3,4,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,1,2,3,2,2,3
-379,381,bdorinda@vanuatu.gov.vu,Dorinda Mabon,Shefa,Ministry of Health,Department of Public Health,2,2,3,3,2,2,3,3,1,2,2,2,2,2,2,2,2,1,2,2,2,2,2,3,2,2,2,2,2,2,3
-380,382,ktnipio@vanuatu.gov.vu,Katherine Nipio,Tafea,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,2,2,3,3,3,3,2,3,2,2,2,2,1,2,2,2,2,1,1,2,1,1,2,2,2,2,3,2,3
-381,383,hmaraki@vanuatu.gov.vu,Heather Maraki,Shefa,Ministry of Justice and Community Services,Department of Womans Affairs,2,1,2,2,3,3,3,1,1,2,1,2,1,1,1,1,2,1,1,3,4,2,2,2,3,2,2,2,3,3,3
-382,384,jtimothy@meteo.gov.vu,Jerry Timothy,Penama,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,2,3,4,3,3,2,2,4,2,4,3,3,1,3,4,3,3,3,3,3,3,4,2,3,4,3,2,3,4
-383,385,eroru@vanuatu.gov.vu,EZEKIEL .ROVU,Malampa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,4,3,4,4,4,3,3,4,3,4,3,3,4,4,3,4,3,4,4,4,3,4,3,4,4,4,3,3,3
-384,386,gbome@vanuatu.gov.vu,Godfrey Bome,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,3,3,3,3,4,3,3,3,3,2,2,2,2,2,2,2,2,2,2,3,3,2,2,3,2,3,2,3,2,3,2
-385,387,tmdoro@vanuatu.gov.vu,Thomas Morris Doro,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,1,3,4,3,4,4,4,4,4,4,3,4,3,4,4,4,4,3,4,4,4,4,4,4,4,4,3,4,4,3,4
-386,388,rwillietien,Roslyn willietien,Sanma,Ministry of Health,Department of Curative and Hospital Services,3,3,3,3,3,3,4,3,2,4,2,2,2,2,1,1,2,2,3,3,2,2,2,3,3,1,3,3,2,2,3
-387,389,ftura@vanuatugov.vu,Fabienne Tura,Sanma,Ministry of Health,Department of Curative and Hospital Services,1,2,3,2,2,2,1,4,2,2,3,3,3,2,3,3,3,2,1,1,4,3,4,4,2,2,3,3,2,3,3
-388,390,kmalalo@vanuatu.gov.vu,Ken Malalo,Malampa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,3,4,3,3,4,3,3,3,2,3,2,3,3,3,4,3,2,3,3,3,3,3,4,3,4,3,3,4,4
-389,391,wmelenamu@vanuatu.gov.vu,Wendy Tani Melenamu,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,2,2,2,2,2,2,1,2,2,2,1,2,2,1,1,1,2,2,1,1,1,2,1,3,2,2,2,4,1,3,2
-390,392,frjockley@vanuatu.gov.vu,Fred Jockley,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,4,3,3,3,3,3,2,3,3,2,3,3,3,3,3,2,3,3,3,3,3,3,3,2,3,3,3,3,3,3
-391,393,davidn@vanuatu.gov.vu,Nigel David,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,2,3,3,3,3,2,2
-392,394,mkaraetovo@vanuatu.gov.vu,Mayline Karaetovo,Sanma,Ministry of Health,Department of Curative and Hospital Services,2,2,2,3,3,3,2,4,2,1,3,4,3,3,3,2,2,3,1,3,2,3,2,3,3,3,3,3,1,3,3
-393,395,"sjohnolson@vanuatu,gov,vu",Grace Johnolson,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,2,2,2,3,3,3,3,3,3,3,3,1,1,3,2,1,3,3,3,3,3,3,1,3,3,3,3,3,3
-394,396,dovopres@gmail.com,Presley Dovo,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,2,2,2,2,3,3,3,3,4,2,1,2,3,2,3,2,2,2,1,3,1,3,2,2,3,3,3,3,3,2,3
-395,397,aware@vanuatu.gov.vu,Alice Ware,Shefa,Ministry of Education and Training,Department of Tertiary Education,3,2,3,2,3,3,4,3,3,2,1,2,3,1,1,2,2,4,3,2,3,3,2,3,2,4,3,3,3,4,4
-396,398,jmawa@meteo.gov.vu,Jeroline Mawa,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,4,3,2,3,3,2,3,3,3,3,3,2,3,2,2,3,3,3,3,3,3,3,3,3,3,3,2,3,2,3,3
-397,399,mbadin@vanuatu.gov.vu,Mark Adin,Penama,Ministry of Health,Department of Public Health,4,4,4,4,2,2,2,4,2,1,1,1,1,2,2,1,1,1,1,1,2,1,1,3,1,1,2,1,2,2,1
-398,400,atosiro@vanuatu.gov.vu,Ann Zonetta Tosiro,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,4,4,4,4,3,3,3,2,3,3,1,2,1,2,4,2,1,1,3,3,4,1,4,4,2,1,2,4
-399,401,aphlip@vanuatu.gov.vu,Anaclet Philippe URE,Sanma,Ministry of Climate Change and Adaptation,Department of Environment Protection and Conservation,3,4,3,3,3,4,4,3,4,3,4,4,3,4,3,3,3,3,4,4,4,4,3,4,4,3,4,4,4,4,3
-400,402,mitchraymond86@gmail.com,Michel Raymond,Sanma,Ministry of Health,Department of Curative and Hospital Services,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,1,2,2,2,3,2,3,3,2,2
-401,403,bmalisa@vanuatu.gov.vu,Brisit Malisa,Sanma,Ministry of Health,Department of Public Health,4,4,4,2,4,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
-402,404,sbalmasen57@gmail.com,Sabrina Marie Celine Balmasen,Penama,Ministry of Health,Department of Public Health,2,2,2,2,2,2,3,2,2,2,2,2,3,3,2,3,2,3,2,3,3,3,3,3,3,2,2,3,3,2,2
-403,405,ahakwa@vanuatu.gov.vu,Aaron Hakwa,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,4,4,3,3,3,4,3,3,3,4,3,3,4,3,3,4,3,4,3,4,4,4,3,4,4,4,2,3
-404,406,gmkalkot@trade-vanuatu.gov.vu,Graham Miller Kalkot,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,4,3,3,3,3,3,2,2,3,2,2,2,2,2,3,3,3,3,3,3,2,3,2,2,3,3
-405,407,abulesemel@vanuatu.gov.vu,Asifo Bulesemel,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,3,3,3,3,4,2,3,4,4,3,4,4,4,3,2,4,3,3,4,4,4,4,2,4,4,4,4,2,3
-406,408,rheheina@gmail.com,Regina Heheina,Sanma,Ministry of Health,Department of Curative and Hospital Services,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,1,1,2,2,3,2,3,3,3,4,2,2,2,1,2
-407,409,fwensi@vanuatu.gov.vu,Amos Fred Wensi,Malampa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,4,2,3,2,1,3,3,2,2,2,2,3,3,3,1,3,2,3,3,4,3,2,2,2,2
-408,410,alam@vanuatu.gov.vu,Michael Ala,Sanma,Ministry of Health,Department of Curative and Hospital Services,1,1,1,1,1,1,1,1,1,2,2,2,2,1,1,1,1,2,1,2,1,1,2,1,1,2,1,1,1,2,1
-409,411,johnsonp@vanuatu.gov.vu,Peter Johnson,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,3,3,3,2,3,3,3,2,2,2,2,2,1,2,1,1,2,2,2,1,1,1,1,1,3,1,1,2,1,1
-410,412,epackett@vanuatu.gov.vu,Ericksen Packett,Sanma,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,3,3,3,4,3,4,3,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,3,3,3
-411,413,sdouglas@vanuatu.gov.vu,simon douglas,Sanma,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,4,4,4,3,4,4,3,4,3,4,1,4,4,4,4,4,1,2,4,2,3,4,4,3,4,4,4,3,3,4
-412,414,rbtimothy@vanuatu.gov.vu,Rebecca Bill Timothy,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,2,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,2,2,3
-413,415,jmanangisu@vanuatu.gov.vu,MANANGISU JIMMY,Shefa,Ministry of Prime Minister,Corporate Service Unit,2,2,2,2,3,3,3,3,3,3,3,3,3,2,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3
-414,416,pkamasteia@vanuatu.gov.vu,Phyllis Kamasteia,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,2,3,4,2,3,3,2,1,2,2,2,2,2,2,2,1,2,2,2,3,2,2,2,3,3,2,3,2,3,3,3
-415,417,mbulu@vanuatu.gov.vu,Molu Bulu,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,3,3,3,3,3,3,3,3,4,3,3,2,4,4,3,3,2,3,3,3,3,3,4,3,3,3,3,3,2,2
-416,418,ataribiti@vanuatu.gov.vu,Andrew Taribiti,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,1,2,2,2,2,2,2,1,1,2,1,2,2,2,2,2,2,1,1,1,1,1,2,2,1,1,1,1,1,2,2
+1,1,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,3,4,4,4,3,3,4,2,2,3,2,2,2,3,2,2,3,2,3,4,3,4,4,3,3,4,3,1,2
+2,2,Shefa,Ministry of Prime Minister,Citizenship Office,4,3,3,4,3,3,3,3,2,2,2,2,3,1,2,3,2,2,2,2,1,2,3,2,1,2,2,2,1,1,3
+3,3,Shefa,Ministry of Trades and Commerce,Department of Industry,4,4,4,4,1,3,3,4,4,4,4,1,3,2,2,1,1,1,2,2,2,3,1,3,1,2,3,2,2,1,4
+4,4,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2
+5,5,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,4,4,4,4,4,4,3,4,4,4,4,4,2,1,3,3,4,3,2,2,1,2,4,2,3,3,3,3,3,3
+6,6,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,4,2,4,3,3,3,2,4,2,2,3,2,2,3,1,3,4,3,2,3,2,1,3,3,3,3,3,1,2
+7,7,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,4,2,3,1,3,3,1,2,2,3,1,2,2,2,2,2,3,2,2,3,2,2,3,1,2,2,2,2,1,2
+8,8,Shefa,Ministry of Prime Minister,Department of Language Services,3,3,2,2,2,3,3,3,2,4,3,3,3,4,2,2,3,2,2,2,2,2,3,2,3,4,4,2,3,4,4
+9,9,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,4,4,3,4,4,3,3,4,4,4,4,3,3,2,2,3,2,3,2,3,4,4,2,4,2,3,3,3,2,3,3
+10,10,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,3,3,2,4,3,4,4,3,4,4,4,3,3,2,2,3,3,4,4,4,4,3,2,1,2,4,2,4,4,3,4
+11,11,Shefa,Ministry of Prime Minister,Office of Government Chief Information Officer,2,2,3,3,3,3,3,3,3,3,2,3,2,3,2,2,3,3,3,3,2,3,2,2,3,3,3,3,2,2,4
+12,12,Shefa,Ministry of Trades and Commerce,Department of Tourism,4,3,2,3,2,3,3,3,2,3,3,3,3,3,2,2,2,2,2,3,3,3,2,3,2,3,2,2,2,2,2
+13,13,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,2,3,3,3,4,3,3,2,3,2,3,2,2,3,3,3,2,3,3,3,3,3,3,3,3,4,4,1,2
+14,14,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,3,3,3,3,3,3,2,3,2,3,2,2,2,2,2,2,2,3,2,2,3,3,3,2,1,3,3,3,3,3,3
+15,15,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,4,3,4,4,4,4,3,4,4,4,4,3,3,4,4,3,3,2,2,3,4,3,4,3,4,4,3,3,3
+16,16,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1,2,2,2,2,3,2,3,3,3,3,1,3
+17,17,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,2,2,2,2,4,3,3,3,3,3,3,2,3,2,2,2,2,3,3,3,3,3,2,3,2,4,4,3,2,2,3
+18,18,Shefa,Ministry of Internal Affairs,Department of Labour,4,4,4,3,3,3,4,3,3,3,3,3,3,2,2,3,3,1,3,3,4,3,2,4,3,4,2,3,3,3,2
+19,19,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",2,2,2,2,3,2,3,1,2,2,1,3,1,1,1,2,1,3,2,1,3,3,1,3,2,2,2,2,2,1,2
+20,20,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,4,3,3,4,3,2,2,4,3,4,4,3,4,4,4,4
+21,21,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,3,3,3,3,3,3,2,2,3,2,2,1,1,2,2,2,2,3,3,1,2,2,2,3,1,1,1,1,3
+22,22,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,4,1,4,4,4,3,4,4,2,2,1,1,1,3,1,2,1,1,3,1,1,3,3,1,3,2,2,3,4,4
+23,23,Shefa,Ministry of Health,Department of Public Health,4,4,4,3,4,4,4,4,4,4,4,4,4,2,3,3,4,2,2,3,4,4,4,4,4,3,4,3,4,1,2
+24,24,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,2,3,4,3,3,3,2,3,2,2,3,2,2,3,3,3,2,3,3,2,2,3,2,4,3,3,2,2,3
+25,25,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,3,2,4,3,3,2,3,3,2,2,2,2,3,4,4,4,4,3,4,3,4,3,4,4,4,3,3,4
+26,26,Shefa,Ministry of Health,Department of Policy and Planning,3,3,3,2,3,3,3,3,2,3,3,3,3,2,2,3,2,3,3,4,4,3,3,3,2,4,3,3,3,2,3
+27,27,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,3,3,4,3,4,4,4,3,3,4,4,3,4,3,4,3,2,4,4,4,4,3,3,4,3,4,4,3,4,4,3
+28,28,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,4,3,3,3,3,3,3,3,3,3,3,3,2,2,3,2,2,3,3,3,3,3,3,3,3,3,3,3,2,2
+29,29,Tafea,Ministry of Health,Department of Public Health,4,3,4,3,4,4,4,3,3,2,1,2,2,2,2,3,2,2,3,2,3,1,3,3,1,3,2,3,3,2,1
+30,30,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,1,4,3,3,3,4,4,2,4,3,3,4,2,2,1,3,2,2,4,4,4,4,3,4,4,3,4,4,4,2,3
+31,31,Shefa,Ministry of Health,Department of Public Health,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+32,32,Shefa,Ministry of Education and Training,Department of Policy and Planning,3,4,2,1,3,3,3,2,2,2,1,2,1,1,2,2,2,3,2,1,2,2,2,3,2,2,1,3,2,2,3
+33,33,Shefa,Ministry of Trades and Commerce,Department of Industry,3,4,2,3,4,3,4,3,3,2,1,1,2,2,1,2,2,1,2,3,3,3,3,4,3,4,3,3,3,3,3
+34,34,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,3,4,3,3,3,4,4,3,3,3,3,3,2,2,3,2,2,4,3,4,4,2,4,3,4,3,3,4,3,3
+35,35,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,3,3,4,4,3,3,4,3,3,4,3,2,2,4,3,1,3,4,4,3,4,3,1,4,4,4,4,2,3
+36,36,Torba,Ministry of Health,Department of Public Health,4,4,3,2,2,2,2,3,2,4,3,3,3,2,1,3,2,1,2,3,3,4,3,3,1,4,3,4,3,1,2
+37,37,Penama,Ministry of Trades and Commerce,Department of Tourism,4,4,4,3,4,4,4,3,4,3,3,4,3,2,1,2,2,3,2,3,3,3,3,3,3,3,3,3,3,3,3
+38,38,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,2,3,3,3,2,3,2,4,3,4,4,4,3,3,2,2,3,3,3,3,3,3,3,3,3,3,3,1,1
+39,39,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,3,3,2,3,3,3,3,3,2,3,3,2,3,2,2,3,3,2,2,3,2,2,3,3,2,3,3,3,3,3,2
+40,40,Shefa,Ministry of Trades and Commerce,Department of Tourism,4,4,4,3,4,3,3,4,4,2,3,3,2,3,3,3,2,2,2,2,2,2,3,3,3,2,2,2,2,2,3
+41,41,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,2,3,2,3,3,3,2,2,2,1,2,2,2,2,1,1,2,1,2,2,3,2,2,2,2,2,2,2
+42,42,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,3,3,3,3,3,3,3,3,3,2,1,3,3,1,1,1,3,2,3,3,3,3,2,2,2,2,3,3,3,1,2
+43,43,Shefa,Ministry of Education and Training,Department of Finance and Admin,3,1,2,2,4,3,3,3,4,3,1,2,3,2,1,2,2,1,2,2,2,2,3,3,3,3,3,3,2,2,2
+44,44,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of External Trade,4,4,3,3,4,4,4,3,2,4,3,1,3,4,2,3,3,3,3,3,4,4,2,3,3,4,4,4,2,2,2
+45,45,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,4,3,4,3,2,4,3,3,2,3,3,3,3,2,2,3,2,4,3,3,3,3,2,3,3,4,3,4,3,1,4
+46,46,Sanma,Ministry of Justice and Community Services,Department of Correctional Services,3,3,4,2,2,2,3,3,1,2,1,2,2,1,1,2,1,2,2,2,3,3,3,2,2,2,2,3,1,3,2
+47,47,Shefa,Ministry of Prime Minister,Department of Language Services,4,4,4,3,3,3,4,4,4,4,4,4,4,2,2,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,3
+48,48,Tafea,Ministry of Health,Corporate Service Unit,4,4,3,3,3,3,3,3,3,3,3,3,3,3,2,4,3,3,3,3,3,3,2,3,2,3,3,3,3,3,3
+49,49,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of Foreign Affairs,2,2,2,2,2,2,2,1,2,3,3,1,2,1,2,1,1,1,2,3,2,4,2,2,2,2,2,2,2,1,1
+50,50,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of External Trade,4,4,3,3,4,4,4,3,4,4,4,4,4,4,4,4,2,4,4,4,4,4,4,3,4,4,4,4,4,2,1
+51,51,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of Foreign Affairs,4,4,3,3,3,4,3,3,2,4,2,3,2,2,3,3,1,3,2,3,2,2,3,3,3,3,3,4,3,3,2
+52,52,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,3,4,3,3,4,4,3,3,4,3,3,3,3,3,3,3,4,4,4,4,4,3,3,4,4,3,4,2,3,3
+53,53,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,4,3,4,4,4,3,2,3,1,3,3,3,2,2,2,3,2,3,3,3,3,3,2,3,2,2,3,2,2
+54,54,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,3,3,1,2,2,2,2,4,2,2,2,1,2,3,1,1,2,3,1,2,1,1,2,2,2,2,2,1,1,3,4
+55,55,Shefa,Ministry of Health,Department of Policy and Planning,3,3,3,3,3,3,3,3,3,3,2,3,3,1,1,2,2,1,3,2,2,2,3,3,2,3,3,2,3,1,1
+56,56,Sanma,Ministry of Health,Department of Curative and Hospital Services,3,3,3,3,2,3,3,3,3,2,3,3,3,2,2,3,2,1,3,3,3,3,4,4,3,4,3,3,3,1,2
+57,57,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,3,3,3,4,3,3,3,3,2,2,3,2,2,3,2,4,3,3,4,3,3,4,2,3,3,3,2,2,3
+58,58,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,3,3,2,3,3,3,3,3,3,3,3,3,2,2,2,1,1,3,3,3,3,3,3,3,3,3,3,3,2,3
+59,59,Penama,Ministry of Health,Department of Public Health,2,1,1,1,2,2,3,1,2,2,2,1,1,1,1,1,2,1,1,1,2,1,2,2,2,1,1,2,1,1,2
+60,60,Shefa,Ministry of Health,Corporate Service Unit,3,4,2,2,2,4,3,3,3,3,3,2,3,2,2,2,2,2,3,4,3,3,4,3,2,4,3,4,3,2,2
+61,61,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,4,4,4,3,4,4,4,4,4,4,3,4,3,2,2,4,3,4,4,4,4,4,4,4,4,4,4,4,4,2,3
+62,62,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,2,3,3,3,4,4,4,2,3,3,4,4,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+63,63,Shefa,Ministry of Finance and Economic Management,Vanuatu National Audit Office,4,4,2,4,3,3,3,3,3,3,3,3,3,1,2,3,2,3,1,3,3,2,3,3,3,3,3,4,3,3,3
+64,64,Shefa,Ministry of Climate Change and Adaptation,Department of Climate Change,4,4,3,4,4,4,4,4,4,4,4,4,4,1,1,3,3,3,4,3,4,4,4,3,3,4,3,4,4,3,2
+65,65,Shefa,Ministry of Health,Department of Curative and Hospital Services,2,2,2,3,3,2,3,3,2,3,2,2,2,2,2,2,3,2,2,3,3,3,2,3,2,3,2,3,2,3,2
+66,66,Shefa,Ministry of Climate Change and Adaptation,Department of Climate Change,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+67,67,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,4
+68,68,Torba,Ministry of Health,Department of Policy and Planning,1,1,1,1,2,2,2,2,1,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+69,69,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,3,3,2,2,2,2,2,2,2,3,3,2,2,2,2,2,2,2,2,3,3,2,2,3,2,2,2,2,2,1,2
+70,70,Shefa,Ministry of Prime Minister,Office of Government Chief Information Officer,1,4,3,4,3,3,4,3,2,3,2,2,3,2,2,4,4,4,3,3,4,3,2,3,3,3,3,3,4,1,3
+71,71,Shefa,Ministry of Finance and Economic Management,Vanuatu National Audit Office,4,3,4,3,4,2,4,4,3,4,3,4,3,2,2,3,4,3,2,4,4,3,2,3,3,3,4,3,4,3,2
+72,72,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,3,3,3,3,4,3,3,3,3,2,3,2,2,3,3,3,3,3,3,3,2,3,2,3,3,3,3,3,3
+73,73,Shefa,Ministry of Health,Department of Curative and Hospital Services,2,2,1,2,2,2,3,1,2,2,2,1,2,2,2,2,2,2,2,2,3,3,2,3,3,3,2,2,3,3,3
+74,74,Shefa,Ministry of Health,Department of Public Health,4,2,2,3,3,3,4,3,3,3,2,3,3,2,3,2,2,2,2,3,2,1,2,3,2,2,3,2,1,2,3
+75,75,Shefa,Ministry of Climate Change and Adaptation,Department of Climate Change,3,3,2,3,4,3,3,4,3,2,1,3,2,1,2,3,3,3,2,3,3,3,3,3,3,4,4,3,3,3,3
+76,76,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,3,3,1,2,1,1,1,3,3,2,3,2,2,1,1,1,3,2,2,3,3,2,3,2,2,2,3,3,3,2,3
+77,77,Torba,Ministry of Health,Department of Curative and Hospital Services,3,3,4,3,3,3,4,3,3,3,3,4,3,3,2,4,3,3,4,3,3,3,3,4,4,3,3,3,3,3,3
+78,78,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,3,4,4,4,4,4,4,4,3,3,3,3,3,1,3,2,2,2,3,4,3,2,4,3,2,2,2,2,3,3
+79,79,Penama,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,3,4,3,4,4,4,4,4,4,4,4,4
+80,80,Shefa,Ministry of Health,Department of Curative and Hospital Services,1,1,2,2,2,2,1,1,2,1,1,1,2,2,2,1,1,2,1,1,1,1,2,3,1,1,1,1,1,3,2
+81,81,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,2,2,3,3,2,2,2,4,2,3,1,4,3,3,3,2,2,2,3,3,3,3,3,3,2,4,4,3,3,3,3
+82,82,Malampa,Ministry of Infrastructure and Public Utilities,Public Works Department,2,2,3,2,3,3,3,3,2,3,2,3,2,2,2,2,2,3,2,2,3,2,3,2,3,3,3,3,3,3,3
+83,83,Torba,Ministry of Infrastructure and Public Utilities,Public Works Department,4,3,2,4,3,4,4,3,3,4,3,4,4,3,2,4,1,4,4,4,4,4,3,3,2,3,4,3,4,2,4
+84,84,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,2,3,4,4,4,4,4,4,4,2,3,4,3,2,4,3,1,4,4,4,2,3,3,4,3,4,4,4,1,4
+85,85,Shefa,Ministry of Health,Department of Public Health,2,2,3,2,3,2,1,2,2,2,3,2,2,2,1,1,2,2,3,3,3,2,3,3,1,3,3,3,3,2,3
+86,86,Tafea,Ministry of Health,Department of Curative and Hospital Services,3,3,1,2,3,3,3,2,2,2,2,2,2,1,1,2,2,1,2,2,2,1,2,3,2,3,2,2,2,2,2
+87,87,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+88,88,Shefa,Ministry of Health,Department of Public Health,4,4,2,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,2,3,2,2,3,3,3,3,2,2,2,2
+89,89,Shefa,Ministry of Internal Affairs,Corporate Service Unit,2,2,2,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,2,3,3,3,1,3,2,3,3,3,3,3,3
+90,90,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,3,3,2,3,4,4,3,3,2,2,3,3,3,3,3,3,3,2,1,2,2,2,3,4,3,3,2,3,2,1,3
+91,91,Shefa,Ministry of Justice and Community Services,Department of Youth and Sports,1,2,3,2,4,4,4,3,4,3,3,3,3,1,2,1,1,1,3,3,4,2,2,1,2,3,3,3,3,2,3
+92,92,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Corporate Service Unit,4,4,4,3,4,4,3,4,3,2,3,2,3,2,2,2,3,4,4,3,2,3,3,3,4,4,3,3,4,3,2
+93,93,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,4,3,3,4,3,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+94,95,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,2,3,2,2,3,3,3,2,1,1,1,2,2,1,2,2,2,2,3,2,3,3,3,2,3,1
+95,96,Tafea,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,3,4,4,4,4,4,4,4,4,4,4,3,4,4,3,4,3,3,4,4,4,3,4,4,3,3,4,4
+96,97,Tafea,Ministry of Infrastructure and Public Utilities,Public Works Department,3,4,3,2,4,3,2,3,2,2,3,2,3,3,3,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2
+97,98,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,2,3,2,2,3,2,2,2,2,2,2,2,2,3,3,3,3,2,2,3,3,2,1,1,4,4,4,4,4,3,3
+98,99,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,3,2,3,4,4,4,3,4,4,4,4,4,3,3,3,4,3,3,4,3,3,3,4,4,4,4,4,3,3
+99,100,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,1,2,2,2,3,2,2,3,2,3,2,2,2,3,3,2,2,2,2,2,2,2,2,2,1,3,2,2,2,2,2
+100,101,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,2,2,1,2,1,1,1,3,1,2,2,2,2,1,1,1,1,1,2,2,3,2,3,3,3,3,3,3,1,1,1
+101,102,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Corporate Service Unt,2,2,2,1,2,2,4,3,2,2,4,2,2,2,2,3,1,2,2,2,2,3,2,4,2,3,2,3,2,1,2
+102,103,Shefa,Ministry of Internal Affairs,Department of Urban Affairs,1,1,2,2,1,1,1,2,2,2,2,2,2,4,3,3,3,3,2,3,2,2,3,3,2,4,3,3,2,2,2
+103,104,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Corporate Service Unit,3,3,3,3,4,4,4,4,4,3,3,3,3,2,2,2,2,2,3,3,3,3,3,3,4,4,3,3,3,2,3
+104,105,Shefa,Ministry of Internal Affairs,Corporate Service Unit,2,2,2,2,2,2,2,3,3,3,3,3,3,2,2,3,2,2,2,2,2,2,2,2,2,2,2,3,3,3,2
+105,106,Penama,Ministry of Justice and Community Services,Corporate Service Unit,4,4,3,4,4,4,4,4,4,2,4,4,4,4,2,4,4,2,2,2,1,1,2,4,4,4,4,4,4,1,4
+106,107,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,3,3,2,3,3,3,3,3,3,2,2,2,2,3,3,3,2,3,3,3,2,3,3,3,3,3,3,3,3
+107,108,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+108,109,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,3,4,4,4,4,4,4
+109,110,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,3,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+110,111,Shefa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,2,2,2,3,3,2,2,3,2,2,1,2,2,2,3,2,2,3,2,3,3,1,2,2,2
+111,112,Tafea,Ministry of Health,Department of Curative and Hospital Services,2,2,2,3,4,2,3,3,3,3,4,1,3,3,2,3,3,3,3,3,3,3,2,3,3,4,4,3,2,2,3
+112,113,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,3,4,3,3,4,3,2,3,2,2,2,2,3,3,3,3,3,2,3,3,2,2,1,4,4,3,3,2,2
+113,114,Shefa,Ministry of Prime Minister,Office of Government Chief Information Officer,3,3,3,3,3,4,4,4,3,3,2,2,3,2,1,3,2,3,2,3,4,3,2,4,2,4,3,4,4,1,3
+114,115,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,3,3,3,3,4,3,3,4,3,3,3,2,2,3,3,2,2,3,3,3,2,2,3,3,3,3,2,1,2
+115,116,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,3,2,2,2,1,1,1,2,1,2,3,2,2,2,1,2,2,2,1,3,3,1,2,1,1,1,2,1,1,1,3
+116,117,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,3,2,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2
+117,118,Shefa,Ministry of Education and Training,Department of Tertiary Education,4,4,4,4,4,3,3,3,2,3,2,3,3,1,1,3,2,4,2,3,4,4,3,4,2,3,3,3,3,3,3
+118,119,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,4,4,4,4,3,3,4,4,4,3,3,3,3,2,4,3,4,4,3,3,4,3,4,4,4,4,1,3
+119,120,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,3,1,2,2,2,3,1,1,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2
+120,121,Shefa,Ministry of Education and Training,Department of Finance and Admin,4,3,3,3,3,3,4,3,3,2,2,3,2,2,2,3,1,2,1,3,1,2,3,4,2,3,3,3,2,2,3
+121,122,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,3,3,4,4,3,3,3,3,2,3,2,2,3,2,4,2,3,4,4,3,4,3,3,3,3,3,3,3
+122,123,Shefa,Ministry of Health,Department of Curative and Hospital Services,3,3,3,2,2,3,3,2,3,3,3,4,3,2,2,3,3,4,3,3,4,3,3,4,3,4,4,4,4,4,3
+123,124,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,4,4,3,3,3,3,3,3,3,4,4,4,4,3,3,4,3,3,3,4,2,3,3,2,2,3,3,3,3
+124,125,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,4,4,3,3,4,4,4,4,4,4,3,2,3,3,3,3,2,2,1,2,2,2,3,3,3,4,3,3,4,2,3
+125,126,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,4,4,3,3,4,3,3,3,4,4,3,4,4,3,2,2
+126,127,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,3,2,3,3,3,2,3,3,1,2,2,1,2,2,2,2,2,2,2,2,3,3,3,3,3,2,2,4
+127,128,Sanma,Ministry of Health,Department of Curative and Hospital Services,2,1,2,3,3,2,1,3,3,2,2,3,2,2,2,2,1,1,3,2,2,2,3,4,3,3,3,3,3,2,2
+128,129,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,2,3,2,4,3,2,3,2,2,3,3,2,2,2,2,2,2,2,2,3,2,2,2,1,1,2,2,2,2,3
+129,130,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,4,4,4,3,2,4,4,4,4,3,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+130,131,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,2,4,4,3,1,2,4,3,2,3,3,1,2,1,2,2,3,3,1,1,3,1,3,1,1,4,1,2
+131,132,Penama,Ministry of Health,Department of Curative and Hospital Services,3,3,3,3,4,3,4,3,4,3,4,3,2,2,2,3,2,3,4,3,3,4,4,4,3,4,4,3,3,3,2
+132,133,Shefa,Ministry of Health,Department of Curative and Hospital Services,2,2,1,1,1,2,1,2,2,2,2,1,2,1,2,2,2,2,2,1,1,1,2,2,1,1,2,2,2,1,1
+133,134,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,4,4,3,4,4,4,3,3,4,3,3,3,2,2,2,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3
+134,135,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,4,4,3,4,4,4,4,4,4,4,4,4,2,2,3,4,3,4,4,3,3,3,4,4,4,4,3,3,1,3
+135,136,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,3,2,3,3,2,2,1,2,2,1,2,2,3,2,1,2,3,2,1,2,2,1,2,2,1,1,3,2,1
+136,137,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,4,3,3,4,2,3,3,4,3,2,2,4,1,3,1,3,3,3,2,3,3,3,2,3,4,3,3,2,2
+137,138,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,2,3,3,3,2,3,2,2,2,1,2,2,3,2,1,3,3,2,2,1,2,3,2,2,2,1,2,1,3
+138,139,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+139,140,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,4,3,1,4,3,1,2,4,3,1,3,2,1,2,2,2,2,3,4,1,1,2,1,2,1,1,4,1,1
+140,141,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,4,4,4,4,4,3,3,3,4,4,4,4,3,4,3,3,3,3,4,3,3,4,4,3,4,4,3,3,1,2
+141,142,Tafea,Ministry of Health,Corporate Service Unit,3,4,3,3,4,4,4,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3
+142,143,Penama,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,3,3,3,4,3,3,3,3,3,2,3,1,3,3,2,2,3,1,1,3,1,2,3,2,4,2,1,1
+143,144,Shefa,Ministry of Prime Minister,Department of Language Services,4,4,3,3,3,3,3,3,3,4,4,3,3,3,2,3,3,3,3,4,3,3,3,3,2,4,3,3,4,3,3
+144,145,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,3,2,4,4,4,3,4,4,4,4,4,1,2,4,4,3,2,3,3,1,4,3,4,4,4,4,4,4,2
+145,146,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,3,4,3,3,3,4,3,3,3,2,2,2,3,2,4,3,3,3,3,3,3,2,3
+146,147,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,4,2,2,3,4,4,3,3,3,3,3,3,3,3,3,2,2,3,3,2,3,3,3,2,3,3,2,3,2,2
+147,148,Shefa,Ministry of Education and Training,Corporate Service Unit,3,3,2,3,3,4,3,3,3,3,2,3,3,3,2,2,2,2,4,3,3,2,3,4,3,3,3,2,3,3,2
+148,149,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+149,150,Penama,Ministry of Education and Training,Department of Education Services,3,3,3,3,4,4,3,4,4,3,3,3,3,3,3,4,3,3,3,4,4,3,3,4,3,4,4,3,4,3,3
+150,151,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,3,3,2,2,3,3,3,3,4,3,2,3,3,2,3,3,2,3,3,3,3,2,3,3,3,2,3,2,1,2
+151,152,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,2,3,3,3,3,3,1,2,2,2,1,3,3,3,2,3,1,3,1,3,2,2,3,3,2,4,3,2,1,1,3
+152,153,Shefa,Ministry of Prime Minister,Office of Public Service Commission,1,3,3,3,3,3,4,3,3,4,4,3,3,4,3,3,2,3,2,3,3,3,3,4,3,3,4,3,4,3,3
+153,154,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,2,2,2,1,3,4,2,3,3,3,3,2,3,3,2,3,3,3,2,3,3,3,3,3,4,3,3,3,2,3
+154,155,Sanma,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",4,4,2,2,2,2,3,3,3,3,3,2,2,1,2,3,3,1,4,3,4,4,3,3,3,3,3,4,3,1,3
+155,156,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,2,2,2,3,2,3,3,3,2,1,3,3,2,2,2,1,1,2,4,1,3,3,3,3,3,2,3,3,2,3
+156,157,Shefa,Ministry of Health,Department of Policy and Planning,3,3,3,3,2,3,1,3,1,1,3,2,2,2,2,2,2,2,2,3,3,3,2,3,3,3,2,2,3,3,2
+157,158,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,3,3,2,3,2,4,3,3,3,3,2,3,2,2,3,2,3,3,3,4,3,3,1,3,3,2,3,3,3,2
+158,159,Shefa,Ministry of Prime Minister,Department of Language Services,4,4,3,2,4,4,4,3,3,4,4,3,3,2,1,3,2,2,3,4,1,4,4,4,4,3,3,3,3,3,3
+159,160,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,3,3,3,3,2,2,2,3,3,3,2,2,2,3,3,2,3,1,1,2,3,3,2,3,2,2,3,3
+160,161,Shefa,Ministry of Education and Training,Department of Education Services,2,2,3,3,3,3,2,4,3,2,1,3,3,2,2,3,3,2,2,2,3,3,3,4,2,4,4,3,3,3,3
+161,162,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Corporate Service Unit,2,2,3,2,3,2,3,2,2,4,3,2,2,2,2,2,2,3,2,2,2,2,2,3,3,2,2,2,2,2,2
+162,163,Tafea,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,3,3,2,3,4,4,4,4,4,3,2,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3
+163,164,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,2,3,4,4,3,3,3,3,3,3,4,4,3,4,3,3,4,4,3,3,2,3,4,3,3,3,2,2
+164,165,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of Foreign Affairs,3,4,3,3,3,3,2,3,3,4,3,4,2,3,4,2,2,3,2,2,1,4,2,2,2,4,3,3,3,4,3
+165,166,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,1,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,3
+166,167,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,4,4,4,2,4,2,3,3,2,3,2,2,3,2,3,4,3,3,4,2,4,4,4,4,3,4,3,3
+167,168,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,2,3,3,3,3,3,1,3,2,1,2,3,3,2,2,3,3,3,2,3,3,1,3
+168,169,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,3,4,1,3,3,2,2,2,1,3,3,2,4,4,2,4,4,2,3,4,1,3,2,1,3,3,4,4,1,2
+169,170,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,4,3,3,4,3,3,4,3,3,2,4,4,3,3,3,4,3,3,3,3,3,4,3,4,3,4,3,3
+170,171,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+171,172,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,3,3,3,3,3,3,2,4,3,3,3,2,2,2,2,2,3,3,3,3,3,2,2,3,4,3,2,2,2
+172,173,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,1,1,1,1,1,1,1,2,1,2,3,1,1,2,2,3,3,1,4,1,1,1,1,4,4,4,4,1,2
+173,174,Tafea,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,3,3,3,3,3,3,3,3,3,2,2,2,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,2
+174,175,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Corporate Service Unit,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,2,3,4,3,3,3,3,3,3,3,3,2,3
+175,176,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,4,4,3,3,3,4,3,4,3,4,4,3,4,2,3,3,2,3,3,4,3,3,3,3,4,3,4,4,3,3
+176,177,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,2,2,3,3,3,3,2,3,3,2,3,2,3,3,3,3,3,1,3,4,3,2,1,2
+177,178,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,2,2,3,3,3,3,2,3,3,2,3,2,3,3,3,3,3,1,3,4,3,2,1,2
+178,179,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,2,2,3,3,3,3,2,3,3,2,3,2,3,3,3,3,3,1,3,4,3,2,1,2
+179,180,Malampa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,3,4,4,4,3,4,4,4,2,3,4,4,4,4,4,2,4,4,4,4,4,4,4,4,4,4,4,4,3,4
+180,181,Shefa,Ministry of Trades and Commerce,Department of Industry,3,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+181,182,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,3,2,3,2,3,3,3,3,1,3,3,3,3,3,3,3
+182,183,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,4,4,3,2,4,4,4,3,4,3,3,3,2,3,3,3,3,3,3,3,2,3,3,3,3,3,3,4,4,1,3
+183,184,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,3,2,2,2,3,1,2,1,3,2,3,1,2,1,1,1,2,2,2,2,3,1,2,3,3,2,2,1,3
+184,185,Penama,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,4,2,3,3,4,3,2,3,3,3,3,3,4,3,2,3,4,3,4,2,3,1,2,4,3,4,4,4,3
+185,186,Shefa,Ministry of Education and Training,Department of Policy and Planning,2,2,3,2,3,3,4,3,3,3,3,3,3,3,3,2,2,1,2,2,2,3,3,3,2,3,2,2,3,3,2
+186,187,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,3,4,3,3,4,3,3,3,3,3,3,3,3,3,2,2,3,3,3,3,4,3,3,4,3,4,4,4,3,4,3
+187,188,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,3,3,3,2,2,3,2,3,1,2,1,1,1,2,2,2,1,1,3,3,2,2,3,2,2,3,3,4,4,4,3
+188,189,Shefa,Ministry of Trades and Commerce,Department of Cooperative,4,3,3,3,3,4,3,3,1,3,3,2,2,2,1,2,3,3,2,1,4,2,2,3,3,3,4,2,1,2,2
+189,190,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,3,3,2,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+190,191,Malampa,Ministry of Trades and Commerce,Department of Industry,4,3,3,3,3,3,3,2,3,4,3,4,3,3,3,4,3,3,4,4,4,4,3,4,4,4,4,4,4,4,3
+191,192,Sanma,Ministry of Trades and Commerce,Department of Industry,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,3,3,3,2,3,2,4,4,3,3,4,2
+192,193,Shefa,Ministry of Trades and Commerce,Department of Tourism,2,2,2,2,2,2,1,2,1,2,2,1,1,1,2,1,1,1,1,2,1,2,2,3,1,3,2,3,2,1,2
+193,194,Shefa,Ministry of Health,Department of Public Health,2,2,2,2,2,3,2,2,2,2,1,1,2,1,1,2,2,1,2,2,3,2,2,3,1,2,2,3,2,2,2
+194,195,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,4,3,3,3,4,4,3,4,4,3,3,3,3,3,2,3,3,3,3,3,3,4,4,3,3,2,2,3,4
+195,196,Sanma,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,3,3,3,3,4,3,3,3,2,3,3,3,3,2,3,3,2,2,2,3,3,3,2,2,3,3,3,3,3
+196,197,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,4,4,3,3,3,4,3,3,3,3,3,3,3,4,4,4,3,3,4,2,4,3,3,3,3,3
+197,198,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,3,2,3,4,3,3,3,4
+198,199,Sanma,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+199,200,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,3,3,4,4,4,4,3,3,2,2,3,3,2,3,2,3,3,3,3,4,3,3,3,3,3,3,3,3,2,3
+200,201,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,4,4,4,3,4,4,4,4,4,4,3,3,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4
+201,202,Tafea,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,2,2,4,3,4,4,3,3,4,3,3,3,3,2,2,3,2,2,3,3,3,3,4,4,4,4,3,3,4,3,4
+202,203,Shefa,Ministry of Health,Department of Public Health,4,4,3,2,2,2,2,3,4,3,2,1,1,1,2,1,1,4,1,2,3,1,4,3,2,3,3,3,3,1,1
+203,204,Shefa,Ministry of Prime Minister,Department of Language Services,1,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,2,1,3,3,3,2,3,3,3,1,3,2,1,3
+204,205,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,3,3,4,3,3,3,3,2,2,3,2,2,1,3,3,3,2,2,3,4,4,2,4,3,3,3,2,3
+205,206,Sanma,Ministry of Health,Department of Public Health,2,2,2,2,2,2,3,3,3,2,2,3,3,2,3,2,2,2,2,2,2,2,3,3,1,4,3,2,2,2,2
+206,207,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,3,3,3,4,2,3,3,2,2,2,2,2,2,2,3,2,3,3,3,2,4,4,3,3,3,2,2,3
+207,208,Shefa,Ministry of Health,Department of Public Health,3,3,2,2,2,2,2,2,1,1,1,3,1,3,3,1,1,2,1,2,1,1,2,3,1,2,2,1,1,1,1
+208,209,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,4,3,3,3,3,3,3,3,3,3,4,2,3,3,2,3,2,2,2,3,4,3,3,3,3,3,2,2
+209,210,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Forestry,3,3,3,3,3,3,2,3,4,3,3,2,3,2,2,3,2,1,3,3,2,3,3,3,3,3,3,3,3,3,2
+210,211,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,3,4,3,3,3,3,3,3,2,3,3,2,3,2,2,3,3,2,3,2,2,2,3,3,4,3,4,3
+211,212,Shefa,Ministry of Prime Minister,Corporate Service Unit,3,4,4,3,4,4,2,3,4,4,4,2,3,2,3,4,2,3,4,3,1,3,3,2,3,4,3,3,3,2,3
+212,213,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,3,3,3,3,3,3,3,3,3,4,2,2,2,3,4,3,3,3,4,3,3,1,3,3,3,3,2,3
+213,214,Malampa,Ministry of Justice and Community Services,Corporate Service Unit,3,4,2,1,4,2,3,2,4,2,1,3,2,1,2,1,3,2,3,1,3,4,1,4,3,4,2,1,1,4,2
+214,215,Shefa,Ministry of Justice and Community Services,Customary land Management Office,3,3,3,4,3,3,2,2,3,3,2,2,2,2,2,3,2,3,1,1,1,2,3,3,2,3,3,3,2,3,3
+215,216,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4
+216,217,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,2,3,2,2,2,2,3,3,3,3,2,1,3,3,4,2,2,3,3,3,2,2,2,4,3,3,3,3,3,2,3
+217,218,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,1,3,3,2,4,4,4,4,4,3,3,3,3,1,1,1,1,1,2,2,1,2,3,3,3,3,4,1,3,3,2
+218,219,Sanma,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,2,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,4,3,4,3,3,3,3,3,3,3,4,4
+219,220,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,4,3,3,3,3,3,3,3,4,2,3,2,2,3,2,3,2,2,3,3,2,3,2,3,3,3,4,3,3
+220,222,Shefa,Ministry of Prime Minister,Department of Language Services,2,3,1,2,3,2,2,1,2,3,3,2,2,2,2,2,1,2,1,1,1,2,2,2,2,4,3,3,2,2,2
+221,223,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,4,2,2,2,4,3,4,3,3,4,3,4,3,4,4,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4
+222,224,Tafea,Ministry of Health,Corporate Service Unit,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+223,225,Penama,Ministry of Justice and Community Services,Customary land Management Office,3,3,3,4,4,4,4,3,4,4,2,3,4,3,3,4,3,4,3,3,3,3,3,3,3,4,3,4,3,2,3
+224,226,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,2,3,3,3,3,3,3,3,3,2,2,3,2,3,3,3,2,1,1,3,2,2,1,2,3,3,1,3,4,4
+225,227,Shefa,Ministry of Prime Minister,Corporate Service Unit,4,4,2,2,3,3,4,4,3,3,4,3,4,3,2,3,3,2,4,4,4,4,2,4,4,4,3,4,2,4,3
+226,228,Torba,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,2,3,3,3,3,3,3,2,2,2,2,2,2,2,4,2,2,3,3,3,3,4,3,2,3,3,2,2
+227,229,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,4,3,4,3,3,3,4,3,4,3,3,2,3,2,3,1,2,3,3,3,3,4,3,3,3,3,3,3,3,3,4
+228,230,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",3,3,3,2,3,3,3,2,3,3,4,3,2,2,2,3,2,1,2,2,2,4,4,4,2,3,4,3,2,1,2
+229,231,Torba,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+230,232,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,3,3,3,3,4,3,4,4,3,3,4,3,4,4,3,4,3,4,4,3,3,2,3,2,3,3,3,3,2,3
+231,233,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,4,4,3,4,4,4,4,4,4,4,3,3,3,2,3,3,4,3,4,4,4,4,3,4,3,3,3,4,3,4,2
+232,234,Shefa,Ministry of Internal Affairs,Department of Immigration,4,3,3,2,3,2,3,4,2,2,2,3,3,2,3,3,2,2,2,2,2,3,3,3,3,3,2,3,3,3,3
+233,235,Sanma,Ministry of Justice and Community Services,Customary land Management Office,3,3,1,2,4,3,3,3,3,2,1,3,3,2,2,2,3,3,3,2,2,4,3,3,3,3,4,3,3,3,3
+234,236,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,3,3,4,4,4,4,3,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,3,3,4,4,4,2,4
+235,237,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,3,4,4,3,4,4,2,3,2,1,3,3,3,3,2,2,3,3,3,3,2,3,4,4,2,1,1,1,2
+236,238,Shefa,Ministry of Trades and Commerce,Department of Tourism,3,3,2,4,3,2,3,3,3,2,2,1,2,3,4,1,2,1,2,2,3,2,4,3,2,2,3,3,3,3,4
+237,239,Torba,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,4,3,4,4,3,3,2,2,4,3,3,3,4,3,3,2,3,3,3,3,3,3,3,3,4,4,4,4,1,1
+238,240,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,1,2
+239,241,Sanma,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,3,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,3,3,4,4,4,4,4,4,4,4,3,4
+240,242,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+241,243,Shefa,Ministry of Prime Minister,Corporate Service Unit,2,3,3,2,3,2,2,2,2,2,2,1,2,2,1,2,2,3,1,1,1,1,2,1,2,2,3,3,3,2,3
+242,244,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,4,4,3,3,3,2,4,3,3,3,3,2,2,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+243,245,Malampa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,3,2,1,2,3,3,4,2,2,3,1,2,2,4,4,1,4,3,3,2,2,2,2,2,2,3,3,4,2,2,2
+244,246,Shefa,Ministry of Health,Department of Curative and Hospital Services,3,3,2,2,3,4,3,3,2,2,2,2,2,2,1,2,3,2,2,2,3,2,2,3,2,2,2,2,2,2,4
+245,247,Shefa,Ministry of Internal Affairs,Department of Internal Affairs,3,3,2,4,3,4,4,3,3,3,3,3,4,2,3,3,3,3,3,3,4,4,3,4,3,4,4,4,4,4,4
+246,248,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,3,3,3,3,3,3,2,3,3,3,3,2,3,2,3,2,2,1,2,3,3,3,2,2,2,3,3,3,3,3,4
+247,249,Sanma,Ministry of Finance and Economic Management,Corporate Service Unit,4,3,4,3,2,3,3,2,3,2,2,3,4,2,2,3,4,3,4,4,1,4,3,2,4,4,4,4,3,4,2
+248,250,Sanma,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,4,4,4,3,3,4,3,3,4,4,4,3,3,4,2,1,2,4,2,3,4,4,4,4,3,4,4,4,1,3,4
+249,251,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,3,3,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,3,1,1
+250,252,Tafea,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+251,253,Shefa,Ministry of Prime Minister,Corporate Service Unit,4,4,4,3,4,4,3,3,3,4,3,3,3,3,3,3,3,4,3,2,3,2,3,3,3,4,4,4,3,1,2
+252,254,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,4,4,3,3,2,4,4,4,3,4,3,3,3,3,3,3,3,2,2,3,4,3,3,3,3,3,3,3,3,3,3
+253,255,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,4,3,3,2,3,4,4,3,3,3,4,3,4,3,4,4,3,4,4,4,3,4,4,4,3,4,4,4,4,4,4
+254,256,Shefa,Ministry of Prime Minister,Department of Language Services,4,4,4,4,4,4,3,3,4,4,3,3,3,2,2,4,2,2,3,3,3,3,4,3,3,3,3,4,3,1,1
+255,257,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,4,4,3,2,4,4,3,2,2,1,2,1,3,2,2,2,1,1,1,1,1,2,2,2,3,3,3,4,2,1,2
+256,258,Shefa,Ministry of Internal Affairs,Department of Immigration,4,4,3,2,3,3,3,3,3,3,2,3,3,4,2,3,3,2,3,2,3,3,3,4,4,4,4,3,3,3,4
+257,259,Shefa,Ministry of Health,Corporate Service Unit,3,3,4,2,4,3,2,2,2,2,2,2,2,4,2,3,2,4,4,3,2,2,2,2,2,4,3,3,3,2,3
+258,260,Shefa,Ministry of Prime Minister,Department of Language Services,3,3,3,2,2,3,3,2,3,3,3,3,2,2,2,3,2,3,2,3,3,3,3,3,3,4,3,3,3,3,3
+259,261,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,3,2,3,3,4,4,4,3,2,2,3,2,2,3,3,2,3,3,3,3,2,3,2,3,3,3,4,3,2,2
+260,262,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,3,3,3,3,3,4,3,1,3,3,2,1,2,2,2,3,2,2,2,2,1,2,2,3,2,2,3,2,2,1,2
+261,263,Penama,Ministry of Health,Department of Public Health,1,3,3,1,3,4,3,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,3,1,4,1,1,3,3,1
+262,264,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,2,2,2,3,3,2,3,3,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,2,2,2
+263,265,Penama,Ministry of Health,Department of Curative and Hospital Services,1,2,2,2,2,2,2,3,2,2,3,4,3,3,2,3,3,4,2,2,2,3,2,3,3,4,3,4,2,2,2
+264,266,Shefa,Ministry of Education and Training,Department of Policy and Planning,4,4,2,3,3,3,3,2,2,3,2,2,2,3,1,2,2,2,2,2,2,2,2,3,2,2,3,2,2,3,3
+265,267,Malampa,Ministry of Education and Training,Department of Finance and Admin,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+266,268,Shefa,Ministry of Education and Training,Department of Tertiary Education,3,3,4,3,3,3,3,2,2,3,2,2,3,1,2,3,1,2,3,3,4,3,2,3,2,3,3,3,2,1,2
+267,269,Shefa,Ministry of Education and Training,Department of Finance and Admin,1,2,2,2,3,3,2,2,3,2,3,2,3,1,2,2,3,3,1,2,3,2,2,2,2,2,3,3,2,3,3
+268,270,Penama,Ministry of Health,Department of Public Health,3,3,3,3,2,2,3,4,4,2,3,4,4,1,1,1,3,3,4,4,1,1,4,4,4,4,4,4,3,1,1
+269,271,Tafea,Ministry of Education and Training,Department of Policy and Planning,4,4,4,3,3,3,4,3,4,3,3,4,3,4,4,2,2,1,1,1,4,4,4,4,4,4,4,4,4,1,4
+270,272,Shefa,Ministry of Health,Department of Public Health,3,2,2,2,3,3,4,4,3,3,3,2,3,2,3,2,1,3,2,3,4,3,2,4,2,4,4,3,4,1,3
+271,273,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,4,3,4,3,3,2,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3
+272,274,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,3,3,3,3,3,4,4,3,3,2,3,3,3,3,4,3,3,3,3,3,3,3,3,4,4,4,4,4,2,3
+273,275,Shefa,Ministry of Education and Training,Department of Education Services,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3
+274,276,Malampa,Ministry of Education and Training,Department of Tertiary Education,3,3,3,3,3,4,3,3,3,3,3,3,3,2,2,3,2,3,3,4,4,3,3,4,3,3,3,3,3,2,3
+275,277,Shefa,Ministry of Internal Affairs,Department of Urban Affairs,4,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+276,278,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,4,4,4,4,4,2,4,4,4,2,4,3,4,2,1,2,4,4,4,4,2,4,4,4,4,4,4,2,4
+277,279,Shefa,Ministry of Education and Training,Department of Finance and Admin,3,3,2,3,3,3,3,2,3,2,3,4,3,2,2,3,2,3,3,2,2,2,3,3,3,4,3,4,3,3,3
+278,280,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,4,3,3,3,3,3,3,3,3,3,3,3,4,2,1,2,3,3,2,3,3,3,3,3,3,3,3,1,3
+279,281,Shefa,Ministry of Education and Training,Department of Tertiary Education,4,3,1,4,3,3,4,2,3,2,4,2,3,1,3,1,1,1,1,2,3,2,3,3,2,3,2,4,3,1,1
+280,282,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,4,3,3,3,3,4,4,4,3,4,3,3,2,3,4,2,1,3,3,3,3,3,4,3,4,4,4,3,1,2
+281,283,Sanma,Ministry of Lands and Natural Resources,Corporate Service Unit,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,4,4,3,3,2,4,4,3,3,3,3
+282,284,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",1,2,2,1,2,2,2,1,1,1,1,1,1,2,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1
+283,285,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,4,3,3,3,4,4,3,3,3,3,3,4,3,2,3,3,1,3,4,3,4,2,3,4,4,4,4,3,3,3
+284,286,Shefa,Ministry of Education and Training,Department of Finance and Admin,2,2,2,2,2,2,2,1,3,3,3,2,3,3,1,1,1,3,2,1,1,1,2,4,2,4,3,1,1,2,3
+285,287,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,4,3,3,2,2,4,3,3,2,3,3,3,3,3,1,4,1,1,1,1,2,1,1,4,3,3,1,3,3
+286,288,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,4,4,3,3,3,3,2,3,2,1,2,2,1,2,1,1,2,2,2,2,2,2,3,2,2,2,1,2,2,3
+287,289,Tafea,Ministry of Education and Training,Department of Education Services,3,3,2,1,3,3,3,2,2,1,1,2,2,2,1,2,1,3,2,3,2,3,2,2,4,3,2,3,3,1,1
+288,290,Shefa,Ministry of Education and Training,Corporate Service Unit,2,2,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,3,2,2,2,2,2,2,2
+289,291,Shefa,Ministry of Prime Minister,Department of Language Services,2,2,2,2,1,1,1,1,1,3,2,1,2,2,2,1,2,2,2,1,1,2,2,3,1,4,3,3,3,2,2
+290,292,Shefa,Ministry of Education and Training,Corporate Service Unit,1,2,1,2,2,2,2,2,3,1,1,2,2,2,1,1,2,1,1,2,1,1,2,3,3,4,2,3,3,3,3
+291,293,Tafea,Ministry of Education and Training,Department of Education Services,2,4,2,2,3,3,3,3,2,2,1,2,3,2,2,2,1,4,2,3,3,3,3,2,2,4,4,3,2,3,1
+292,294,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,1,3,4,4,1,2,4,3,2,4,1,1,3,4,4,3,2,3,4,2,2,1,3,4,4,3,4,4,4,1,3
+293,295,Shefa,Ministry of Education and Training,Department of Tertiary Education,3,4,2,3,3,2,3,3,2,3,3,1,2,2,2,3,2,3,2,2,3,2,2,3,2,3,2,2,2,3,3
+294,296,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,1,4,4,4,4,4,4,4,3,4,4,4,3,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,3
+295,297,Sanma,Ministry of Education and Training,Department of Education Services,2,2,2,2,3,3,3,2,3,1,3,3,3,3,3,1,2,3,1,2,2,2,2,3,1,3,3,3,3,2,2
+296,298,Shefa,Ministry of Education and Training,Department of Tertiary Education,3,3,2,2,3,3,3,3,2,3,3,3,3,2,2,3,2,3,3,3,2,3,3,3,3,3,3,3,3,4,4
+297,299,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,2,3,2,3,3,2,4,4,3,2,2,3,2,2,3,3,1,2,1,4,4,4,4,2,2,2,4,4,3,3
+298,300,Torba,Ministry of Education and Training,Department of Education Services,3,3,2,2,3,3,4,3,3,2,3,3,2,2,2,3,2,3,2,4,3,2,2,3,3,4,3,3,2,2,3
+299,301,Penama,Ministry of Health,Department of Curative and Hospital Services,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,3,2,2,2,2,3,2,2,3,3,3,2,3,3,3,3
+300,302,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Corporate Service Unt,2,2,1,1,1,1,1,3,1,1,1,1,1,2,3,1,1,3,1,1,1,1,1,2,1,1,2,1,1,1,4
+301,303,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,3,3,3,3,3,1,3,4,4,4,4,1,2
+302,304,Penama,Ministry of Health,Department of Curative and Hospital Services,2,2,3,2,3,2,3,1,2,2,1,3,2,2,1,3,2,3,1,3,4,1,4,1,4,4,3,3,4,3,1
+303,305,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4
+304,306,Malampa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,3,4,3,2,3,4,4,3,4,4,4,2,3,4,1,4,1,4,4,4,1,4,3,3,4,4,4,4,4,1,1
+305,307,Shefa,Ministry of Education and Training,Department of Education Services,4,4,1,3,3,2,2,2,2,2,3,2,3,3,1,3,2,2,3,3,3,3,2,3,2,4,3,3,3,2,3
+306,308,Penama,Ministry of Health,Department of Public Health,2,2,2,2,2,2,2,2,2,2,2,2,1,2,1,2,2,4,2,3,3,1,2,1,2,3,2,3,3,2,2
+307,309,Shefa,Ministry of Health,Department of Public Health,2,2,2,2,2,1,1,1,2,3,2,2,2,2,2,2,2,2,1,1,2,1,2,3,1,2,1,1,1,2,3
+308,310,Shefa,Ministry of Education and Training,Department of Education Services,2,2,2,2,3,1,2,2,2,2,2,2,2,2,2,2,1,2,1,1,1,2,2,1,2,2,2,2,1,1,1
+309,311,Shefa,Ministry of Internal Affairs,Department of Immigration,4,3,3,3,3,4,3,3,3,3,3,3,4,2,3,3,3,4,4,4,4,4,3,4,4,3,3,3,3,3,4
+310,312,Malampa,Ministry of Trades and Commerce,Department of Tourism,2,3,3,3,2,2,3,1,1,2,1,1,2,2,2,2,2,2,2,2,2,2,3,3,2,2,2,2,3,2,3
+311,313,Shefa,Ministry of Education and Training,Department of Education Services,3,3,2,3,4,2,3,3,2,3,3,2,2,2,2,2,2,2,2,3,3,3,3,3,2,3,3,4,3,3,3
+312,314,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+313,315,Shefa,Ministry of Education and Training,Department of Policy and Planning,4,4,4,3,4,4,4,4,4,4,2,3,3,2,2,3,2,1,3,3,3,2,2,4,3,3,3,4,2,2,2
+314,316,Shefa,Ministry of Internal Affairs,Department of Immigration,4,4,2,3,4,4,4,4,3,2,2,4,3,2,1,3,4,3,4,3,3,3,3,2,4,3,2,3,3,1,3
+315,317,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,3,2,3,4,4,4,2,4,4,4,2,3,2,3,3,2,4,4,4,4,2,4,4,3,4,4,4,3,1,4
+316,318,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,4,3,3,3,3,3,3,2,2,2,3,2,2,3,2,4,2,2,2,3,2,3,3,3,3,4,4,3,3
+317,319,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,4,4,4,4,3,4,4,3,3,3,2,2,4,1,1,1,2,1,1,4,4,2,4,4,3,4,4,3
+318,320,Shefa,Ministry of Education and Training,Department of Policy and Planning,2,2,4,2,4,3,4,3,4,1,4,1,3,3,3,2,2,2,3,1,1,3,4,1,4,4,3,2,3,2,3
+319,321,Shefa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,3,2,3,3,3,3,3,2,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,2,2
+320,322,Shefa,Ministry of Health,Department of Public Health,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3
+321,323,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of External Trade,4,4,4,4,4,4,3,3,3,3,2,3,3,4,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+322,324,Shefa,Ministry of Prime Minister,Corporate Service Unit,1,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,3,2,2,1,2,3,2,3,2,1,3,2,2,2
+323,325,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,2,1,1,2,1,1,1,3
+324,326,Shefa,Ministry of Prime Minister,Corporate Service Unit,1,2,1,2,1,2,1,1,2,2,3,1,2,2,2,2,2,2,3,2,1,1,2,2,2,2,2,2,3,2,3
+325,327,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",4,3,4,4,4,3,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,4,4,4,3,4
+326,328,Tafea,Ministry of Education and Training,Department of Education Services,3,3,2,2,2,1,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,3,4,4,1
+327,329,Sanma,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,3,2,2,2,2,3,2,3,2,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,2
+328,330,Sanma,Ministry of Health,Department of Public Health,2,2,4,2,2,2,3,2,2,2,2,1,2,1,1,2,1,1,1,2,2,1,2,2,1,2,2,2,2,1,2
+329,331,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,2,3,2,3,3,3,3,3,3,2,3,2,3,2,2,3,2,3,2,3,3,1,3,3,3,3,2,3,3
+330,332,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Agriculture and Rural Development,3,2,3,2,3,3,3,2,3,3,3,2,2,2,2,2,2,1,4,3,2,2,2,3,1,3,3,3,2,2,2
+331,333,Shefa,Ministry of Education and Training,Corporate Service Unit,3,3,3,2,3,3,4,1,4,2,2,3,2,2,1,3,2,1,2,4,2,3,3,3,2,3,2,3,2,2,1
+332,334,Shefa,Ministry of Health,Department of Policy and Planning,2,2,2,2,3,3,3,3,3,3,3,2,3,2,2,2,2,3,2,2,1,3,3,3,2,3,2,3,2,2,2
+333,335,Shefa,Ministry of Education and Training,Corporate Service Unit,1,1,1,1,4,4,4,3,4,3,3,4,4,3,3,3,3,2,3,3,4,3,3,4,3,4,4,3,4,4,3
+334,336,Shefa,Ministry of Health,Department of Policy and Planning,3,3,2,3,4,4,3,2,2,2,3,2,3,3,2,3,3,3,3,2,3,3,3,3,3,4,3,4,3,3,3
+335,337,Shefa,Ministry of Education and Training,Department of Finance and Admin,3,2,3,3,3,3,3,3,3,3,3,3,3,1,1,3,1,1,1,2,2,3,3,3,3,4,3,2,2,3,3
+336,338,Shefa,Ministry of Health,Corporate Service Unit,4,4,3,3,3,4,3,4,3,4,3,4,3,4,4,4,4,4,3,4,3,4,3,4,4,4,3,3,3,3,3
+337,339,Malampa,Ministry of Finance and Economic Management,Vanuatu National Audit Office,3,4,3,3,3,4,3,3,3,3,3,2,3,2,2,3,3,3,3,3,3,2,3,3,3,3,3,4,3,2,3
+338,340,Penama,Ministry of Health,Department of Public Health,3,3,3,4,3,3,3,2,3,4,4,4,4,2,2,3,3,2,4,2,4,3,2,4,3,4,3,1,4,4,2
+339,341,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,4,3,3,4,3,3,4,4,4,2,3,4,3,4,1,2,4,4,4,4,4,4,4,3,4,3,4,3,4,4
+340,342,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,3,1,3,4,4,3,4,3,2,4,2,3,4,4,4,3,4,4,3,4,4,4,4,4,4,3,4,4,2,3
+341,343,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,2,2,2,1,2,2,2,1,1,1,2,2,2,1,1,1,1,1,1,2,2,2,1,2,2,2,2,2,1,1,3
+342,344,Shefa,Ministry of Finance and Economic Management,Vanuatu National Audit Office,3,3,2,3,3,2,2,3,2,4,3,3,2,2,2,3,3,2,2,3,3,3,3,3,2,3,3,3,3,3,3
+343,345,Shefa,Ministry of Climate Change and Adaptation,Department of Energy,4,4,3,3,4,3,3,3,3,2,3,3,3,3,3,3,2,3,2,3,2,3,3,3,2,4,3,3,3,3,2
+344,346,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,2,1,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,1,2,2,2,2,2,2,1,2,3
+345,347,Shefa,Ministry of Education and Training,Corporate Service Unit,3,3,2,3,3,4,4,4,4,4,4,4,3,2,4,3,1,1,4,1,4,3,3,4,4,1,2,1,3,3,3
+346,348,Shefa,Ministry of Education and Training,Department of Education Services,3,3,2,2,2,2,2,3,3,3,2,3,3,3,3,3,2,2,2,1,2,4,4,1,3,4,4,1,1,2,4
+347,349,Shefa,Ministry of Education and Training,Corporate Service Unit,2,2,3,2,2,2,2,2,1,2,1,2,1,2,2,2,1,1,2,1,2,2,2,2,1,2,2,1,1,2,2
+348,350,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,4,4,3,3,4,4,4,3,4,2,3,3,2,2,3,2,3,3,3,2,3,3,3,3,4,4,4,4,3,4
+349,351,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,2,2,2,4,3,3,3,3,2,3,3,2,2,2,2,2,2,3,2,3,2,3,2,4,2,4,4,3,3,2,2
+350,352,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+351,353,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,2,3
+352,354,Shefa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,3,2,2,2,3,3,3,2,2,3,2,2,2,2,2,2,3,2,2,3,3,3,3,2,3
+353,355,Sanma,Ministry of Lands and Natural Resources,Corporate Service Unit,3,2,2,2,3,2,2,2,2,3,3,3,2,3,2,2,2,3,2,2,2,3,3,2,2,2,2,2,2,2,2
+354,356,Penama,Ministry of Health,Department of Public Health,1,2,4,2,2,1,2,2,3,3,2,3,3,1,1,3,2,2,1,2,3,1,4,3,3,2,2,1,1,2,1
+355,357,Malampa,Ministry of Education and Training,Department of Education Services,4,4,4,2,4,3,4,3,3,3,4,3,3,3,3,3,2,4,4,3,2,3,3,4,2,4,4,4,4,2,4
+356,358,Shefa,Ministry of Education and Training,Department of Tertiary Education,4,3,2,2,2,2,2,1,2,3,4,2,1,2,3,1,1,3,3,2,1,2,3,3,2,2,3,3,2,2,4
+357,359,Sanma,Ministry of Lands and Natural Resources,Department of Water Resources,4,3,4,4,4,3,2,2,3,2,2,2,2,2,2,2,2,2,3,3,3,3,3,4,2,3,3,3,2,3,3
+358,360,Penama,Ministry of Health,Department of Policy and Planning,3,3,2,3,3,3,3,3,3,3,3,3,2,2,2,2,3,2,2,2,3,2,2,3,2,3,3,2,2,3,3
+359,361,Penama,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,3,3,3,3,3,2,3,3,2,3,3,2,3,2,3,3,2,4,3,3,3,2,2,2,2
+360,362,Shefa,Ministry of Health,Department of Public Health,3,4,3,3,4,3,3,3,4,3,3,4,4,2,2,3,3,2,4,4,4,4,3,3,3,4,4,4,4,3,4
+361,363,Sanma,Ministry of Justice and Community Services,Customary land Management Office,3,3,2,3,4,3,4,3,4,3,2,2,3,2,2,3,4,1,2,2,1,2,3,3,3,4,2,2,1,2,2
+362,364,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,3,2,2,2,2,3,3,2,3,4,2,3,1,2,2,2,2,1,3,3,3,3,3,3,3,3,3,3,3,3,3
+363,365,Sanma,Ministry of Health,Department of Public Health,2,2,4,4,3,2,1,1,4,1,4,4,4,1,1,1,1,1,1,1,3,1,2,4,1,4,4,4,4,4,4
+364,366,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Corporate Service Unit,1,4,3,2,2,2,2,2,2,3,2,2,2,2,2,1,1,2,2,2,2,2,2,3,2,2,2,2,2,1,2
+365,367,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,4,2,3,3,3,4,3,3,3,3,3,3,3,2,3,3,3,3,3,4,3,3,3,3,3,3,3,3,2,4
+366,368,Penama,Ministry of Health,Department of Curative and Hospital Services,3,3,3,3,3,4,3,4,4,4,4,3,3,4,2,2,2,3,2,3,4,3,3,4,4,4,4,3,3,3,3
+367,369,Shefa,Ministry of Climate Change and Adaptation,Department of Energy,4,3,4,3,3,3,3,4,3,4,3,2,3,3,3,3,3,1,2,2,3,4,2,3,3,4,4,3,3,3,3
+368,370,Penama,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+369,371,Shefa,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,4,3,3,2,4,3,4,3,2,3,2,3,4,4,3,2,2,3,3,3,3,3,3,4,3,3,3,3,2,3
+370,372,Shefa,Ministry of Education and Training,Department of Education Services,4,4,2,3,3,3,3,4,3,2,2,2,1,1,2,2,1,1,3,3,2,4,2,4,2,3,2,1,3,3,3
+371,373,Shefa,Ministry of Education and Training,Department of Tertiary Education,2,2,1,2,3,2,2,3,2,2,2,1,2,1,2,2,1,1,1,2,1,2,2,1,2,2,2,3,1,4,4
+372,374,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,1,1,1,1,1,1,2,1,1,1,1,1,1
+373,375,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,3,3,3,3,2,3,3,2,3,2,3,3,3,3,3,3,2,1,1,2,2,2,2,3,2,1,3,2,1,2,2
+374,376,Shefa,Ministry of Internal Affairs,Department of Labour,4,3,3,3,4,4,3,4,4,3,3,3,3,4,4,4,4,3,4,3,4,3,4,3,4,3,3,4,3,4,4
+375,377,Shefa,Ministry of Internal Affairs,Department of Urban Affairs,3,3,2,3,3,3,3,3,2,2,3,3,2,3,2,4,2,3,3,3,2,3,3,4,3,4,3,4,3,1,3
+376,378,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,3,4,3,3,4,2,4,3,4,3,4,3,3,3,2,2,3,4,3,3,3,2,4,4,3,3,1,2
+377,379,Sanma,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,2,3,2,2,2,3,2,2,1,1,1,1,2,2,2,1,2,1,2,1,1,2,2,2,2,1,2,1,2,2
+378,380,Shefa,Ministry of Education and Training,Department of Tertiary Education,2,2,2,3,3,3,3,3,4,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,1,2,3,2,2,3
+379,381,Shefa,Ministry of Health,Department of Public Health,2,2,3,3,2,2,3,3,1,2,2,2,2,2,2,2,2,1,2,2,2,2,2,3,2,2,2,2,2,2,3
+380,382,Tafea,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,2,2,3,3,3,3,2,3,2,2,2,2,1,2,2,2,2,1,1,2,1,1,2,2,2,2,3,2,3
+381,383,Shefa,Ministry of Justice and Community Services,Department of Womans Affairs,2,1,2,2,3,3,3,1,1,2,1,2,1,1,1,1,2,1,1,3,4,2,2,2,3,2,2,2,3,3,3
+382,384,Penama,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,2,3,4,3,3,2,2,4,2,4,3,3,1,3,4,3,3,3,3,3,3,4,2,3,4,3,2,3,4
+383,385,Malampa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,4,3,4,4,4,3,3,4,3,4,3,3,4,4,3,4,3,4,4,4,3,4,3,4,4,4,3,3,3
+384,386,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,3,3,3,3,4,3,3,3,3,2,2,2,2,2,2,2,2,2,2,3,3,2,2,3,2,3,2,3,2,3,2
+385,387,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,1,3,4,3,4,4,4,4,4,4,3,4,3,4,4,4,4,3,4,4,4,4,4,4,4,4,3,4,4,3,4
+386,388,Sanma,Ministry of Health,Department of Curative and Hospital Services,3,3,3,3,3,3,4,3,2,4,2,2,2,2,1,1,2,2,3,3,2,2,2,3,3,1,3,3,2,2,3
+387,389,Sanma,Ministry of Health,Department of Curative and Hospital Services,1,2,3,2,2,2,1,4,2,2,3,3,3,2,3,3,3,2,1,1,4,3,4,4,2,2,3,3,2,3,3
+388,390,Malampa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,3,4,3,3,4,3,3,3,2,3,2,3,3,3,4,3,2,3,3,3,3,3,4,3,4,3,3,4,4
+389,391,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,2,2,2,2,2,2,1,2,2,2,1,2,2,1,1,1,2,2,1,1,1,2,1,3,2,2,2,4,1,3,2
+390,392,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,4,3,3,3,3,3,2,3,3,2,3,3,3,3,3,2,3,3,3,3,3,3,3,2,3,3,3,3,3,3
+391,393,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,2,3,3,3,3,2,2
+392,394,Sanma,Ministry of Health,Department of Curative and Hospital Services,2,2,2,3,3,3,2,4,2,1,3,4,3,3,3,2,2,3,1,3,2,3,2,3,3,3,3,3,1,3,3
+393,395,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,2,2,2,3,3,3,3,3,3,3,3,1,1,3,2,1,3,3,3,3,3,3,1,3,3,3,3,3,3
+394,396,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,2,2,2,2,3,3,3,3,4,2,1,2,3,2,3,2,2,2,1,3,1,3,2,2,3,3,3,3,3,2,3
+395,397,Shefa,Ministry of Education and Training,Department of Tertiary Education,3,2,3,2,3,3,4,3,3,2,1,2,3,1,1,2,2,4,3,2,3,3,2,3,2,4,3,3,3,4,4
+396,398,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,4,3,2,3,3,2,3,3,3,3,3,2,3,2,2,3,3,3,3,3,3,3,3,3,3,3,2,3,2,3,3
+397,399,Penama,Ministry of Health,Department of Public Health,4,4,4,4,2,2,2,4,2,1,1,1,1,2,2,1,1,1,1,1,2,1,1,3,1,1,2,1,2,2,1
+398,400,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,4,4,4,4,3,3,3,2,3,3,1,2,1,2,4,2,1,1,3,3,4,1,4,4,2,1,2,4
+399,401,Sanma,Ministry of Climate Change and Adaptation,Department of Environment Protection and Conservation,3,4,3,3,3,4,4,3,4,3,4,4,3,4,3,3,3,3,4,4,4,4,3,4,4,3,4,4,4,4,3
+400,402,Sanma,Ministry of Health,Department of Curative and Hospital Services,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,1,2,2,2,3,2,3,3,2,2
+401,403,Sanma,Ministry of Health,Department of Public Health,4,4,4,2,4,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+402,404,Penama,Ministry of Health,Department of Public Health,2,2,2,2,2,2,3,2,2,2,2,2,3,3,2,3,2,3,2,3,3,3,3,3,3,2,2,3,3,2,2
+403,405,Shefa,Ministry of Education and Training,Department of Education Services,4,4,4,4,4,3,3,3,4,3,3,3,4,3,3,4,3,3,4,3,4,3,4,4,4,3,4,4,4,2,3
+404,406,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,4,3,3,3,3,3,2,2,3,2,2,2,2,2,3,3,3,3,3,3,2,3,2,2,3,3
+405,407,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,3,3,3,3,3,4,2,3,4,4,3,4,4,4,3,2,4,3,3,4,4,4,4,2,4,4,4,4,2,3
+406,408,Sanma,Ministry of Health,Department of Curative and Hospital Services,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,1,1,2,2,3,2,3,3,3,4,2,2,2,1,2
+407,409,Malampa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,4,2,3,2,1,3,3,2,2,2,2,3,3,3,1,3,2,3,3,4,3,2,2,2,2
+408,410,Sanma,Ministry of Health,Department of Curative and Hospital Services,1,1,1,1,1,1,1,1,1,2,2,2,2,1,1,1,1,2,1,2,1,1,2,1,1,2,1,1,1,2,1
+409,411,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,3,3,3,2,3,3,3,2,2,2,2,2,1,2,1,1,2,2,2,1,1,1,1,1,3,1,1,2,1,1
+410,412,Sanma,Ministry of Climate Change and Adaptation,Corporate Service Unit,3,3,3,3,4,3,4,3,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,3,3,3
+411,413,Sanma,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",3,4,4,4,3,4,4,3,4,3,4,1,4,4,4,4,4,1,2,4,2,3,4,4,3,4,4,4,3,3,4
+412,414,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,2,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,2,2,3
+413,415,Shefa,Ministry of Prime Minister,Corporate Service Unit,2,2,2,2,3,3,3,3,3,3,3,3,3,2,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3
+414,416,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,2,3,4,2,3,3,2,1,2,2,2,2,2,2,2,1,2,2,2,3,2,2,2,3,3,2,3,2,3,3,3
+415,417,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,3,3,3,3,3,3,3,3,3,4,3,3,2,4,4,3,3,2,3,3,3,3,3,4,3,3,3,3,3,2,2
+416,418,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,1,2,2,2,2,2,2,1,1,2,1,2,2,2,2,2,2,1,1,1,1,1,2,2,1,1,1,1,1,2,2
