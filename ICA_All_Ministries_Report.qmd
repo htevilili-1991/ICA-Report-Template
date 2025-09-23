@@ -78,7 +78,6 @@ library(stringr)
 # Define ministry abbreviations
 ministry_abbreviations <- c(
   "Ministry of Agriculture, Livestock, Forestry and Biosecurity" = "MALFB",
-  "Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity" = "MALFFB",
   "Ministry of Climate Change and Adaptation" = "MOCCA",
   "Ministry of Education and Training" = "MoET",
   "Ministry of Finance and Economic Management" = "MFEM",
@@ -219,10 +218,9 @@ response_counts <- data %>%
 
 ```{r tbl-abbreviations, results='asis'}
 abbreviations <- tibble(
-  Abbreviation = c("CSO", "FBO", "HRM", "ICA", "ICAG", "IT", "M&E", "MALFB", "MALFFB", "MOCCA", "MoET", "MFEM", "MFOMA", "MFAICET", "MoH", "MIPU", "MoIA", "MJCS", "MoLNR", "PMO", "NGO", "NSDP", "OECD", "OPSC", "PSC", "UNDP"),
+  Abbreviation = c("CSO", "FBO", "HRM", "ICA", "ICAG", "IT", "M&E", "MALFB", "MOCCA", "MoET", "MFEM", "MFOMA", "MFAICET", "MoH", "MIPU", "MoIA", "MJCS", "MoLNR", "PMO", "NGO", "NSDP", "OECD", "OPSC", "PSC", "UNDP"),
   Definition = c("Civil Society Organization", "Faith-Based Organization", "Human Resource Management", "Institutional Capacity Assessment", "Institutional Capacity Assessment Grid", "Information Technology", "Monitoring and Evaluation", 
-                 "Ministry of Agriculture, Livestock, Forestry and Biosecurity", 
-                 "Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity", 
+                 "Ministry of Agriculture, Livestock, Forestry and Biosecurity",
                  "Ministry of Climate Change and Adaptation", 
                  "Ministry of Education and Training", 
                  "Ministry of Finance and Economic Management", 

@@ -3,20 +3,20 @@
 1,1,Shefa,Ministry of Lands and Natural Resources,Department of Water Resources,4,4,3,4,4,4,3,3,4,2,2,3,2,2,2,3,2,2,3,2,3,4,3,4,4,3,3,4,3,1,2
 2,2,Shefa,Ministry of Prime Minister,Citizenship Office,4,3,3,4,3,3,3,3,2,2,2,2,3,1,2,3,2,2,2,2,1,2,3,2,1,2,2,2,1,1,3
 3,3,Shefa,Ministry of Trades and Commerce,Department of Industry,4,4,4,4,1,3,3,4,4,4,4,1,3,2,2,1,1,1,2,2,2,3,1,3,1,2,3,2,2,1,4
-4,4,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2
+4,4,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2
 5,5,Shefa,Ministry of Prime Minister,Office of Public Service Commission,4,4,4,4,4,4,4,3,4,4,4,4,4,2,1,3,3,4,3,2,2,1,2,4,2,3,3,3,3,3,3
 6,6,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,4,2,4,3,3,3,2,4,2,2,3,2,2,3,1,3,4,3,2,3,2,1,3,3,3,3,3,1,2
 7,7,Shefa,Ministry of Prime Minister,Office of Public Service Commission,2,4,2,3,1,3,3,1,2,2,3,1,2,2,2,2,2,3,2,2,3,2,2,3,1,2,2,2,2,1,2
 8,8,Shefa,Ministry of Prime Minister,Department of Language Services,3,3,2,2,2,3,3,3,2,4,3,3,3,4,2,2,3,2,2,2,2,2,3,2,3,4,4,2,3,4,4
 9,9,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,4,4,3,4,4,3,3,4,4,4,4,3,3,2,2,3,2,3,2,3,4,4,2,4,2,3,3,3,2,3,3
-10,10,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,3,3,2,4,3,4,4,3,4,4,4,3,3,2,2,3,3,4,4,4,4,3,2,1,2,4,2,4,4,3,4
+10,10,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,3,3,2,4,3,4,4,3,4,4,4,3,3,2,2,3,3,4,4,4,4,3,2,1,2,4,2,4,4,3,4
 11,11,Shefa,Ministry of Prime Minister,Office of Government Chief Information Officer,2,2,3,3,3,3,3,3,3,3,2,3,2,3,2,2,3,3,3,3,2,3,2,2,3,3,3,3,2,2,4
 12,12,Shefa,Ministry of Trades and Commerce,Department of Tourism,4,3,2,3,2,3,3,3,2,3,3,3,3,3,2,2,2,2,2,3,3,3,2,3,2,3,2,2,2,2,2
-13,13,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,2,3,3,3,4,3,3,2,3,2,3,2,2,3,3,3,2,3,3,3,3,3,3,3,3,4,4,1,2
+13,13,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,4,4,2,3,3,3,4,3,3,2,3,2,3,2,2,3,3,3,2,3,3,3,3,3,3,3,3,4,4,1,2
 14,14,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,3,3,3,3,3,3,2,3,2,3,2,2,2,2,2,2,2,3,2,2,3,3,3,2,1,3,3,3,3,3,3
 15,15,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,4,3,4,4,4,4,3,4,4,4,4,3,3,4,4,3,3,2,2,3,4,3,4,3,4,4,3,3,3
 16,16,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1,2,2,2,2,3,2,3,3,3,3,1,3
-17,17,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,2,2,2,2,4,3,3,3,3,3,3,2,3,2,2,2,2,3,3,3,3,3,2,3,2,4,4,3,2,2,3
+17,17,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Agriculture and Rural Development,2,2,2,2,4,3,3,3,3,3,3,2,3,2,2,2,2,3,3,3,3,3,2,3,2,4,4,3,2,2,3
 18,18,Shefa,Ministry of Internal Affairs,Department of Labour,4,4,4,3,3,3,4,3,3,3,3,3,3,2,2,3,3,1,3,3,4,3,2,4,3,4,2,3,3,3,2
 19,19,Shefa,Ministry of Lands and Natural Resources,"Department of Lands, Survey and Records",2,2,2,2,3,2,3,1,2,2,1,3,1,1,1,2,1,3,2,1,3,3,1,3,2,2,2,2,2,1,2
 20,20,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,4,3,3,4,3,2,2,4,3,4,4,3,4,4,4,4
@@ -26,7 +26,7 @@
 24,24,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,2,3,4,3,3,3,2,3,2,2,3,2,2,3,3,3,2,3,3,2,2,3,2,4,3,3,2,2,3
 25,25,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,3,2,4,3,3,2,3,3,2,2,2,2,3,4,4,4,4,3,4,3,4,3,4,4,4,3,3,4
 26,26,Shefa,Ministry of Health,Department of Policy and Planning,3,3,3,2,3,3,3,3,2,3,3,3,3,2,2,3,2,3,3,4,4,3,3,3,2,4,3,3,3,2,3
-27,27,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,3,3,4,3,4,4,4,3,3,4,4,3,4,3,4,3,2,4,4,4,4,3,3,4,3,4,4,3,4,4,3
+27,27,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Agriculture and Rural Development,3,3,4,3,4,4,4,3,3,4,4,3,4,3,4,3,2,4,4,4,4,3,3,4,3,4,4,3,4,4,3
 28,28,Shefa,Ministry of Climate Change and Adaptation,Vanuatu Meteorology and Geo-hazards Department,3,4,3,3,3,3,3,3,3,3,3,3,3,2,2,3,2,2,3,3,3,3,3,3,3,3,3,3,3,2,2
 29,29,Tafea,Ministry of Health,Department of Public Health,4,3,4,3,4,4,4,3,3,2,1,2,2,2,2,3,2,2,3,2,3,1,3,3,1,3,2,3,3,2,1
 30,30,Shefa,Ministry of Climate Change and Adaptation,National Disaster Management Office,1,4,3,3,3,4,4,2,4,3,3,4,2,2,1,3,2,2,4,4,4,4,3,4,4,3,4,4,4,2,3
@@ -41,7 +41,7 @@
 39,39,Shefa,Ministry of Infrastructure and Public Utilities,Department of Ports and Marine,3,3,2,3,3,3,3,3,2,3,3,2,3,2,2,3,3,2,2,3,2,2,3,3,2,3,3,3,3,3,2
 40,40,Shefa,Ministry of Trades and Commerce,Department of Tourism,4,4,4,3,4,3,3,4,4,2,3,3,2,3,3,3,2,2,2,2,2,2,3,3,3,2,2,2,2,2,3
 41,41,Shefa,Ministry of Finance and Economic Management,Corporate Service Unit,3,3,3,2,3,2,3,3,3,2,2,2,1,2,2,2,2,1,1,2,1,2,2,3,2,2,2,2,2,2,2
-42,42,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,3,3,3,3,3,3,3,3,3,2,1,3,3,1,1,1,3,2,3,3,3,3,2,2,2,2,3,3,3,1,2
+42,42,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,3,3,3,3,3,3,3,3,3,2,1,3,3,1,1,1,3,2,3,3,3,3,2,2,2,2,3,3,3,1,2
 43,43,Shefa,Ministry of Education and Training,Department of Finance and Admin,3,1,2,2,4,3,3,3,4,3,1,2,3,2,1,2,2,1,2,2,2,2,3,3,3,3,3,3,2,2,2
 44,44,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of External Trade,4,4,3,3,4,4,4,3,2,4,3,1,3,4,2,3,3,3,3,3,4,4,2,3,3,4,4,4,2,2,2
 45,45,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,4,3,4,3,2,4,3,3,2,3,3,3,3,2,2,3,2,4,3,3,3,3,2,3,3,4,3,4,3,1,4
@@ -91,7 +91,7 @@
 89,89,Shefa,Ministry of Internal Affairs,Corporate Service Unit,2,2,2,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,2,3,3,3,1,3,2,3,3,3,3,3,3
 90,90,Shefa,Ministry of Justice and Community Services,Corporate Service Unit,3,3,2,3,4,4,3,3,2,2,3,3,3,3,3,3,3,2,1,2,2,2,3,4,3,3,2,3,2,1,3
 91,91,Shefa,Ministry of Justice and Community Services,Department of Youth and Sports,1,2,3,2,4,4,4,3,4,3,3,3,3,1,2,1,1,1,3,3,4,2,2,1,2,3,3,3,3,2,3
-92,92,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Corporate Service Unit,4,4,4,3,4,4,3,4,3,2,3,2,3,2,2,2,3,4,4,3,2,3,3,3,4,4,3,3,4,3,2
+92,92,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Corporate Service Unit,4,4,4,3,4,4,3,4,3,2,3,2,3,2,2,2,3,4,4,3,2,3,3,3,4,4,3,3,4,3,2
 93,93,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,3,3,4,3,3,4,3,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 94,95,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,2,3,2,2,3,3,3,2,1,1,1,2,2,1,2,2,2,2,3,2,3,3,3,2,3,1
 95,96,Tafea,Ministry of Infrastructure and Public Utilities,Public Works Department,4,4,4,3,4,4,4,4,4,4,4,4,4,4,3,4,4,3,4,3,3,4,4,4,3,4,4,3,3,4,4
@@ -102,12 +102,12 @@
 100,101,Shefa,Ministry of Infrastructure and Public Utilities,Civil Aviation Authority of Vanuatu,2,2,1,2,1,1,1,3,1,2,2,2,2,1,1,1,1,1,2,2,3,2,3,3,3,3,3,3,1,1,1
 101,102,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Corporate Service Unt,2,2,2,1,2,2,4,3,2,2,4,2,2,2,2,3,1,2,2,2,2,3,2,4,2,3,2,3,2,1,2
 102,103,Shefa,Ministry of Internal Affairs,Department of Urban Affairs,1,1,2,2,1,1,1,2,2,2,2,2,2,4,3,3,3,3,2,3,2,2,3,3,2,4,3,3,2,2,2
-103,104,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Corporate Service Unit,3,3,3,3,4,4,4,4,4,3,3,3,3,2,2,2,2,2,3,3,3,3,3,3,4,4,3,3,3,2,3
+103,104,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Corporate Service Unit,3,3,3,3,4,4,4,4,4,3,3,3,3,2,2,2,2,2,3,3,3,3,3,3,4,4,3,3,3,2,3
 104,105,Shefa,Ministry of Internal Affairs,Corporate Service Unit,2,2,2,2,2,2,2,3,3,3,3,3,3,2,2,3,2,2,2,2,2,2,2,2,2,2,2,3,3,3,2
 105,106,Penama,Ministry of Justice and Community Services,Corporate Service Unit,4,4,3,4,4,4,4,4,4,2,4,4,4,4,2,4,4,2,2,2,1,1,2,4,4,4,4,4,4,1,4
 106,107,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,3,3,2,3,3,3,3,3,3,2,2,2,2,3,3,3,2,3,3,3,2,3,3,3,3,3,3,3,3
-107,108,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-108,109,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,3,4,4,4,4,4,4
+107,108,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+108,109,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,3,4,4,4,4,4,4
 109,110,Shefa,Ministry of Infrastructure and Public Utilities,Public Works Department,4,3,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
 110,111,Shefa,Ministry of Education and Training,Department of Education Services,3,3,3,3,3,3,2,2,2,3,3,2,2,3,2,2,1,2,2,2,3,2,2,3,2,3,3,1,2,2,2
 111,112,Tafea,Ministry of Health,Department of Curative and Hospital Services,2,2,2,3,4,2,3,3,3,3,4,1,3,3,2,3,3,3,3,3,3,3,2,3,3,4,4,3,2,2,3
@@ -164,7 +164,7 @@
 162,163,Tafea,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,3,3,2,3,4,4,4,4,4,3,2,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3
 163,164,Shefa,Ministry of Prime Minister,Office of Public Service Commission,3,3,3,2,3,4,4,3,3,3,3,3,3,4,4,3,4,3,3,4,4,3,3,2,3,4,3,3,3,2,2
 164,165,Shefa,"Ministry of Foreign Affairs, International Cooperation and External Trade",Department of Foreign Affairs,3,4,3,3,3,3,2,3,3,4,3,4,2,3,4,2,2,3,2,2,1,4,2,2,2,4,3,3,3,4,3
-165,166,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,1,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,3
+165,166,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Agriculture and Rural Development,1,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,3
 166,167,Shefa,Ministry of Internal Affairs,Corporate Service Unit,3,3,2,4,4,4,2,4,2,3,3,2,3,2,2,3,2,3,4,3,3,4,2,4,4,4,4,3,4,3,3
 167,168,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,3,3,3,3,3,3,3,3,2,3,3,3,3,3,1,3,2,1,2,3,3,2,2,3,3,3,2,3,3,1,3
 168,169,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,3,4,1,3,3,2,2,2,1,3,3,2,4,4,2,4,4,2,3,4,1,3,2,1,3,3,4,4,1,2
@@ -186,7 +186,7 @@
 184,185,Penama,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,3,3,4,2,3,3,4,3,2,3,3,3,3,3,4,3,2,3,4,3,4,2,3,1,2,4,3,4,4,4,3
 185,186,Shefa,Ministry of Education and Training,Department of Policy and Planning,2,2,3,2,3,3,4,3,3,3,3,3,3,3,3,2,2,1,2,2,2,3,3,3,2,3,2,2,3,3,2
 186,187,Shefa,Ministry of Infrastructure and Public Utilities,Corporate Service Unit,3,4,3,3,4,3,3,3,3,3,3,3,3,3,2,2,3,3,3,3,4,3,3,4,3,4,4,4,3,4,3
-187,188,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Agriculture and Rural Development,3,3,3,2,2,3,2,3,1,2,1,1,1,2,2,2,1,1,3,3,2,2,3,2,2,3,3,4,4,4,3
+187,188,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Agriculture and Rural Development,3,3,3,2,2,3,2,3,1,2,1,1,1,2,2,2,1,1,3,3,2,2,3,2,2,3,3,4,4,4,3
 188,189,Shefa,Ministry of Trades and Commerce,Department of Cooperative,4,3,3,3,3,4,3,3,1,3,3,2,2,2,1,2,3,3,2,1,4,2,2,3,3,3,4,2,1,2,2
 189,190,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,3,3,3,3,3,3,3,2,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 190,191,Malampa,Ministry of Trades and Commerce,Department of Industry,4,3,3,3,3,3,3,2,3,4,3,4,3,3,3,4,3,3,4,4,4,4,3,4,4,4,4,4,4,4,3
@@ -208,17 +208,17 @@
 206,207,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,3,3,3,4,2,3,3,2,2,2,2,2,2,2,3,2,3,3,3,2,4,4,3,3,3,2,2,3
 207,208,Shefa,Ministry of Health,Department of Public Health,3,3,2,2,2,2,2,2,1,1,1,3,1,3,3,1,1,2,1,2,1,1,2,3,1,2,2,1,1,1,1
 208,209,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,4,3,3,3,3,3,3,3,3,3,4,2,3,3,2,3,2,2,2,3,4,3,3,3,3,3,2,2
-209,210,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Forestry,3,3,3,3,3,3,2,3,4,3,3,2,3,2,2,3,2,1,3,3,2,3,3,3,3,3,3,3,3,3,2
+209,210,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Forestry,3,3,3,3,3,3,2,3,4,3,3,2,3,2,2,3,2,1,3,3,2,3,3,3,3,3,3,3,3,3,2
 210,211,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,3,4,3,3,3,3,3,3,2,3,3,2,3,2,2,3,3,2,3,2,2,2,3,3,4,3,4,3
 211,212,Shefa,Ministry of Prime Minister,Corporate Service Unit,3,4,4,3,4,4,2,3,4,4,4,2,3,2,3,4,2,3,4,3,1,3,3,2,3,4,3,3,3,2,3
 212,213,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,3,3,3,3,3,3,3,3,3,3,3,4,2,2,2,3,4,3,3,3,4,3,3,1,3,3,3,3,2,3
 213,214,Malampa,Ministry of Justice and Community Services,Corporate Service Unit,3,4,2,1,4,2,3,2,4,2,1,3,2,1,2,1,3,2,3,1,3,4,1,4,3,4,2,1,1,4,2
 214,215,Shefa,Ministry of Justice and Community Services,Customary land Management Office,3,3,3,4,3,3,2,2,3,3,2,2,2,2,2,3,2,3,1,1,1,2,3,3,2,3,3,3,2,3,3
 215,216,Shefa,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4
-216,217,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,2,3,2,2,2,2,3,3,3,3,2,1,3,3,4,2,2,3,3,3,2,2,2,4,3,3,3,3,3,2,3
-217,218,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,1,3,3,2,4,4,4,4,4,3,3,3,3,1,1,1,1,1,2,2,1,2,3,3,3,3,4,1,3,3,2
+216,217,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,2,3,2,2,2,2,3,3,3,3,2,1,3,3,4,2,2,3,3,3,2,2,2,4,3,3,3,3,3,2,3
+217,218,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,1,3,3,2,4,4,4,4,4,3,3,3,3,1,1,1,1,1,2,2,1,2,3,3,3,3,4,1,3,3,2
 218,219,Sanma,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,2,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,4,3,4,3,3,3,3,3,3,3,4,4
-219,220,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Biosecurity,4,4,4,3,3,3,3,3,3,3,4,2,3,2,2,3,2,3,2,2,3,3,2,3,2,3,3,3,4,3,3
+219,220,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Biosecurity,4,4,4,3,3,3,3,3,3,3,4,2,3,2,2,3,2,3,2,2,3,3,2,3,2,3,3,3,4,3,3
 220,222,Shefa,Ministry of Prime Minister,Department of Language Services,2,3,1,2,3,2,2,1,2,3,3,2,2,2,2,2,1,2,1,1,1,2,2,2,2,4,3,3,2,2,2
 221,223,Shefa,"Ministry of Fisheries, Ocean and Maritime Affairs",Department of Fisheries,4,2,2,2,4,3,4,3,3,4,3,4,3,4,4,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4
 222,224,Tafea,Ministry of Health,Corporate Service Unit,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2
@@ -230,24 +230,24 @@
 228,230,Shefa,Ministry of Prime Minister,"Department of Strategic Policy, Planning and Aid Coordination",3,3,3,2,3,3,3,2,3,3,4,3,2,2,2,3,2,1,2,2,2,4,4,4,2,3,4,3,2,1,2
 229,231,Torba,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
 230,232,Shefa,Ministry of Lands and Natural Resources,Corporate Service Unit,4,3,3,3,3,4,3,4,4,3,3,4,3,4,4,3,4,3,4,4,3,3,2,3,2,3,3,3,3,2,3
-231,233,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,4,4,3,4,4,4,4,4,4,4,3,3,3,2,3,3,4,3,4,4,4,4,3,4,3,3,3,4,3,4,2
+231,233,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,4,4,3,4,4,4,4,4,4,4,3,3,3,2,3,3,4,3,4,4,4,4,3,4,3,3,3,4,3,4,2
 232,234,Shefa,Ministry of Internal Affairs,Department of Immigration,4,3,3,2,3,2,3,4,2,2,2,3,3,2,3,3,2,2,2,2,2,3,3,3,3,3,2,3,3,3,3
 233,235,Sanma,Ministry of Justice and Community Services,Customary land Management Office,3,3,1,2,4,3,3,3,3,2,1,3,3,2,2,2,3,3,3,2,2,4,3,3,3,3,4,3,3,3,3
 234,236,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,3,4,3,3,4,4,4,4,3,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,3,3,4,4,4,2,4
 235,237,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,3,4,4,3,4,4,2,3,2,1,3,3,3,3,2,2,3,3,3,3,2,3,4,4,2,1,1,1,2
 236,238,Shefa,Ministry of Trades and Commerce,Department of Tourism,3,3,2,4,3,2,3,3,3,2,2,1,2,3,4,1,2,1,2,2,3,2,4,3,2,2,3,3,3,3,4
 237,239,Torba,Ministry of Finance and Economic Management,Department of Finance and Treasury,4,4,3,4,4,3,3,2,2,4,3,3,3,4,3,3,2,3,3,3,3,3,3,3,3,4,4,4,4,1,1
-238,240,Shefa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,1,2
+238,240,Shefa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,1,2
 239,241,Sanma,Ministry of Finance and Economic Management,Department of Customs and Inland Revenue,4,4,3,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,3,3,4,4,4,4,4,4,4,4,3,4
 240,242,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
 241,243,Shefa,Ministry of Prime Minister,Corporate Service Unit,2,3,3,2,3,2,2,2,2,2,2,1,2,2,1,2,2,3,1,1,1,1,2,1,2,2,3,3,3,2,3
 242,244,Shefa,Ministry of Trades and Commerce,Corporate Service Unit,4,4,3,3,3,2,4,3,3,3,3,2,2,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
-243,245,Malampa,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,3,2,1,2,3,3,4,2,2,3,1,2,2,4,4,1,4,3,3,2,2,2,2,2,2,3,3,4,2,2,2
+243,245,Malampa,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,3,2,1,2,3,3,4,2,2,3,1,2,2,4,4,1,4,3,3,2,2,2,2,2,2,3,3,4,2,2,2
 244,246,Shefa,Ministry of Health,Department of Curative and Hospital Services,3,3,2,2,3,4,3,3,2,2,2,2,2,2,1,2,3,2,2,2,3,2,2,3,2,2,2,2,2,2,4
 245,247,Shefa,Ministry of Internal Affairs,Department of Internal Affairs,3,3,2,4,3,4,4,3,3,3,3,3,4,2,3,3,3,3,3,3,4,4,3,4,3,4,4,4,4,4,4
 246,248,Shefa,Ministry of Finance and Economic Management,Department of Finance and Treasury,3,3,3,3,3,3,2,3,3,3,3,2,3,2,3,2,2,1,2,3,3,3,2,2,2,3,3,3,3,3,4
 247,249,Sanma,Ministry of Finance and Economic Management,Corporate Service Unit,4,3,4,3,2,3,3,2,3,2,2,3,4,2,2,3,4,3,4,4,1,4,3,2,4,4,4,4,3,4,2
-248,250,Sanma,"Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity",Department of Livestock,4,4,4,3,3,4,3,3,4,4,4,3,3,4,2,1,2,4,2,3,4,4,4,4,3,4,4,4,1,3,4
+248,250,Sanma,"Ministry of Agriculture, Livestock, Forestry and Biosecurity",Department of Livestock,4,4,4,3,3,4,3,3,4,4,4,3,3,4,2,1,2,4,2,3,4,4,4,4,3,4,4,4,1,3,4
 249,251,Shefa,Ministry of Finance and Economic Management,Vanuatu Bureau of Statistics,4,4,4,3,3,4,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,3,1,1
 250,252,Tafea,Ministry of Finance and Economic Management,Corporate Service Unit,4,4,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 251,253,Shefa,Ministry of Prime Minister,Corporate Service Unit,4,4,4,3,4,4,3,3,3,4,3,3,3,3,3,3,3,4,3,2,3,2,3,3,3,4,4,4,3,1,2

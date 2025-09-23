@@ -396,8 +396,8 @@ lowest <- category_stats %>%
 #| label: tbl-abbreviations
 #| tbl-cap: "List of Abbreviations"
 abbreviations <- tibble(
-  Abbreviation = c("CSO", "FBO", "HRM", "ICA", "ICAG", "IT", "M&E", "MALFFB", "NGO", "NSDP", "OECD", "OPSC", "PSC", "UNDP"),
-  Definition = c("Civil Society Organization", "Faith-Based Organization", "Human Resource Management", "Institutional Capacity Assessment", "Institutional Capacity Assessment Grid", "Information Technology", "Monitoring and Evaluation", "Ministry of Agriculture, Livestock, Forestry, Fisheries and Biosecurity", "Non-Governmental Organization", "National Sustainable Development Plan", "Organisation for Economic Co-operation and Development", "Office of the Public Service Commission", "Public Service Commission", "United Nations Development Programme")
+  Abbreviation = c("CSO", "FBO", "HRM", "ICA", "ICAG", "IT", "M&E", "NGO", "NSDP", "OECD", "OPSC", "PSC", "UNDP"),
+  Definition = c("Civil Society Organization", "Faith-Based Organization", "Human Resource Management", "Institutional Capacity Assessment", "Institutional Capacity Assessment Grid", "Information Technology", "Monitoring and Evaluation", "Non-Governmental Organization", "National Sustainable Development Plan", "Organisation for Economic Co-operation and Development", "Office of the Public Service Commission", "Public Service Commission", "United Nations Development Programme")
 )
 kable(abbreviations, 
       booktabs = TRUE, 
