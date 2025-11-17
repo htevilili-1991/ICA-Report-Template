@@ -520,7 +520,7 @@ The results of the ICAG can be used in many ways:
 
 The Institutional Capacity Assessment Grid (ICAG) was used to gather information about the organizational capacity of different departments within the Vanuatu Public Sector, including the `r department`. This tool helps evaluate key areas like organizational design, human resource management, operational systems, leadership practices, and infrastructure. The survey was conducted using Microsoft Office 365 Forms. They rated 31 capacity categories on a scale from 1 (Clear Need) to 4 (High) based on statements that described how well the department was performing (e.g., from "little shared understanding" to "clear and compelling vision").
 
-The survey responses were collected through Microsoft Office 365 Forms and saved into a spreadsheet. This file included answers from various departments, such as the `r department` and the Department of Water Resources. Each row in the spreadsheet represents one respondent, with details like their ID, email, name, province, ministry, department, and their ratings for the 31 capacity categories, written as descriptive text based on their chosen score.
+The survey responses were collected through Microsoft Office 365 Forms and saved into a spreadsheet. This file included answers from various departments who answered the survey. Each row in the spreadsheet represents one respondent, with details like their ID, email, name, province, ministry, department, and their ratings for the 31 capacity categories, written as descriptive text based on their chosen score.
 
 ### Data Processing
 
@@ -556,7 +556,7 @@ The analysis methods, including the calculation of mean scores and the establish
 
 ## Overview of Results
 
-As a public institution with a broad scope and mandate for implementing the national government’s priorities, the MALFFB Corporate Plan, the Department Business Plan, and other priorities of the National Sustainability Development Plan (NSDP), the `r department` acknowledges its challenges, including limited financial and human resources. The Department has undertaken to shift its approach toward working closely with, and harnessing the available resources offered through other government line agencies, as well as credible non-government, civil, and faith-based organizations. This shift necessitates the development and consolidation of specific skills and capacities.
+As a public institution with a broad scope and mandate for implementing the national government’s priorities, the `r ministry`'s Corporate Plan, the Department Business Plan, and other priorities of the National Sustainability Development Plan (NSDP), the `r department` acknowledges its challenges, including limited financial and human resources. The Department has undertaken to shift its approach toward working closely with, and harnessing the available resources offered through other government line agencies, as well as credible non-government, civil, and faith-based organizations. This shift necessitates the development and consolidation of specific skills and capacities.
 
 To build an evidence base for capacity development to support this transition, staff from the `r department` participated in an institutional capacity assessment activity conducted by the Office of the Public Service Commission (OPSC) in August 2025. The assessment, based on the Institutional Capacity Assessment Grid (ICAG), involved `r nrow(dept_data)` staff members and evaluated 31 capacity categories to identify strengths and areas for improvement.
 

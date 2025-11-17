@@ -5,7 +5,7 @@ library(quarto)
 
 # Store the original working directory
 original_wd <- getwd()
-setwd("~/Documents/Work/ICA/ICA Report")
+# setwd("~/Documents/Work/ICA/ICA Report")
 
 # Load data
 data <- read_csv("ica_cleaned_data.csv", show_col_types = FALSE) %>%
